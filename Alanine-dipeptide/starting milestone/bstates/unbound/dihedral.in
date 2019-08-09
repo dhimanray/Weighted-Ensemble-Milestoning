@@ -1,0 +1,40 @@
+colvarsTrajFrequency      10
+colvarsRestartFrequency  10000
+
+
+colvar {
+   name phi
+
+   width 5.0
+   lowerboundary   -180.0
+   upperboundary    0.0
+
+   lowerwallconstant 1.0
+   upperwallconstant 1.0
+
+   dihedral {
+      group1 { atomNumbers 5 }
+      group2 { atomNumbers 7 }
+      group3 { atomNumbers 9 }
+      group4 { atomNumbers 15 }
+                }
+}
+
+colvar {
+   name psi
+
+   width 5.0
+   lowerboundary   -80.0
+   upperboundary    160.0
+
+   lowerwallconstant 0.005
+   upperwallconstant 0.005
+
+   dihedral {
+      group1 { atomNumbers 7 }
+      group2 { atomNumbers 9 }
+      group3 { atomNumbers 15 }
+      group4 { atomNumbers 17 }
+                }
+}
+
