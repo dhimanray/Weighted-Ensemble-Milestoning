@@ -6,6 +6,13 @@ This is being tested for a 1D Potential (Directory: 1d-double-well), (10+1)D Cou
 
 Calculations have been perfeormed for simple langevin or MD, regular WE and WE combined with milestoning for all cases. In case of 1d regular milestoning calculations were also performed.
 
+## Acknowledgements
+The 1D potential codes are adapted from WESTPA tutorial files for overdamped Langevin dynamics:
+https://github.com/westpa/westpa/wiki/Executable-version-of-the-Over-damped-Langevin-Dynamics
+
+The Alanine dipeptide and (10+1)D coupled potential code is adapted from WESTPA Tutorial page:
+https://github.com/westpa/westpa/wiki/Na--Cl--Association-with-NAMD-2.12
+
 ## Walkthrough the codes
 
 **Simple Langevin or MD:** In cased of 1D this part is in directory *simple_langevin*. For the other cases it is in directory *production*
