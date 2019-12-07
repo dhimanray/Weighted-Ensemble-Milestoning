@@ -1,4 +1,4 @@
-#This is a starting code to generate an equilibrium ensemble at the startin milestone
+#This is a starting code to generate an equilibrium ensemble at the starting milestone
 
 x_start = -2.0
 y_start = 0.5
