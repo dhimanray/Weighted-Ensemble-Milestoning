@@ -68,11 +68,11 @@ for i in range(len(y)):
 #perform dynamics in orthogonal directions 
 for i in range(N):
     #xrand = np.random.normal(0,sigma,None)
-    #xnew = x - (dt/(m*gamma*beta))*dVdx(x,y) + xrand
+    #xnew = x - (dt/(m*gamma))*dVdx(x,y) + xrand
     print >> f1, ("{:.2f}".format(x)),
     for k in range(len(y)):
     	yrand = np.random.normal(0,sigma,None)
-    	ynew = y[k] - (dt/(m*gamma*beta))*dVdy(x,y,k) + yrand
+    	ynew = y[k] - (dt/(m*gamma))*dVdy(x,y,k) + yrand
     	y[k] = ynew.copy()
         print >>f1, ("{:.2f}".format(y[k])),
     #x = xnew.copy()
