@@ -29,3 +29,6 @@ https://github.com/westpa/westpa/wiki/Na--Cl--Association-with-NAMD-2.12
 ./init.sh
 ./run.sh &
 ```
+
+## Preprint
+ArXiv: https://arxiv.org/abs/1912.10650
