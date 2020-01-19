@@ -54,7 +54,7 @@ sigma = variance**0.5
 
 
 #=============== PROPAGATION ==============#
-# x(j+1) = x(j) - (kT*dt/(m*gamma))*(dV/dx) + xrand
+# x(j+1) = x(j) - (dt/(m*gamma))*(dV/dx) + xrand
 
 f1 = open('trajectory.dat','w')
 print >>f1, '#time    #x    #y'
