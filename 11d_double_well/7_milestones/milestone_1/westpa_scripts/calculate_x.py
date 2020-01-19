@@ -78,11 +78,11 @@ for i in range(len(y)):
 for i in range(N):
     if x > endpoint1 and x < endpoint2:
         xrand = np.random.normal(0,sigma,None)
-        xnew = x - (dt/(m*gamma*beta))*dVdx(x,y) + xrand
+        xnew = x - (dt/(m*gamma))*dVdx(x,y) + xrand
         #print >>f1, ("{:.2f}".format(xnew)),
         for k in range(len(y)):
     	    yrand = np.random.normal(0,sigma,None)
-    	    ynew = y[k] - (dt/(m*gamma*beta))*dVdy(x,y,k) + yrand
+    	    ynew = y[k] - (dt/(m*gamma))*dVdy(x,y,k) + yrand
     	    y[k] = ynew.copy()
             #print >>f1, ("{:.2f}".format(y[k])),
         #print >>f1, '' 
