@@ -27,7 +27,7 @@ https://github.com/westpa/westpa/wiki/Na--Cl--Association-with-NAMD-2.12
 
 ```
 ./init.sh
-./run.sh &
+./run.sh 
 ```
 
 When submitting jobs in a cluster using PBS script do not do ```./run.sh```. Instead paste the text inside ```run.sh``` into your PBS nodefile.
