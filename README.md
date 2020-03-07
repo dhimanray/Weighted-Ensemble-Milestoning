@@ -35,6 +35,12 @@ When submitting jobs in a cluster using PBS script do not do ```./run.sh```. Ins
 ## Analysis Scripts ##
 ```milestone-analysis.py```: This code calculates the mean first passage times. Also prints out the transition kernel and the various intermadiate steps of the calculation. The mean first passage time between chosen milestones are given in the last line of the output.
 
+```flux-analysis.py```: This code calculates the equilibrium probability distribution from the eigenvector of the transition kernel with eigenvalue 1.
+
+```plot-pmf.py```: Plots the free energy profile as a function of reaction coordinate
+
+
+
 
 
 ## Preprint
