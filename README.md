@@ -32,5 +32,10 @@ https://github.com/westpa/westpa/wiki/Na--Cl--Association-with-NAMD-2.12
 
 When submitting jobs in a cluster using PBS script do not do ```./run.sh```. Instead paste the text inside ```run.sh``` into your PBS nodefile.
 
+## Analysis Scripts ##
+```milestone-analysis.py```: This code calculates the mean first passage times. Also prints out the transition kernel and the various intermadiate steps of the calculation. The mean first passage time between chosen milestones are given in the last line of the output.
+
+
+
 ## Preprint
 Following is the preprint related to this project: ArXiv: https://arxiv.org/abs/1912.10650
