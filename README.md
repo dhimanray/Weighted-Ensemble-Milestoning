@@ -39,8 +39,13 @@ When submitting jobs in a cluster using PBS script do not do ```./run.sh```. Ins
 
 ```plot-pmf.py```: Plots the free energy profile as a function of reaction coordinate
 
+```single-trajectory.py```: Generates long trajectory using the information of transition probability and lifetime of milestones
 
+```plot-single-trajectory.py```: Makes plot of the long trajectory
 
+```connecting-dots-time-correlation.py```: Calculates the time correlation function from interpolated trajectory using time averaging formula.
+
+```milestone-analysis-reverse.py```: Calculates the Mean First Passage Time for the reverse process
 
 
 ## Preprint
