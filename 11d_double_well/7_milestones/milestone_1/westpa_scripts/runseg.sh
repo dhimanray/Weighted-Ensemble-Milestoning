@@ -71,8 +71,8 @@ ln -sv $WEST_PARENT_DATA_REF/trajectory.dat  ./parent.dat
 
 ########################## Calculate and return data ###########################
 
-# Calculate the progress coordinate, which is the distance between the Na+ and
-# Cl- ions.  This custom Python script looks for the files nacl.psf and seg.dcd
+# Calculate the progress coordinate.  
+# This custom Python script looks for the files nacl.psf and seg.dcd
 # The script outputs the distance between the ions at each timepoint, printing
 # one distance value per line to STDOUT.
 # Note that the script also loads the parent segment's .dcd file, in order to 
