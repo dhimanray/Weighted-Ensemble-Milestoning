@@ -47,6 +47,8 @@ When submitting jobs in a cluster using PBS script do not do ```./run.sh```. Ins
 
 ```milestone-analysis-reverse.py```: Calculates the Mean First Passage Time for the reverse process
 
+```mfpt-error.py```: Generates many realizations of the transition kernel to calculate error bars using Non-reversible element exchange Monte Carlo (Noe; JCP 2008, Votapka and Amaro; PLOS Comp. Bio. 2015)
+
 
 ## Preprint
 Following is the preprint related to this project: ArXiv: https://arxiv.org/abs/1912.10650
