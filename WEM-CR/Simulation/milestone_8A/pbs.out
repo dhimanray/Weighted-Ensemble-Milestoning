@@ -1,0 +1,21 @@
+Updating system with the options from the configuration file
+Creating HDF5 file '/oasis/tscc/scratch/dray1/dhiman/WEM-Testing/FKBP/CHARMM36/WEM/constrain-release/trial_1/milestone_8A/west.h5'
+0 target state(s) present
+Calculating progress coordinate values for basis states.
+1 basis state(s) present
+Preparing initial states
+
+        Total bins:            10
+        Initial replicas:      5 in 1 bins, total weight = 1
+        Total target replicas: 50
+        
+Simulation prepared.
+1 of 10 (10.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.2
+per-segment maximum non-zero probability:   0.2
+per-segment probability dynamic range (kT): 0
+norm = 1, error in norm = 0 (0*epsilon)
+Nodes:        tscc-gpu-6-9
