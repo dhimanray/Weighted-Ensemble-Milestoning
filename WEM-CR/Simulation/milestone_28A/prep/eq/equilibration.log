@@ -1,0 +1,1617 @@
+Charm++: standalone mode (not using charmrun)
+Charm++> Running in Multicore mode:  4 threads
+Charm++> Using recursive bisection (scheme 3) for topology aware partitions
+Converse/Charm++ Commit ID: v6.8.2-0-g26d4bd8-namd-charm-6.8.2-build-2018-Jan-11-30463
+Charm++> synchronizing isomalloc memory region...
+[0] consolidated Isomalloc memory region: 0x2ab280000000 - 0x7ffa40000000 (89422848 megs)
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 unique compute nodes (16-way SMP).
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Info: Built with CUDA version 9010
+Did not find +devices i,j,k,... argument, using all
+Pe 3 physical rank 3 will use CUDA device of pe 2
+Pe 0 physical rank 0 will use CUDA device of pe 1
+Pe 1 physical rank 1 binding to CUDA device 0 on tscc-gpu-8-0.sdsc.edu: 'GeForce GTX TITAN X'  Mem: 12212MB  Rev: 5.2  PCI: 0:84:0
+Pe 2 physical rank 2 binding to CUDA device 1 on tscc-gpu-8-0.sdsc.edu: 'GeForce GTX TITAN X'  Mem: 12212MB  Rev: 5.2  PCI: 0:85:0
+Info: NAMD 2.13 for Linux-x86_64-multicore-CUDA
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Comp. Chem. 26:1781-1802 (2005)
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 60800 for multicore-linux64-iccstatic
+Info: Built Fri Nov 9 14:40:48 CST 2018 by jim on ganymede.ks.uiuc.edu
+Info: 1 NAMD  2.13  Linux-x86_64-multicore-CUDA  4    tscc-gpu-8-0.sdsc.edu  dray1
+Info: Running on 4 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 1.56184 s
+CkLoopLib is used in SMP with a simple dynamic scheduling (converse-level notification) but not using node-level queue
+Info: 558.867 MB of memory in use based on /proc/self/stat
+Info: Configuration file is equilibration.conf
+Info: Working in the current directory /oasis/tscc/scratch/dray1/dhiman/WEM-Testing/FKBP/CHARMM36/WEM/milestone_28A/prep/eq
+TCL: Suspending until startup complete.
+Info: EXTENDED SYSTEM FILE   1d7j_production_NPT.xsc
+Info: SIMULATION PARAMETERS:
+Info: TIMESTEP               2
+Info: NUMBER OF STEPS        0
+Info: STEPS PER CYCLE        10
+Info: PERIODIC CELL BASIS 1  83.008 0 0
+Info: PERIODIC CELL BASIS 2  0 63.4218 0
+Info: PERIODIC CELL BASIS 3  0 0 70.8832
+Info: PERIODIC CELL CENTER   -2 -0.4 -0.6
+Info: WRAPPING ALL CLUSTERS AROUND PERIODIC BOUNDARIES ON OUTPUT.
+Info: LOAD BALANCER  Centralized
+Info: LOAD BALANCING STRATEGY  New Load Balancers -- DEFAULT
+Info: LDB PERIOD             2000 steps
+Info: FIRST LDB TIMESTEP     50
+Info: LAST LDB TIMESTEP     -1
+Info: LDB BACKGROUND SCALING 1
+Info: HOM BACKGROUND SCALING 1
+Info: PME BACKGROUND SCALING 1
+Info: MIN ATOMS PER PATCH    40
+Info: INITIAL TEMPERATURE    298
+Info: CENTER OF MASS MOVING INITIALLY? NO
+Info: DIELECTRIC             1
+Info: EXCLUDE                SCALED ONE-FOUR
+Info: 1-4 ELECTROSTATICS SCALED BY 1
+Info: MODIFIED 1-4 VDW PARAMETERS WILL BE USED
+Info: DCD FILENAME           milestone_equilibration.dcd
+Info: DCD FREQUENCY          1000
+Info: DCD FIRST STEP         1000
+Info: DCD FILE WILL CONTAIN UNIT CELL DATA
+Info: XST FILENAME           milestone_equilibration.xst
+Info: XST FREQUENCY          250
+Info: NO VELOCITY DCD OUTPUT
+Info: NO FORCE DCD OUTPUT
+Info: OUTPUT FILENAME        milestone_equilibration
+Info: BINARY OUTPUT FILES WILL BE USED
+Info: RESTART FILENAME       milestone_equilibration.restart
+Info: RESTART FREQUENCY      500
+Info: BINARY RESTART FILES WILL BE USED
+Info: SWITCHING ACTIVE
+Info: SWITCHING ON           10
+Info: SWITCHING OFF          12
+Info: PAIRLIST DISTANCE      14
+Info: PAIRLIST SHRINK RATE   0.01
+Info: PAIRLIST GROW RATE     0.01
+Info: PAIRLIST TRIGGER       0.3
+Info: PAIRLISTS PER CYCLE    2
+Info: PAIRLISTS ENABLED
+Info: MARGIN                 0.495
+Info: HYDROGEN GROUP CUTOFF  2.5
+Info: PATCH DIMENSION        16.995
+Info: ENERGY OUTPUT STEPS    1000
+Info: CROSSTERM ENERGY INCLUDED IN DIHEDRAL
+Info: TIMING OUTPUT STEPS    10000
+Info: PRESSURE OUTPUT STEPS  1000
+Info: COLLECTIVE VARIABLES CALCULATION REQUESTED
+Info: COLLECTIVE VARIABLES CONFIGURATION   colvars.in
+Info: LANGEVIN DYNAMICS ACTIVE
+Info: LANGEVIN TEMPERATURE   298
+Info: LANGEVIN USING BBK INTEGRATOR
+Info: LANGEVIN DAMPING COEFFICIENT IS 1 INVERSE PS
+Info: LANGEVIN DYNAMICS NOT APPLIED TO HYDROGENS
+Info: LANGEVIN PISTON PRESSURE CONTROL ACTIVE
+Info:        TARGET PRESSURE IS 1.01325 BAR
+Info:     OSCILLATION PERIOD IS 100 FS
+Info:             DECAY TIME IS 50 FS
+Info:     PISTON TEMPERATURE IS 298 K
+Info:       PRESSURE CONTROL IS GROUP-BASED
+Info:    INITIAL STRAIN RATE IS -1.69062e-05 -1.69062e-05 -1.69062e-05
+Info:       CELL FLUCTUATION IS ISOTROPIC
+Info: PARTICLE MESH EWALD (PME) ACTIVE
+Info: PME TOLERANCE               1e-06
+Info: PME EWALD COEFFICIENT       0.257952
+Info: PME INTERPOLATION ORDER     4
+Info: PME GRID DIMENSIONS         84 64 72
+Info: PME MAXIMUM GRID SPACING    1
+Info: Attempting to read FFTW data from FFTW_NAMD_2.13_Linux-x86_64-multicore-CUDA.txt
+Info: Optimizing 6 FFT steps.  1... 2... 3... 4... 5... 6...   Done.
+Info: Writing FFTW data to FFTW_NAMD_2.13_Linux-x86_64-multicore-CUDA.txt
+Info: FULL ELECTROSTATIC EVALUATION FREQUENCY      2
+Info: USING VERLET I (r-RESPA) MTS SCHEME.
+Info: C1 SPLITTING OF LONG RANGE ELECTROSTATICS
+Info: PLACING ATOMS IN PATCHES BY HYDROGEN GROUPS
+Info: RIGID BONDS TO HYDROGEN : ALL
+Info:         ERROR TOLERANCE : 1e-08
+Info:          MAX ITERATIONS : 100
+Info: RIGID WATER USING SETTLE ALGORITHM
+Info: RANDOM NUMBER SEED     1589609774
+Info: USE HYDROGEN BONDS?    NO
+Info: COORDINATE PDB         FKBP_BUT_r=28A.pdb
+Info: STRUCTURE FILE         ionized.psf
+Info: PARAMETER file: CHARMM format! 
+Info: PARAMETERS             par_all36m_prot.prm
+Info: PARAMETERS             par_all36_cgenff.prm
+Info: PARAMETERS             par_all36_carb.prm
+Info: PARAMETERS             par_all36_lipid.prm
+Info: PARAMETERS             par_all36_na.prm
+Info: PARAMETERS             buq.prm
+Info: PARAMETERS             toppar_water_ions_namd.str
+Info: USING ARITHMETIC MEAN TO COMBINE L-J SIGMA PARAMETERS
+
+Warning: DUPLICATE ANGLE ENTRY FOR CD-CT2-NH2
+PREVIOUS VALUES  k=50  theta0=107 k_ub=0 r_ub=0
+   USING VALUES  k=52  theta0=108 k_ub=0 r_ub=0
+Info: SKIPPING rtf SECTION IN STREAM FILE
+Info: SUMMARY OF PARAMETERS:
+Info: 973 BONDS
+Info: 2864 ANGLES
+Info: 7012 DIHEDRAL
+Info: 199 IMPROPER
+Info: 6 CROSSTERM
+Info: 357 VDW
+Info: 78 VDW_PAIRS
+Info: 0 NBTHOLE_PAIRS
+Info: TIME FOR READING PSF FILE: 0.623238
+Info: Reading pdb file FKBP_BUT_r=28A.pdb
+Info: TIME FOR READING PDB FILE: 0.0868318
+Info: 
+Info: ****************************
+Info: STRUCTURE SUMMARY:
+Info: 38134 ATOMS
+Info: 25999 BONDS
+Info: 15223 ANGLES
+Info: 4490 DIHEDRALS
+Info: 287 IMPROPERS
+Info: 105 CROSSTERMS
+Info: 0 EXCLUSIONS
+Info: 37295 RIGID BONDS
+Info: 77107 DEGREES OF FREEDOM
+Info: 12991 HYDROGEN GROUPS
+Info: 4 ATOMS IN LARGEST HYDROGEN GROUP
+Info: 12991 MIGRATION GROUPS
+Info: 4 ATOMS IN LARGEST MIGRATION GROUP
+Info: TOTAL MASS = 230867 amu
+Info: TOTAL CHARGE = 1.36904e-06 e
+Info: MASS DENSITY = 1.02735 g/cm^3
+Info: ATOM DENSITY = 0.10219 atoms/A^3
+Info: *****************************
+Info: 
+Info: Entering startup at 3.34841 s, 575.719 MB of memory in use
+Info: Startup phase 0 took 0.000118971 s, 575.723 MB of memory in use
+Info: ADDED 45630 IMPLICIT EXCLUSIONS
+Info: Startup phase 1 took 0.0134821 s, 582.512 MB of memory in use
+Info: NONBONDED TABLE R-SQUARED SPACING: 0.0625
+Info: NONBONDED TABLE SIZE: 769 POINTS
+Info: INCONSISTENCY IN FAST TABLE ENERGY VS FORCE: 0.000325096 AT 11.9556
+Info: INCONSISTENCY IN SCOR TABLE ENERGY VS FORCE: 0.000324844 AT 11.9556
+Info: ABSOLUTE IMPRECISION IN VDWA TABLE ENERGY: 4.59334e-32 AT 11.9974
+Info: RELATIVE IMPRECISION IN VDWA TABLE ENERGY: 7.4108e-17 AT 11.9974
+Info: INCONSISTENCY IN VDWA TABLE ENERGY VS FORCE: 0.0040507 AT 0.251946
+Info: ABSOLUTE IMPRECISION IN VDWB TABLE ENERGY: 1.53481e-26 AT 11.9974
+Info: RELATIVE IMPRECISION IN VDWB TABLE ENERGY: 7.96691e-18 AT 11.9974
+Info: INCONSISTENCY IN VDWB TABLE ENERGY VS FORCE: 0.00150189 AT 0.251946
+Info: Startup phase 2 took 0.00458193 s, 586.746 MB of memory in use
+Info: Startup phase 3 took 9.01222e-05 s, 587 MB of memory in use
+Info: Startup phase 4 took 0.000241995 s, 587.629 MB of memory in use
+Info: Startup phase 5 took 6.8903e-05 s, 587.629 MB of memory in use
+Info: PATCH GRID IS 4 (PERIODIC) BY 3 (PERIODIC) BY 4 (PERIODIC)
+Info: PATCH GRID IS 1-AWAY BY 1-AWAY BY 1-AWAY
+Info: REMOVING COM VELOCITY 0.00610379 -0.0140127 -0.0403119
+Info: LARGEST PATCH (18) HAS 840 ATOMS
+Info: TORUS A SIZE 1 USING 0
+Info: TORUS B SIZE 1 USING 0
+Info: TORUS C SIZE 1 USING 0
+Info: TORUS MINIMAL MESH SIZE IS 1 BY 1 BY 1
+Info: Placed 100% of base nodes on same physical node as patch
+Info: Startup phase 6 took 0.012161 s, 594.773 MB of memory in use
+Info: PME using 1 x 1 x 1 pencil grid for FFT and reciprocal sum.
+Info: Startup phase 7 took 0.000313044 s, 595.105 MB of memory in use
+Info: Updated CUDA force table with 4096 elements.
+Info: Updated CUDA LJ table with 357 x 357 elements.
+Info: Updated CUDA force table with 4096 elements.
+Info: Updated CUDA LJ table with 357 x 357 elements.
+Info: Startup phase 8 took 0.038758 s, 596.301 MB of memory in use
+Info: Startup phase 9 took 9.799e-05 s, 596.301 MB of memory in use
+Info: Startup phase 10 took 7.10487e-05 s, 596.301 MB of memory in use
+Info: Startup phase 11 took 0.00253892 s, 597.512 MB of memory in use
+LDB: Central LB being created...
+Info: Startup phase 12 took 0.00214505 s, 597.762 MB of memory in use
+Info: CREATING 1044 COMPUTE OBJECTS
+colvars: ----------------------------------------------------------------------
+colvars: Initializing the collective variables module, version 2018-10-16.
+colvars: Please cite Fiorin et al, Mol Phys 2013:
+colvars:  http://dx.doi.org/10.1080/00268976.2013.813594
+colvars: in any publication based on this calculation.
+colvars: SMP parallelism is available.
+colvars: Using NAMD interface, version 2018-08-29.
+colvars: ----------------------------------------------------------------------
+colvars: Reading new configuration from file "colvars.in":
+colvars: # smp = on [default]
+colvars: # analysis = off [default]
+colvars: # colvarsTrajFrequency = 100
+colvars: # colvarsRestartFrequency = 10000
+colvars: # scriptedColvarForces = off [default]
+colvars: # scriptingAfterBiases = off [default]
+colvars: ----------------------------------------------------------------------
+colvars:   Initializing a new collective variable.
+colvars:   # name = "r"
+colvars:   Initializing a new "distance" component.
+colvars:     # name = "" [default]
+colvars:     # componentCoeff = 1 [default]
+colvars:     # componentExp = 1 [default]
+colvars:     # period = 0 [default]
+colvars:     # wrapAround = 0 [default]
+colvars:     # forceNoPBC = off [default]
+colvars:     # scalable = on [default]
+colvars:       Initializing atom group "group1".
+colvars:       # name = "" [default]
+colvars:       # centerReference = off [default]
+colvars:       # rotateReference = off [default]
+colvars:       # atomsOfGroup = "" [default]
+colvars:       # indexGroup = "" [default]
+colvars:       # psfSegID =  [default]
+colvars:       # atomsFile = "" [default]
+colvars:       # dummyAtom = ( 0 , 0 , 0 ) [default]
+colvars:       # enableForces = on [default]
+colvars:       # enableFitGradients = on [default]
+colvars:       Enabling scalable calculation for group "group1".
+colvars:       # printAtomIDs = off [default]
+colvars:       Atom group "group1" defined, 1663 atoms initialized: total mass = 11820.6, total charge = 1.
+colvars:       Initializing atom group "group2".
+colvars:       # name = "" [default]
+colvars:       # centerReference = off [default]
+colvars:       # rotateReference = off [default]
+colvars:       # atomsOfGroup = "" [default]
+colvars:       # indexGroup = "" [default]
+colvars:       # psfSegID =  [default]
+colvars:       # atomsFile = "" [default]
+colvars:       # dummyAtom = ( 0 , 0 , 0 ) [default]
+colvars:       # enableForces = on [default]
+colvars:       # enableFitGradients = on [default]
+colvars:       Enabling scalable calculation for group "group2".
+colvars:       # printAtomIDs = off [default]
+colvars:       Atom group "group2" defined, 14 atoms initialized: total mass = 88.1068, total charge = 7.45058e-09.
+colvars:     # oneSiteSystemForce = off [default]
+colvars:     # oneSiteTotalForce = off [default]
+colvars:   All components initialized.
+colvars:   # timeStepFactor = 1 [default]
+colvars:   # width = 1 [default]
+colvars:   # lowerBoundary = 0 [default]
+colvars:   # upperBoundary = 0 [default]
+colvars:   # expandBoundaries = off [default]
+colvars:   # extendedLagrangian = off [default]
+colvars:   # outputValue = on [default]
+colvars:   # outputVelocity = off [default]
+colvars:   # outputTotalForce = off [default]
+colvars:   # outputAppliedForce = off [default]
+colvars:   # subtractAppliedForce = off [default]
+colvars: ----------------------------------------------------------------------
+colvars:   Initializing a new collective variable.
+colvars:   # name = "proteinCOM"
+colvars:   Initializing a new "distance" component.
+colvars:     # name = "" [default]
+colvars:     # componentCoeff = 1 [default]
+colvars:     # componentExp = 1 [default]
+colvars:     # period = 0 [default]
+colvars:     # wrapAround = 0 [default]
+colvars:     # forceNoPBC = off [default]
+colvars:     # scalable = on [default]
+colvars:       Initializing atom group "group1".
+colvars:       # name = "" [default]
+colvars:       # centerReference = off [default]
+colvars:       # rotateReference = off [default]
+colvars:       # atomsOfGroup = "" [default]
+colvars:       # indexGroup = "" [default]
+colvars:       # psfSegID =  [default]
+colvars:       # atomsFile = "" [default]
+colvars:       # dummyAtom = ( 0 , 0 , 0 ) [default]
+colvars:       # enableForces = on [default]
+colvars:       # enableFitGradients = on [default]
+colvars:       Enabling scalable calculation for group "group1".
+colvars:       # printAtomIDs = off [default]
+colvars:       Atom group "group1" defined, 1663 atoms initialized: total mass = 11820.6, total charge = 1.
+colvars:       Initializing atom group "group2".
+colvars:       # name = "" [default]
+colvars:       # centerReference = off [default]
+colvars:       # rotateReference = off [default]
+colvars:       # atomsOfGroup = "" [default]
+colvars:       # indexGroup = "" [default]
+colvars:       # psfSegID =  [default]
+colvars:       # atomsFile = "" [default]
+colvars:       # dummyAtom = ( 0 , 0 , 0 )
+colvars:       # enableFitGradients = on [default]
+colvars:       # printAtomIDs = off [default]
+colvars:       Atom group "group2" defined, 0 atoms initialized: total mass = 1, total charge = 0.
+colvars:     # oneSiteSystemForce = off [default]
+colvars:     # oneSiteTotalForce = off [default]
+colvars:   All components initialized.
+colvars:   # timeStepFactor = 1 [default]
+colvars:   # width = 1 [default]
+colvars:   # lowerBoundary = 0 [default]
+colvars:   # upperBoundary = 0 [default]
+colvars:   # expandBoundaries = off [default]
+colvars:   # extendedLagrangian = off [default]
+colvars:   # outputValue = on [default]
+colvars:   # outputVelocity = off [default]
+colvars:   # outputTotalForce = off [default]
+colvars:   # outputAppliedForce = off [default]
+colvars:   # subtractAppliedForce = off [default]
+colvars: ----------------------------------------------------------------------
+colvars: Collective variables initialized, 2 in total.
+colvars: ----------------------------------------------------------------------
+colvars:   Initializing a new "harmonic" instance.
+colvars:   # name = "harmonic1" [default]
+colvars:   # colvars = { proteinCOM }
+colvars:   # outputEnergy = off [default]
+colvars:   # timeStepFactor = 1 [default]
+colvars:   # writeTISamples = off [default]
+colvars:   # writeTIPMF = off [default]
+colvars:   # centers = { 0 }
+colvars:   # targetCenters = { 0 } [default]
+colvars:   # outputCenters = off [default]
+colvars:   # forceConstant = 10
+colvars:   # targetForceConstant = -1 [default]
+colvars: ----------------------------------------------------------------------
+colvars:   Initializing a new "harmonic" instance.
+colvars:   # name = "harmonic2" [default]
+colvars:   # colvars = { r }
+colvars:   # outputEnergy = off [default]
+colvars:   # timeStepFactor = 1 [default]
+colvars:   # writeTISamples = off [default]
+colvars:   # writeTIPMF = off [default]
+colvars:   # centers = { 28 }
+colvars:   # targetCenters = { 28 } [default]
+colvars:   # outputCenters = off [default]
+colvars:   # forceConstant = 0
+colvars:   # targetForceConstant = 50
+colvars:   # targetNumSteps = 25000
+colvars:   # targetNumStages = 0 [default]
+colvars:   # outputAccumulatedWork = off [default]
+colvars:   # targetEquilSteps = 0 [default]
+colvars:   # lambdaSchedule =  [default]
+colvars:   # targetForceExponent = 1 [default]
+colvars: ----------------------------------------------------------------------
+colvars: Collective variables biases initialized, 2 in total.
+colvars: ----------------------------------------------------------------------
+colvars: Collective variables module (re)initialized.
+colvars: ----------------------------------------------------------------------
+colvars: Updating NAMD interface:
+colvars: Warning: enabling wrapAll can lead to inconsistent results for Colvars calculations: please disable wrapAll, as is the default option in NAMD.
+colvars: updating atomic data (0 atoms).
+colvars: updating group data (2 scalable groups, 1677 atoms in total).
+colvars: Re-initialized atom group r:0/0. 1663 atoms: total mass = 11820.6.
+colvars: Re-initialized atom group r:0/1. 14 atoms: total mass = 88.1068.
+colvars: Re-initialized atom group proteinCOM:0/0. 1663 atoms: total mass = 11820.6.
+colvars: Re-initialized atom group proteinCOM:0/1. 0 atoms: total mass = 1.
+colvars: The restart output state file will be "milestone_equilibration.restart.colvars.state".
+colvars: The final output state file will be "milestone_equilibration.colvars.state".
+colvars: Writing to colvar trajectory file "milestone_equilibration.colvars.traj".
+Info: Found 267 unique exclusion lists needing 792 bytes
+Info: Found 267 unique exclusion lists needing 792 bytes
+Info: useSync: 0 useProxySync: 0
+Info: Startup phase 13 took 0.0148559 s, 602.266 MB of memory in use
+Info: Startup phase 14 took 9.799e-05 s, 602.266 MB of memory in use
+Info: Startup phase 15 took 0.000108004 s, 602.266 MB of memory in use
+Info: Finished startup at 3.43814 s, 602.27 MB of memory in use
+
+TCL: Running for 50000 steps
+colvars: Updating NAMD interface:
+colvars: Warning: enabling wrapAll can lead to inconsistent results for Colvars calculations: please disable wrapAll, as is the default option in NAMD.
+colvars: updating atomic data (0 atoms).
+colvars: updating group data (2 scalable groups, 1677 atoms in total).
+colvars: Re-initialized atom group r:0/0. 1663 atoms: total mass = 11820.6.
+colvars: Re-initialized atom group r:0/1. 14 atoms: total mass = 88.1068.
+colvars: Re-initialized atom group proteinCOM:0/0. 1663 atoms: total mass = 11820.6.
+colvars: Re-initialized atom group proteinCOM:0/1. 0 atoms: total mass = 1.
+colvars: The restart output state file will be "milestone_equilibration.restart.colvars.state".
+colvars: The final output state file will be "milestone_equilibration.colvars.state".
+PRESSURE: 0 -287.272 -27.4671 154.044 -25.9289 -234.223 -125.3 154.507 -125.669 -282.22
+GPRESSURE: 0 -246.234 16.5759 127.431 -50.2899 -212.543 -144.833 156.932 -79.5 -249.876
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG            PRESSURE      GPRESSURE         VOLUME       PRESSAVG      GPRESSAVG
+
+ENERGY:       0       344.4316       979.2130       987.6672        56.3956        -135940.2312     11801.1612         0.0000         1.0614     22801.2288         -98969.0726       297.6150   -121770.3014    -98910.2953       297.6150           -267.9051      -236.2177    373166.0015      -267.9051      -236.2177
+
+OPENING EXTENDED SYSTEM TRAJECTORY FILE
+LDB: ============= START OF LOAD BALANCING ============== 3.51227
+LDB: ============== END OF LOAD BALANCING =============== 3.51242
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 3.51267
+LDB: ============= START OF LOAD BALANCING ============== 3.70914
+LDB: Partitioning computes with target load 0.000000
+LDB: Increased migratable compute count from 0 to 0
+LDB: Largest unpartitionable compute is 0.000000
+LDB: ============== END OF LOAD BALANCING =============== 3.70952
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 3.70977
+Info: Initial time: 4 CPUs 0.00505958 s/step 0.02928 days/ns 641.562 MB memory
+LDB: ============= START OF LOAD BALANCING ============== 3.75626
+LDB: ============== END OF LOAD BALANCING =============== 3.75635
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 3.75659
+LDB: ============= START OF LOAD BALANCING ============== 3.94124
+LDB: TIME 3.94142 LOAD: AVG 0.13844 MAX 0.149395  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 641.738 MB
+LDB: TIME 3.94153 LOAD: AVG 0.13844 MAX 0.149395  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 TorusLB MEM: 641.875 MB
+LDB: ============== END OF LOAD BALANCING =============== 3.94175
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 3.94198
+Info: Initial time: 4 CPUs 0.00459866 s/step 0.0266126 days/ns 641.891 MB memory
+LDB: ============= START OF LOAD BALANCING ============== 4.17033
+LDB: TIME 4.17058 LOAD: AVG 0.174363 MAX 0.189059  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 642.34 MB
+LDB: TIME 4.17068 LOAD: AVG 0.174363 MAX 0.189059  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 642.34 MB
+LDB: TIME 4.17074 LOAD: AVG 0.174363 MAX 0.189059  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 642.34 MB
+LDB: ============== END OF LOAD BALANCING =============== 4.17112
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 4.17141
+Info: Initial time: 4 CPUs 0.0045872 s/step 0.0265463 days/ns 642.344 MB memory
+LDB: ============= START OF LOAD BALANCING ============== 4.40058
+LDB: TIME 4.40076 LOAD: AVG 0.172533 MAX 0.187132  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 642.473 MB
+LDB: TIME 4.40086 LOAD: AVG 0.172533 MAX 0.187132  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 642.473 MB
+LDB: TIME 4.40091 LOAD: AVG 0.172533 MAX 0.187132  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 642.473 MB
+LDB: ============== END OF LOAD BALANCING =============== 4.40113
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 4.40136
+Info: Benchmark time: 4 CPUs 0.00456654 s/step 0.0264267 days/ns 642.473 MB memory
+Info: Benchmark time: 4 CPUs 0.0044246 s/step 0.0256053 days/ns 642.477 MB memory
+Info: Benchmark time: 4 CPUs 0.00462252 s/step 0.0267507 days/ns 642.477 MB memory
+Info: Benchmark time: 4 CPUs 0.00467108 s/step 0.0270317 days/ns 642.586 MB memory
+Info: Benchmark time: 4 CPUs 0.00458326 s/step 0.0265235 days/ns 642.586 MB memory
+Info: Benchmark time: 4 CPUs 0.0046098 s/step 0.0266771 days/ns 642.637 MB memory
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 500
+WRITING COORDINATES TO RESTART FILE AT STEP 500
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=500) takes 0.005 seconds, 649.211 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 500
+FINISHED WRITING RESTART VELOCITIES
+The last velocity output (seq=500) takes 0.004 seconds, 650.184 MB of memory in use
+PRESSURE: 1000 -170.413 -69.7512 -5.37611 -68.0969 68.4655 -133.062 -4.26531 -133.338 61.0719
+GPRESSURE: 1000 -97.7711 -90.2573 13.4966 -167.458 92.0121 -135.718 9.42127 -124.487 66.3442
+PRESSAVG: 1000 -16.3704 -12.2551 -15.7862 -10.6272 14.0382 -6.65311 -15.1005 -7.00441 12.4237
+GPRESSAVG: 1000 -16.3633 -12.4966 -15.1897 -10.8104 14.1433 -7.04687 -14.7989 -6.26101 12.3945
+ENERGY:    1000       362.4845       955.9046      1003.2820        57.7700        -136502.7754     12368.9727         0.0000         1.9979     22898.7056         -98853.6581       298.8873   -121752.3637    -98793.5743       297.0316            -13.6251        20.1951    375381.3211         3.3639         3.3915
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 1000
+OPENING COORDINATE DCD FILE
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 1000
+WRITING COORDINATES TO RESTART FILE AT STEP 1000
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=1000) takes 0.010 seconds, 651.152 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 1000
+FINISHED WRITING RESTART VELOCITIES
+The last velocity output (seq=1000) takes 0.003 seconds, 651.965 MB of memory in use
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 1500
+WRITING COORDINATES TO RESTART FILE AT STEP 1500
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=1500) takes 0.003 seconds, 652.496 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 1500
+FINISHED WRITING RESTART VELOCITIES
+The last velocity output (seq=1500) takes 0.003 seconds, 652.496 MB of memory in use
+PRESSURE: 2000 -72.4019 -80.0907 30.6505 -79.1058 0.173713 -125.457 31.6122 -125.558 -117.385
+GPRESSURE: 2000 1.28293 -168.878 49.7038 -70.9567 -37.6487 -161.014 22.5938 -37.0948 -54.0855
+PRESSAVG: 2000 -22.1683 -6.79184 -16.7336 -5.33194 6.2557 -28.6616 -15.3932 -28.8314 22.6995
+GPRESSAVG: 2000 -22.1636 -6.76014 -17.4049 -5.25332 5.9965 -28.0998 -14.9861 -29.3365 22.7622
+ENERGY:    2000       322.2326       946.8112       992.8726        62.2537        -136446.9882     12285.3305         0.0000         0.7989     22816.2876         -99020.4011       297.8116   -121836.6888    -98964.4572       297.1168            -63.2044       -30.1504    374597.6444         2.2623         2.1984
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 2000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 2000
+WRITING COORDINATES TO RESTART FILE AT STEP 2000
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=2000) takes 0.005 seconds, 652.527 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 2000
+FINISHED WRITING RESTART VELOCITIES
+The last velocity output (seq=2000) takes 0.003 seconds, 652.531 MB of memory in use
+LDB: ============= START OF LOAD BALANCING ============== 13.4816
+LDB: ============== END OF LOAD BALANCING =============== 13.4817
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 13.4822
+LDB: ============= START OF LOAD BALANCING ============== 13.71
+LDB: TIME 13.7102 LOAD: AVG 0.178515 MAX 0.195608  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 652.535 MB
+LDB: TIME 13.7103 LOAD: AVG 0.178515 MAX 0.195608  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 652.535 MB
+LDB: TIME 13.7104 LOAD: AVG 0.178515 MAX 0.195608  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 652.535 MB
+LDB: ============== END OF LOAD BALANCING =============== 13.7106
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 13.7109
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 2500
+WRITING COORDINATES TO RESTART FILE AT STEP 2500
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=2500) takes 0.005 seconds, 652.535 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 2500
+FINISHED WRITING RESTART VELOCITIES
+The last velocity output (seq=2500) takes 0.004 seconds, 652.535 MB of memory in use
+PRESSURE: 3000 12.7191 -71.0459 131.145 -70.401 -295.689 -301.407 131.66 -301.496 -274.796
+GPRESSURE: 3000 41.325 -94.53 75.9091 -163.699 -268.621 -282.152 133.706 -226.049 -240.319
+PRESSAVG: 3000 37.4113 0.00199342 8.92807 0.588503 -24.0462 -15.636 9.39359 -15.7189 -7.85635
+GPRESSAVG: 3000 37.4656 -0.140183 8.66296 0.857058 -24.4598 -16.2104 9.13536 -15.3105 -7.47522
+ENERGY:    3000       321.7618       939.7936       987.1147        48.7895        -136063.2670     12007.1310         0.0000         0.2661     22907.8675         -98850.5428       299.0069   -121758.4103    -98794.2369       297.0273           -185.9218      -155.8717    374511.1159         1.8362         1.8435
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 3000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 3000
+WRITING COORDINATES TO RESTART FILE AT STEP 3000
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=3000) takes 0.009 seconds, 652.555 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 3000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 3500
+WRITING COORDINATES TO RESTART FILE AT STEP 3500
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=3500) takes 0.004 seconds, 652.555 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 3500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 4000 -469.909 -128.808 -107.144 -128.535 -173.103 -121.744 -106.237 -121.644 -269.699
+GPRESSURE: 4000 -429.1 -148.736 -65.674 -178.284 -161.923 -58.2021 -161.481 -95.7505 -220.004
+PRESSAVG: 4000 -16.0358 24.3526 -21.7842 25.1154 -15.6142 -22.4978 -21.1761 -22.6049 56.9717
+GPRESSAVG: 4000 -16.0241 23.9714 -21.1458 24.7453 -15.4989 -22.4482 -21.3196 -22.7907 56.8477
+ENERGY:    4000       341.8990       939.4984       967.1811        46.7666        -135952.5853     11994.0093         0.0000         0.3517     22916.1883         -98746.6910       299.1155   -121662.8793    -98680.2924       297.0730           -304.2368      -270.3422    375281.7825         8.4406         8.4416
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 4000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 4000
+WRITING COORDINATES TO RESTART FILE AT STEP 4000
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=4000) takes 0.005 seconds, 652.555 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 4000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 22.7847
+LDB: ============== END OF LOAD BALANCING =============== 22.7848
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 22.7853
+LDB: ============= START OF LOAD BALANCING ============== 23.0171
+LDB: TIME 23.0173 LOAD: AVG 0.178477 MAX 0.193722  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 652.57 MB
+LDB: TIME 23.0175 LOAD: AVG 0.178477 MAX 0.193722  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 652.57 MB
+LDB: TIME 23.0175 LOAD: AVG 0.178477 MAX 0.193722  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 652.57 MB
+LDB: ============== END OF LOAD BALANCING =============== 23.0178
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 23.018
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 4500
+WRITING COORDINATES TO RESTART FILE AT STEP 4500
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=4500) takes 0.004 seconds, 652.570 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 4500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 5000 -11.3973 -68.6927 -75.387 -68.7021 165.274 94.2127 -75.1272 94.2671 164.977
+GPRESSURE: 5000 59.0733 -147.208 -121.179 -23.7906 146.526 13.9946 -74.8602 137.754 220.435
+PRESSAVG: 5000 16.7065 12.5291 26.3123 12.6313 -11.8277 46.8498 26.7589 46.9084 1.19435
+GPRESSAVG: 5000 16.9876 13.0629 25.4847 12.5059 -11.7829 46.6132 27.4169 47.3873 0.89053
+ENERGY:    5000       354.6095       958.4435       991.4626        49.6535        -136192.9404     12386.3760         0.0000         0.8726     22684.4245         -98767.0983       296.0904   -121451.5228    -98708.4161       297.2999            106.2846       142.0114    375718.7861         2.0244         2.0317
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 5000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 5000
+WRITING COORDINATES TO RESTART FILE AT STEP 5000
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=5000) takes 0.005 seconds, 652.574 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 5000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 5500
+WRITING COORDINATES TO RESTART FILE AT STEP 5500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 5500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 6000 -122.495 -120.043 -209.137 -120.014 -258.934 -119.828 -208.587 -119.726 230.069
+GPRESSURE: 6000 -76.1279 -99.9509 -155.811 -156.922 -256.872 -79.2601 -234.468 -60.1392 273.864
+PRESSAVG: 6000 22.5903 20.0444 25.0216 19.9634 -8.16177 19.5628 25.4786 19.6785 -23.9403
+GPRESSAVG: 6000 22.5574 19.9571 25.2407 19.5831 -7.94249 19.7884 25.139 19.2623 -23.9298
+ENERGY:    6000       366.4939       941.5348       989.2533        46.2340        -136188.1401     12175.7523         0.0000         0.8737     22841.7000         -98826.2981       298.1433   -121667.9981    -98768.9651       297.8904            -50.4534       -19.7122    374464.9250        -3.1706        -3.1050
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 6000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 6000
+WRITING COORDINATES TO RESTART FILE AT STEP 6000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 6000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 32.0244
+LDB: ============== END OF LOAD BALANCING =============== 32.0245
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 32.0249
+LDB: ============= START OF LOAD BALANCING ============== 32.2494
+LDB: TIME 32.2496 LOAD: AVG 0.175013 MAX 0.189871  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 652.84 MB
+LDB: TIME 32.2497 LOAD: AVG 0.175013 MAX 0.189871  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 652.84 MB
+LDB: TIME 32.2498 LOAD: AVG 0.175013 MAX 0.189871  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 652.84 MB
+LDB: ============== END OF LOAD BALANCING =============== 32.25
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 32.2502
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 6500
+WRITING COORDINATES TO RESTART FILE AT STEP 6500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 6500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 7000 -270.967 -29.4526 -87.2566 -29.4632 -334.806 17.3159 -86.2928 17.5145 -200.715
+GPRESSURE: 7000 -285.217 23.3621 -32.5037 -31.7201 -279.189 35.6042 -36.3299 14.3431 -141.562
+PRESSAVG: 7000 -33.8626 -0.740342 6.58848 -0.871195 40.3091 -64.63 7.31035 -64.4463 -3.93283
+GPRESSAVG: 7000 -34.04 -0.620206 7.24869 -0.109588 40.4171 -64.2577 6.88177 -64.4534 -3.9506
+ENERGY:    7000       351.2535       943.2560       990.1233        57.1338        -136119.7553     11993.4339         0.0000         1.6779     22828.6926         -98954.1842       297.9735   -121782.8768    -98896.8712       296.4260           -268.8292      -235.3227    374921.1024         0.8379         0.8088
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 7000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 7000
+WRITING COORDINATES TO RESTART FILE AT STEP 7000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 7000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 7500
+WRITING COORDINATES TO RESTART FILE AT STEP 7500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 7500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 8000 -81.0965 -109.909 159.405 -110.074 -103.454 -86.3401 160.375 -86.0983 -303.124
+GPRESSURE: 8000 -63.4625 -32.7921 246.672 -195.191 -73.2489 -41.6703 121.838 -92.4477 -249.553
+PRESSAVG: 8000 9.22657 -53.1426 -9.54481 -53.3462 -9.54342 29.1703 -8.51843 29.4367 2.60454
+GPRESSAVG: 8000 9.3477 -53.1692 -9.72224 -53.5693 -9.48383 29.3799 -8.87525 29.8461 2.04441
+ENERGY:    8000       365.4420       949.2729       982.8031        48.1382        -135816.5234     12076.2803         0.0000         0.8831     22788.1873         -98605.5166       297.4448   -121393.7039    -98551.4242       298.0559           -162.5582      -128.7548    374616.7879         0.7626         0.6361
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 8000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 8000
+WRITING COORDINATES TO RESTART FILE AT STEP 8000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 8000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 41.1839
+LDB: ============== END OF LOAD BALANCING =============== 41.184
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 41.1845
+LDB: ============= START OF LOAD BALANCING ============== 41.4126
+LDB: TIME 41.4128 LOAD: AVG 0.175404 MAX 0.192396  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 652.969 MB
+LDB: TIME 41.4129 LOAD: AVG 0.175404 MAX 0.192396  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 652.969 MB
+LDB: TIME 41.413 LOAD: AVG 0.175404 MAX 0.192396  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 652.969 MB
+LDB: ============== END OF LOAD BALANCING =============== 41.4132
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 41.4134
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 8500
+WRITING COORDINATES TO RESTART FILE AT STEP 8500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 8500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 9000 -217.594 -117.828 -123.647 -117.659 -369.24 -202.288 -123.018 -202.212 -52.1328
+GPRESSURE: 9000 -224.456 -53.844 -139.626 -162.907 -351.206 -189.145 -52.4604 -150.291 19.683
+PRESSAVG: 9000 43.0972 15.3449 16.9711 15.2696 -61.7878 -13.4897 17.6141 -13.3386 21.7913
+GPRESSAVG: 9000 43.256 15.1819 16.8724 15.1492 -61.9864 -13.2015 18.1175 -13.9559 21.9643
+ENERGY:    9000       344.6711       952.2462       977.6315        53.9133        -136196.1282     12063.1931         0.0000         1.4362     22754.5790         -99048.4578       297.0061   -121803.0368    -98992.8351       297.7885           -212.9887      -185.3265    374759.9893         1.0336         1.0780
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 9000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 9000
+WRITING COORDINATES TO RESTART FILE AT STEP 9000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 9000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 9500
+WRITING COORDINATES TO RESTART FILE AT STEP 9500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 9500
+FINISHED WRITING RESTART VELOCITIES
+colvars: Synchronizing (emptying the buffer of) trajectory file "milestone_equilibration.colvars.traj".
+colvars: Saving collective variables state to "milestone_equilibration.restart.colvars.state".
+PRESSURE: 10000 -71.5572 -90.4631 158.274 -89.6979 -175.788 87.4224 159.006 87.3395 -128.23
+GPRESSURE: 10000 -77.6371 -167.617 124.051 -12.3676 -168.754 161.496 213.792 77.6328 -24.0499
+PRESSAVG: 10000 -21.806 -10.4038 -95.48 -10.0574 0.677915 0.428752 -94.737 0.473471 11.646
+GPRESSAVG: 10000 -21.6481 -9.79818 -95.7318 -10.0385 0.567024 -0.177978 -94.8125 0.721588 11.3953
+TIMING: 10000  CPU: 45.9132, 0.00458822/step  Wall: 46.1341, 0.00461018/step, 0.0512243 hours remaining, 653.144531 MB of memory in use.
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG            PRESSURE      GPRESSURE         VOLUME       PRESSAVG      GPRESSAVG
+
+ENERGY:   10000       351.0602       943.1867      1005.2983        55.1651        -136348.5143     12322.1700         0.0000         0.4096     22709.4033         -98961.8212       296.4164   -121671.2245    -98902.3563       296.5103           -125.1917       -90.1470    375735.2159        -3.1607        -3.2286
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 10000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 10000
+WRITING COORDINATES TO RESTART FILE AT STEP 10000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 10000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 50.2579
+LDB: ============== END OF LOAD BALANCING =============== 50.258
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 50.2584
+LDB: ============= START OF LOAD BALANCING ============== 50.4904
+LDB: TIME 50.4906 LOAD: AVG 0.175502 MAX 0.19028  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.176 MB
+LDB: TIME 50.4907 LOAD: AVG 0.175502 MAX 0.19028  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.176 MB
+LDB: TIME 50.4907 LOAD: AVG 0.175502 MAX 0.19028  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.176 MB
+LDB: ============== END OF LOAD BALANCING =============== 50.4909
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 50.4912
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 10500
+WRITING COORDINATES TO RESTART FILE AT STEP 10500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 10500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 11000 194.271 87.4521 48.4735 88.4049 -264.442 40.444 48.3073 40.1272 50.4099
+GPRESSURE: 11000 250.348 63.0641 14.6433 126.333 -305.339 -26.2442 5.26624 82.1267 125.471
+PRESSAVG: 11000 -14.6124 -3.50153 7.78307 -2.43535 29.0549 -3.60039 8.04286 -3.86818 -10.7459
+GPRESSAVG: 11000 -14.8881 -3.67045 7.83492 -1.98102 28.9722 -3.11649 7.86971 -3.56735 -10.7431
+ENERGY:   11000       330.8722       930.2512      1004.7194        54.9594        -136640.5728     12454.6286         0.0000         1.2826     22852.6130         -99011.2464       298.2857   -121863.8595    -98955.5427       297.3356             -6.5872        23.4934    373311.0066         1.2322         1.1136
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 11000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 11000
+WRITING COORDINATES TO RESTART FILE AT STEP 11000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 11000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 11500
+WRITING COORDINATES TO RESTART FILE AT STEP 11500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 11500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 12000 293.416 -247.128 65.5267 -246.15 74.7777 227.514 64.5867 227.033 227.123
+GPRESSURE: 12000 310.399 -230.627 12.5624 -228.472 152.885 188.42 81.9674 201.883 229.916
+PRESSAVG: 12000 -15.2562 32.6651 32.3548 33.5942 51.8151 -18.1022 31.5724 -18.5375 -52.4817
+GPRESSAVG: 12000 -15.3311 32.2872 32.6084 33.7234 51.9287 -18.5052 31.8445 -18.3306 -52.4072
+ENERGY:   12000       356.2508       930.5252      1003.3170        58.3977        -136896.0919     12634.4112         0.0000         0.7764     22670.0641         -99242.3495       295.9030   -121912.4136    -99185.4690       296.0267            198.4390       231.0665    373276.2630        -5.3076        -5.2699
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 12000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 12000
+WRITING COORDINATES TO RESTART FILE AT STEP 12000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 12000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 59.4246
+LDB: ============== END OF LOAD BALANCING =============== 59.4247
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 59.4251
+LDB: ============= START OF LOAD BALANCING ============== 59.6488
+LDB: TIME 59.649 LOAD: AVG 0.177844 MAX 0.193158  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.293 MB
+LDB: TIME 59.6491 LOAD: AVG 0.177844 MAX 0.193158  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.293 MB
+LDB: TIME 59.6491 LOAD: AVG 0.177844 MAX 0.193158  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.293 MB
+LDB: ============== END OF LOAD BALANCING =============== 59.6493
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 59.6496
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 12500
+WRITING COORDINATES TO RESTART FILE AT STEP 12500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 12500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 13000 -59.0454 -67.557 -11.0163 -66.6204 172.921 -54.1805 -11.9087 -54.6415 -176.877
+GPRESSURE: 13000 21.2348 -76.202 78.9144 -12.6937 114.308 -67.2245 -75.8624 -40.3163 -104.546
+PRESSAVG: 13000 0.712294 -14.2002 0.918741 -13.1513 27.2885 23.8807 0.0531464 23.3929 -30.9518
+GPRESSAVG: 13000 0.917072 -14.3764 0.899716 -13.2051 27.2101 24.4358 -0.0157902 22.7019 -30.8466
+ENERGY:   13000       330.5108       936.0744      1017.4274        63.8510        -136555.5600     12295.6263         0.0000         0.9854     22731.1680         -99179.9164       296.7005   -121911.0845    -99128.3244       295.7534            -21.0002        10.3322    373573.4057        -0.9837        -0.9065
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 13000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 13000
+WRITING COORDINATES TO RESTART FILE AT STEP 13000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 13000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 13500
+WRITING COORDINATES TO RESTART FILE AT STEP 13500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 13500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 14000 -377.793 134.668 74.0813 135.68 -125.54 -63.8824 72.7136 -64.4599 22.8636
+GPRESSURE: 14000 -379.651 102.869 51.0273 243.17 -88.8189 -103.207 46.5899 -41.2781 72.5971
+PRESSAVG: 14000 5.81455 28.7295 -20.473 29.5188 -12.2295 -0.386341 -21.6402 -0.856497 1.44023
+GPRESSAVG: 14000 5.60728 28.8143 -20.7338 29.3339 -11.9604 -0.525064 -21.0823 -0.782382 1.53339
+ENERGY:   14000       318.1988       934.1912       995.5728        53.3924        -136313.1250     12172.1974         0.0000         1.1591     22666.0055         -99172.4079       295.8500   -121838.4134    -99108.5427       295.8686           -160.1565      -131.9576    375071.9573        -1.6582        -1.6066
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 14000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 14000
+WRITING COORDINATES TO RESTART FILE AT STEP 14000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 14000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 68.6208
+LDB: ============== END OF LOAD BALANCING =============== 68.621
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 68.6214
+LDB: ============= START OF LOAD BALANCING ============== 68.8474
+LDB: TIME 68.8476 LOAD: AVG 0.175693 MAX 0.192215  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.309 MB
+LDB: TIME 68.8477 LOAD: AVG 0.175693 MAX 0.192215  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.309 MB
+LDB: TIME 68.8478 LOAD: AVG 0.175693 MAX 0.192215  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.309 MB
+LDB: ============== END OF LOAD BALANCING =============== 68.848
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 68.8482
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 14500
+WRITING COORDINATES TO RESTART FILE AT STEP 14500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 14500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 15000 155.905 -120.202 -74.2715 -119.149 148.365 -68.2039 -76.1159 -68.8889 -110.556
+GPRESSURE: 15000 162.04 -73.0414 -16.0161 -149.469 168.338 -7.4381 5.82051 -87.978 -42.8991
+PRESSAVG: 15000 -21.4476 44.1119 11.3672 45.4887 9.65163 -6.93352 9.80381 -7.65934 -5.08711
+GPRESSAVG: 15000 -21.5445 44.1821 11.1353 45.581 9.94394 -7.36688 9.71584 -7.50456 -5.09881
+ENERGY:   15000       329.9328       936.4217       995.9867        55.0426        -136499.2335     12344.0980         0.0000         2.3430     22854.3549         -98981.0539       298.3084   -121835.4088    -98916.7598       296.2752             64.5714        95.8263    373318.8265        -5.6277        -5.5664
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 15000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 15000
+WRITING COORDINATES TO RESTART FILE AT STEP 15000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 15000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 15500
+WRITING COORDINATES TO RESTART FILE AT STEP 15500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 15500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 16000 -347.048 -15.1648 63.1918 -13.8208 -191.638 77.4143 61.166 76.6056 14.7589
+GPRESSURE: 16000 -294.246 4.23357 38.5965 -23.9041 -150.434 145.924 104.977 105.742 15.8173
+PRESSAVG: 16000 -28.3692 -34.1029 -3.91693 -33.034 33.3686 28.4918 -5.90528 27.7733 -9.82548
+GPRESSAVG: 16000 -28.274 -34.2812 -3.73451 -32.7959 33.5128 28.3198 -6.00935 27.5433 -10.0329
+ENERGY:   16000       330.3356       924.9544       998.6731        51.5988        -136258.1455     12108.4842         0.0000         2.1801     22807.3226         -99034.5967       297.6945   -121841.9192    -98978.9399       296.8680           -174.6423      -142.9542    374457.5327        -1.6087        -1.5981
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 16000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 16000
+WRITING COORDINATES TO RESTART FILE AT STEP 16000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 16000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 77.7718
+LDB: ============== END OF LOAD BALANCING =============== 77.7719
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 77.7721
+LDB: ============= START OF LOAD BALANCING ============== 77.9989
+LDB: TIME 77.9991 LOAD: AVG 0.176452 MAX 0.190726  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.309 MB
+LDB: TIME 77.9992 LOAD: AVG 0.176452 MAX 0.190726  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.309 MB
+LDB: TIME 77.9993 LOAD: AVG 0.176452 MAX 0.190726  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.309 MB
+LDB: ============== END OF LOAD BALANCING =============== 77.9995
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 77.9997
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 16500
+WRITING COORDINATES TO RESTART FILE AT STEP 16500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 16500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 17000 -91.8898 -44.682 -142.237 -43.3686 -229.005 -9.25167 -144.943 -10.185 -180.522
+GPRESSURE: 17000 -112.909 8.60852 -121.615 -66.5459 -171.344 37.3003 -16.8742 -92.1506 -114.3
+PRESSAVG: 17000 -15.8086 5.79527 37.9053 7.08585 36.0498 29.3246 35.5945 28.4752 -9.05982
+GPRESSAVG: 17000 -15.9197 5.58251 38.1454 6.80218 36.2012 29.6364 35.0476 28.6518 -9.19988
+ENERGY:   17000       337.5584       963.3922       995.6734        55.1831        -135975.5080     12045.1979         0.0000         5.3506     22750.9432         -98822.2093       296.9587   -121573.1525    -98762.3115       297.2513           -167.1387      -132.8511    374715.2309         3.7271         3.6939
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 17000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 17000
+WRITING COORDINATES TO RESTART FILE AT STEP 17000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 17000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 17500
+WRITING COORDINATES TO RESTART FILE AT STEP 17500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 17500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 18000 55.4969 226.278 -113.728 227.155 -270.621 150.545 -116.326 149.762 19.9241
+GPRESSURE: 18000 72.6017 127.509 -179.654 311.322 -195.627 177.452 -123.97 22.9818 26.9331
+PRESSAVG: 18000 23.0485 29.4303 13.8144 30.5253 -45.7898 -1.67337 11.0937 -2.54599 5.22057
+GPRESSAVG: 18000 23.0177 29.096 12.6827 30.9083 -46.4389 -1.93721 11.6151 -2.96319 5.7054
+ENERGY:   18000       320.0952       927.5153       999.3354        57.4093        -136280.5162     12125.1856         0.0000         2.7032     22770.5013         -99077.7711       297.2139   -121848.2723    -99018.5844       297.2466            -65.0667       -32.0308    373294.6048        -5.8402        -5.9053
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 18000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 18000
+WRITING COORDINATES TO RESTART FILE AT STEP 18000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 18000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 86.956
+LDB: ============== END OF LOAD BALANCING =============== 86.9561
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 86.9565
+LDB: ============= START OF LOAD BALANCING ============== 87.1824
+LDB: TIME 87.1826 LOAD: AVG 0.174886 MAX 0.189169  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.312 MB
+LDB: TIME 87.1827 LOAD: AVG 0.174886 MAX 0.189169  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.312 MB
+LDB: TIME 87.1827 LOAD: AVG 0.174886 MAX 0.189169  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.312 MB
+LDB: ============== END OF LOAD BALANCING =============== 87.183
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 87.1832
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 18500
+WRITING COORDINATES TO RESTART FILE AT STEP 18500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 18500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 19000 -113.065 20.7071 51.4044 20.9561 14.9545 152.695 48.9103 152.122 46.7594
+GPRESSURE: 19000 -90.5825 -101.447 98.082 76.7191 62.9883 104.023 71.0926 166.979 58.4849
+PRESSAVG: 19000 9.02222 33.7291 -12.8199 34.2537 -2.75234 -16.6688 -15.5031 -17.3629 -1.50786
+GPRESSAVG: 19000 8.79938 33.7142 -12.1644 33.9254 -2.24497 -16.4971 -15.4568 -17.4723 -1.87992
+ENERGY:   19000       340.3574       923.4422      1003.3164        54.4531        -136378.2784     12221.9991         0.0000         2.9769     22795.8627         -99035.8707       297.5450   -121831.7333    -98981.6276       297.4418            -17.1169        10.2969    373525.6826         1.5873         1.5582
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 19000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 19000
+WRITING COORDINATES TO RESTART FILE AT STEP 19000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 19000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 19500
+WRITING COORDINATES TO RESTART FILE AT STEP 19500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 19500
+FINISHED WRITING RESTART VELOCITIES
+colvars: Synchronizing (emptying the buffer of) trajectory file "milestone_equilibration.colvars.traj".
+colvars: Saving collective variables state to "milestone_equilibration.restart.colvars.state".
+PRESSURE: 20000 118.388 13.7321 49.0159 13.2044 -154.541 -83.2651 47.5703 -83.3933 -59.236
+GPRESSURE: 20000 155.809 55.518 14.1231 -126.843 -114.381 2.40528 107.329 -104.595 -31.347
+PRESSAVG: 20000 -21.0228 2.80956 7.66957 2.80297 40.6221 10.8606 5.89211 10.5072 -9.93277
+GPRESSAVG: 20000 -20.8548 3.57655 7.74762 2.70813 40.6421 11.0238 5.72259 10.5308 -9.93618
+TIMING: 20000  CPU: 91.6606, 0.00457474/step  Wall: 92.1925, 0.00460584/step, 0.038382 hours remaining, 653.312500 MB of memory in use.
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG            PRESSURE      GPRESSURE         VOLUME       PRESSAVG      GPRESSAVG
+
+ENERGY:   20000       324.3866       974.0586       994.1128        71.7530        -136225.2918     12179.6513         0.0000         1.3278     22631.9547         -99048.0469       295.4055   -121680.0016    -98991.2311       296.9486            -31.7962         3.3603    373192.8160         3.2222         3.2837
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 20000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 20000
+WRITING COORDINATES TO RESTART FILE AT STEP 20000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 20000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 96.3244
+LDB: ============== END OF LOAD BALANCING =============== 96.3245
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 96.3249
+LDB: ============= START OF LOAD BALANCING ============== 96.5508
+LDB: TIME 96.551 LOAD: AVG 0.175095 MAX 0.189528  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.312 MB
+LDB: TIME 96.5511 LOAD: AVG 0.175095 MAX 0.189528  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.312 MB
+LDB: TIME 96.5511 LOAD: AVG 0.175095 MAX 0.189528  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.312 MB
+LDB: ============== END OF LOAD BALANCING =============== 96.5514
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 96.5516
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 20500
+WRITING COORDINATES TO RESTART FILE AT STEP 20500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 20500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 21000 -198.611 -140.595 23.8944 -141.845 176.381 10.9271 22.7765 11.0807 -17.708
+GPRESSURE: 21000 -158.555 -55.1748 -34.2977 -105.249 219.198 32.5104 146.205 21.3575 11.6731
+PRESSAVG: 21000 -10.235 0.665572 -1.83661 -0.214012 0.49887 -13.1702 -3.19436 -13.1778 32.4849
+GPRESSAVG: 21000 -10.4443 0.230301 -2.02934 -0.509 0.878688 -13.0241 -3.12442 -12.9387 32.4849
+ENERGY:   21000       346.2303       913.0751      1019.7918        57.1289        -136372.3528     12256.1947         0.0000         1.5268     22771.5028         -99006.9024       297.2270   -121778.4051    -98949.5135       296.7309            -13.3127        24.1051    373777.8544         7.5829         7.6398
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 21000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 21000
+WRITING COORDINATES TO RESTART FILE AT STEP 21000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 21000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 21500
+WRITING COORDINATES TO RESTART FILE AT STEP 21500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 21500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 22000 -66.3283 -136.812 -41.7265 -137.202 -284.637 -47.6638 -42.9428 -47.7916 -237.46
+GPRESSURE: 22000 -4.64056 -83.3631 -66.284 -110.763 -272.057 -57.2984 124.929 -24.897 -213.984
+PRESSAVG: 22000 5.453 -25.7911 2.95842 -26.6693 7.4186 18.0054 1.84619 18.0463 -15.6195
+GPRESSAVG: 22000 5.74803 -25.1986 3.38867 -26.9513 7.0759 17.9498 1.18021 17.8003 -15.2223
+ENERGY:   22000       319.1984       901.8650      1008.0706        62.9016        -136130.2904     12145.2524         0.0000         0.6880     22823.5735         -98868.7409       297.9067   -121692.3144    -98810.3889       297.1183           -196.1417      -163.5604    375678.4808        -0.9160        -0.7995
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 22000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 22000
+WRITING COORDINATES TO RESTART FILE AT STEP 22000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 22000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 105.611
+LDB: ============== END OF LOAD BALANCING =============== 105.611
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 105.611
+LDB: ============= START OF LOAD BALANCING ============== 105.839
+LDB: TIME 105.839 LOAD: AVG 0.177017 MAX 0.19211  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.312 MB
+LDB: TIME 105.84 LOAD: AVG 0.177017 MAX 0.19211  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.312 MB
+LDB: TIME 105.84 LOAD: AVG 0.177017 MAX 0.19211  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.312 MB
+LDB: ============== END OF LOAD BALANCING =============== 105.84
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 105.84
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 22500
+WRITING COORDINATES TO RESTART FILE AT STEP 22500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 22500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 23000 321.193 -59.0407 -3.27242 -57.9236 -95.0821 -20.8876 -3.11272 -21.1909 106.7
+GPRESSURE: 23000 349.211 -68.8209 12.7465 23.3675 -61.6457 -80.3965 -26.528 -7.69465 125.901
+PRESSAVG: 23000 -72.1992 -12.0457 32.0167 -11.5381 50.0025 2.93955 31.3872 2.66144 41.1656
+GPRESSAVG: 23000 -72.4168 -12.1932 31.7766 -10.9253 50.0028 3.28884 31.5311 2.48294 40.9133
+ENERGY:   23000       343.8805       911.8808      1005.5677        42.8461        -136463.7904     12285.9706         0.0000         0.5699     22805.9974         -99067.0775       297.6773   -121873.0749    -99002.9036       297.2123            110.9369       137.8221    372390.1208         6.3229         6.1665
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 23000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 23000
+WRITING COORDINATES TO RESTART FILE AT STEP 23000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 23000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 23500
+WRITING COORDINATES TO RESTART FILE AT STEP 23500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 23500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 24000 -273.019 -251.424 -182.615 -250.331 -483.144 205.83 -182.947 205.434 -345.283
+GPRESSURE: 24000 -190.643 -273.423 -105.865 -282.833 -452.79 215.399 -216.969 152.159 -368.811
+PRESSAVG: 24000 21.9442 -11.6563 -8.40095 -10.3317 -15.852 7.48406 -8.59524 7.04789 3.26918
+GPRESSAVG: 24000 21.7079 -12.1094 -8.32269 -9.87179 -16.0585 7.09162 -8.36976 7.31553 2.90016
+ENERGY:   24000       353.0677       958.3713      1013.8826        62.6287        -135545.6760     11880.6038         0.0000         1.3812     22492.6905         -98783.0502       293.5878   -121275.7406    -98729.5467       297.2890           -367.1489      -337.4146    376347.4648         3.1204         2.8498
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 24000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 24000
+WRITING COORDINATES TO RESTART FILE AT STEP 24000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 24000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 114.785
+LDB: ============== END OF LOAD BALANCING =============== 114.785
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 114.786
+LDB: ============= START OF LOAD BALANCING ============== 115.011
+LDB: TIME 115.012 LOAD: AVG 0.175476 MAX 0.192205  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.348 MB
+LDB: TIME 115.012 LOAD: AVG 0.175476 MAX 0.192205  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.348 MB
+LDB: TIME 115.012 LOAD: AVG 0.175476 MAX 0.192205  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.348 MB
+LDB: ============== END OF LOAD BALANCING =============== 115.012
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 115.012
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 24500
+WRITING COORDINATES TO RESTART FILE AT STEP 24500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 24500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 25000 89.7722 -151.63 -50.8348 -150.511 67.0953 -29.4379 -50.1194 -29.6329 177.395
+GPRESSURE: 25000 136.683 -137.009 -44.2306 -127.641 124.57 4.29189 -9.78924 -45.2637 170.239
+PRESSAVG: 25000 -14.6105 23.8955 -45.9701 24.8068 -8.76475 -14.9508 -45.8061 -15.1913 35.8476
+GPRESSAVG: 25000 -14.5513 23.9134 -46.3646 23.9553 -8.64155 -15.1249 -45.4993 -15.4776 36.0757
+ENERGY:   25000       328.2986       953.0621       999.3522        52.5502        -136202.7744     12260.3847         0.0000         0.7968     22787.1032         -98821.2265       297.4306   -121608.3297    -98762.7895       298.1705            111.4208       143.8306    373970.5414         4.1574         4.2943
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 25000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 25000
+WRITING COORDINATES TO RESTART FILE AT STEP 25000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 25000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 25500
+WRITING COORDINATES TO RESTART FILE AT STEP 25500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 25500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 26000 -37.9146 -85.0555 -72.704 -83.4059 -40.7837 42.3207 -72.5003 41.8656 -84.309
+GPRESSURE: 26000 -107.968 -161.046 -96.9766 -114.44 28.483 10.3288 29.8173 75.222 18.7269
+PRESSAVG: 26000 -17.6328 -11.9538 -10.7077 -10.4995 7.88032 25.7903 -10.3108 25.4335 3.75238
+GPRESSAVG: 26000 -17.6138 -12.3721 -10.2156 -10.2399 8.08351 25.3477 -10.6078 25.9265 3.74928
+ENERGY:   26000       323.5560       922.1414       993.3736        54.4332        -136209.0962     12122.3939         0.0000         1.1015     22819.9830         -98972.1135       297.8598   -121792.0965    -98914.9568       297.8832            -54.3357       -20.2527    373419.1080        -2.0000        -1.9270
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 26000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 26000
+WRITING COORDINATES TO RESTART FILE AT STEP 26000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 26000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 123.956
+LDB: ============== END OF LOAD BALANCING =============== 123.956
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 123.956
+LDB: ============= START OF LOAD BALANCING ============== 124.181
+LDB: TIME 124.182 LOAD: AVG 0.174954 MAX 0.188767  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.352 MB
+LDB: TIME 124.182 LOAD: AVG 0.174954 MAX 0.188767  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.352 MB
+LDB: TIME 124.182 LOAD: AVG 0.174954 MAX 0.188767  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.352 MB
+LDB: ============== END OF LOAD BALANCING =============== 124.182
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 124.182
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 26500
+WRITING COORDINATES TO RESTART FILE AT STEP 26500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 26500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 27000 43.1737 -123.514 -50.4576 -122.318 -275.708 61.2477 -50.859 60.8088 -400.329
+GPRESSURE: 27000 48.0957 -186.79 -263.891 -0.245939 -221.651 159.316 72.5122 24.5108 -353.884
+PRESSAVG: 27000 -2.68243 -6.67668 -32.7263 -5.30015 50.5131 -16.5342 -32.9697 -16.9958 -41.46
+GPRESSAVG: 27000 -2.29943 -6.57836 -33.1115 -5.19236 50.3703 -16.3996 -32.7003 -17.2421 -41.7852
+ENERGY:   27000       319.0294       924.9769       984.7929        56.2482        -136377.1448     12178.3305         0.0000         1.1188     22892.6769         -99019.9711       298.8086   -121912.6480    -98960.3896       296.5929           -210.9546      -175.8133    374067.4562         2.1236         2.0952
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 27000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 27000
+WRITING COORDINATES TO RESTART FILE AT STEP 27000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 27000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 27500
+WRITING COORDINATES TO RESTART FILE AT STEP 27500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 27500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 28000 -276.143 71.0149 -31.0392 72.0722 -4.84476 -214.449 -31.614 -214.879 -266.835
+GPRESSURE: 28000 -220.144 11.5027 60.8641 119.632 59.3661 -206.247 -27.842 -166.657 -272.355
+PRESSAVG: 28000 8.48982 21.0541 -27.319 22.2458 -7.81448 -51.1037 -27.6679 -51.5309 -10.4885
+GPRESSAVG: 28000 8.25098 21.3328 -26.736 22.1373 -7.94093 -51.4105 -28.4774 -51.489 -10.0778
+ENERGY:   28000       342.3390       899.2128      1000.5682        64.0245        -135902.7711     12104.9202         0.0000         0.8357     22621.6586         -98869.2122       295.2712   -121490.8707    -98812.8272       296.9557           -182.6077      -144.3777    374353.9966        -3.2710        -3.2559
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 28000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 28000
+WRITING COORDINATES TO RESTART FILE AT STEP 28000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 28000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 133.3
+LDB: ============== END OF LOAD BALANCING =============== 133.3
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 133.3
+LDB: ============= START OF LOAD BALANCING ============== 133.533
+LDB: TIME 133.533 LOAD: AVG 0.17594 MAX 0.19051  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.359 MB
+LDB: TIME 133.533 LOAD: AVG 0.17594 MAX 0.19051  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.359 MB
+LDB: TIME 133.533 LOAD: AVG 0.17594 MAX 0.19051  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.359 MB
+LDB: ============== END OF LOAD BALANCING =============== 133.533
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 133.534
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 28500
+WRITING COORDINATES TO RESTART FILE AT STEP 28500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 28500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 29000 -89.7374 -154.676 -73.2641 -153.814 -294.554 -106.128 -74.0031 -106.533 -162.039
+GPRESSURE: 29000 -33.171 -69.4889 -79.0122 -138.26 -334.794 -153.83 -118.333 -30.1522 -96.9223
+PRESSAVG: 29000 61.7531 -19.1693 -35.9894 -18.388 -34.0115 1.19624 -36.608 0.838062 -26.6694
+GPRESSAVG: 29000 61.7018 -19.3168 -36.387 -18.2459 -34.0515 1.38196 -36.2229 0.524649 -26.8609
+ENERGY:   29000       325.3809       917.8755      1011.8048        62.1450        -135963.3498     11979.6201         0.0000         0.5436     22870.9849         -98794.9950       298.5255   -121665.9799    -98736.0484       297.3695           -182.1101      -154.9625    374216.5809         0.3574         0.2632
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 29000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 29000
+WRITING COORDINATES TO RESTART FILE AT STEP 29000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 29000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 29500
+WRITING COORDINATES TO RESTART FILE AT STEP 29500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 29500
+FINISHED WRITING RESTART VELOCITIES
+colvars: Synchronizing (emptying the buffer of) trajectory file "milestone_equilibration.colvars.traj".
+colvars: Saving collective variables state to "milestone_equilibration.restart.colvars.state".
+PRESSURE: 30000 202.623 15.5058 -35.3032 16.3008 -43.0457 -4.90885 -36.3353 -5.35598 -20.807
+GPRESSURE: 30000 192.35 87.3347 19.9286 -50.5453 -33.6917 -69.5698 -86.5595 -16.7701 83.0005
+PRESSAVG: 30000 8.72521 -19.7881 -31.821 -18.9159 -6.22822 21.0505 -32.708 20.6115 0.123933
+GPRESSAVG: 30000 8.54222 -19.271 -31.8154 -19.4041 -5.97529 21.4687 -32.5791 20.3327 0.153732
+TIMING: 30000  CPU: 137.68, 0.00460198/step  Wall: 138.525, 0.00463327/step, 0.0257404 hours remaining, 653.445312 MB of memory in use.
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG            PRESSURE      GPRESSURE         VOLUME       PRESSAVG      GPRESSAVG
+
+ENERGY:   30000       333.2221       927.2762       999.4200        62.3084        -136239.3240     12253.5666         0.0000         0.6504     22717.5505         -98945.3298       296.5228   -121662.8804    -98889.3937       297.2992             46.2566        80.5530    374230.4616         0.8736         0.9069
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 30000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 30000
+WRITING COORDINATES TO RESTART FILE AT STEP 30000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 30000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 142.659
+LDB: ============== END OF LOAD BALANCING =============== 142.659
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 142.659
+LDB: ============= START OF LOAD BALANCING ============== 142.888
+LDB: TIME 142.888 LOAD: AVG 0.175411 MAX 0.190946  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.445 MB
+LDB: TIME 142.889 LOAD: AVG 0.175411 MAX 0.190946  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.445 MB
+LDB: TIME 142.889 LOAD: AVG 0.175411 MAX 0.190946  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.445 MB
+LDB: ============== END OF LOAD BALANCING =============== 142.889
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 142.889
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 30500
+WRITING COORDINATES TO RESTART FILE AT STEP 30500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 30500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 31000 -214.834 82.3966 131.251 83.1543 18.1735 -11.6619 131.244 -11.892 129.267
+GPRESSURE: 31000 -155.059 108.751 164.589 -15.5684 44.5193 14.3244 59.1226 46.7537 146.625
+PRESSAVG: 31000 -14.7367 10.9166 43.8013 11.5504 12.9345 14.7722 43.4246 14.5067 -0.568819
+GPRESSAVG: 31000 -14.3344 10.8049 43.8359 11.677 12.6219 14.5951 43.6004 15.5673 -0.555101
+ENERGY:   31000       331.7757       905.9397      1015.9240        53.5096        -136460.1537     12165.6142         0.0000         0.5990     22863.3966         -99123.3949       298.4265   -121986.7916    -99063.2387       297.1843            -22.4648        12.0283    373600.5764        -0.7903        -0.7559
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 31000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 31000
+WRITING COORDINATES TO RESTART FILE AT STEP 31000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 31000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 31500
+WRITING COORDINATES TO RESTART FILE AT STEP 31500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 31500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 32000 -98.4998 166.816 -30.3267 167.013 -165.667 -31.0458 -31.0985 -31.2583 -203.819
+GPRESSURE: 32000 -88.8916 216.16 -9.18724 169.353 -107.824 -74.142 31.4696 66.9396 -187.817
+PRESSAVG: 32000 -41.9875 3.53661 39.5418 4.01688 25.342 -1.50441 39.2861 -1.69958 8.78207
+GPRESSAVG: 32000 -42.4269 3.51959 39.3502 3.75911 25.6757 -1.22816 39.5117 -2.38565 8.67152
+ENERGY:   32000       340.4565       924.1073       984.7806        56.0629        -136271.4973     12134.1821         0.0000         1.3635     23021.7666         -98808.7778       300.4936   -121830.5444    -98748.4428       296.6590           -155.9952      -128.1777    375080.2962        -2.6212        -2.6932
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 32000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 32000
+WRITING COORDINATES TO RESTART FILE AT STEP 32000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 32000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 151.844
+LDB: ============== END OF LOAD BALANCING =============== 151.844
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 151.844
+LDB: ============= START OF LOAD BALANCING ============== 152.076
+LDB: TIME 152.076 LOAD: AVG 0.174868 MAX 0.190163  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.613 MB
+LDB: TIME 152.076 LOAD: AVG 0.174868 MAX 0.190163  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.613 MB
+LDB: TIME 152.076 LOAD: AVG 0.174868 MAX 0.190163  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.613 MB
+LDB: ============== END OF LOAD BALANCING =============== 152.076
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 152.077
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 32500
+WRITING COORDINATES TO RESTART FILE AT STEP 32500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 32500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 33000 -151.771 33.7522 -72.0949 34.213 -236.307 -31.0396 -72.6429 -31.2874 -167.265
+GPRESSURE: 33000 -174.716 36.3372 -81.7087 44.8481 -185.823 -84.5194 -51.8488 22.2762 -112.554
+PRESSAVG: 33000 1.5841 -8.75771 -18.9205 -8.41407 14.9125 6.56768 -19.6367 6.3213 -1.84383
+GPRESSAVG: 33000 1.48405 -9.08188 -18.526 -8.49515 14.548 6.26554 -20.0871 6.49647 -1.53866
+ENERGY:   33000       357.4172       924.7132       994.2432        54.9424        -135839.5436     11940.8376         0.0000         0.1904     22697.7500         -98869.4496       296.2643   -121567.1996    -98811.7319       297.3952           -185.1145      -157.6975    373550.9689         4.8843         4.8311
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 33000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 33000
+WRITING COORDINATES TO RESTART FILE AT STEP 33000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 33000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 33500
+WRITING COORDINATES TO RESTART FILE AT STEP 33500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 33500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 34000 126.188 -101.256 64.6574 -101.217 124.278 237.405 64.9554 237.449 77.7545
+GPRESSURE: 34000 165.766 -103.316 44.4887 -47.7745 172.838 279.039 37.236 316.577 86.0796
+PRESSAVG: 34000 18.8346 -14.2049 13.244 -13.9602 -27.0055 6.68295 13.0903 6.57888 8.55721
+GPRESSAVG: 34000 18.656 -14.0126 13.342 -14.1901 -26.6288 6.83932 12.8241 6.42984 8.2411
+ENERGY:   34000       312.0428       993.7170       991.2257        59.3808        -136364.3640     12357.0171         0.0000         0.3420     22736.7823         -98913.8564       296.7738   -121650.6387    -98855.9789       297.2075            109.4070       141.5611    374527.2825         0.1288         0.0894
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 34000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 34000
+WRITING COORDINATES TO RESTART FILE AT STEP 34000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 34000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 160.979
+LDB: ============== END OF LOAD BALANCING =============== 160.979
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 160.98
+LDB: ============= START OF LOAD BALANCING ============== 161.208
+LDB: TIME 161.208 LOAD: AVG 0.174967 MAX 0.190343  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.613 MB
+LDB: TIME 161.208 LOAD: AVG 0.174967 MAX 0.190343  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.613 MB
+LDB: TIME 161.208 LOAD: AVG 0.174967 MAX 0.190343  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.613 MB
+LDB: ============== END OF LOAD BALANCING =============== 161.208
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 161.208
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 34500
+WRITING COORDINATES TO RESTART FILE AT STEP 34500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 34500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 35000 -95.678 143.34 -30.6253 143.611 -229.17 -108.119 -30.6216 -108.198 310.733
+GPRESSURE: 35000 -24.7897 120.493 -54.2549 139.821 -251.302 -30.4467 25.6013 -49.7974 367.713
+PRESSAVG: 35000 -50.3261 -2.27073 1.26358 -2.21239 3.3806 -26.758 1.43932 -26.7404 40.9512
+GPRESSAVG: 35000 -50.1918 -2.29236 0.962662 -1.95035 3.3152 -27.0281 1.71787 -25.9342 41.0179
+ENERGY:   35000       341.2401       946.5284      1004.7101        55.4366        -136063.9175     12196.0479         0.0000         0.8648     22754.2525         -98764.8371       297.0018   -121519.0896    -98708.9388       297.4130             -4.7052        30.5405    374334.9925        -1.9981        -1.9529
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 35000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 35000
+WRITING COORDINATES TO RESTART FILE AT STEP 35000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 35000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 35500
+WRITING COORDINATES TO RESTART FILE AT STEP 35500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 35500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 36000 -122.462 -229.684 -67.1122 -229.344 -159.606 105.377 -67.3497 105.227 62.3266
+GPRESSURE: 36000 -97.7062 -272.177 -142.062 -241.232 -108.904 110.858 44.779 49.4239 74.9508
+PRESSAVG: 36000 -12.4715 -26.5135 21.44 -26.1024 21.5324 -6.55331 21.5873 -6.64712 -2.64216
+GPRESSAVG: 36000 -12.3683 -26.3857 21.7911 -26.3098 21.9286 -6.34564 21.5326 -7.61814 -3.03151
+ENERGY:   36000       333.9031       950.6527      1004.2709        62.0089        -136306.3714     12182.4548         0.0000         0.7022     22891.2653         -98881.1134       298.7902   -121772.3787    -98823.9743       297.3064            -73.2472       -43.8864    373423.6981         2.1396         2.1763
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 36000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 36000
+WRITING COORDINATES TO RESTART FILE AT STEP 36000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 36000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 170.083
+LDB: ============== END OF LOAD BALANCING =============== 170.083
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 170.083
+LDB: ============= START OF LOAD BALANCING ============== 170.308
+LDB: TIME 170.309 LOAD: AVG 0.17641 MAX 0.193009  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.613 MB
+LDB: TIME 170.309 LOAD: AVG 0.17641 MAX 0.193009  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.613 MB
+LDB: TIME 170.309 LOAD: AVG 0.17641 MAX 0.193009  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.613 MB
+LDB: ============== END OF LOAD BALANCING =============== 170.309
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 170.309
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 36500
+WRITING COORDINATES TO RESTART FILE AT STEP 36500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 36500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 37000 -73.781 21.4323 23.1636 21.0933 41.2498 -5.87521 22.0479 -5.99589 -2.74183
+GPRESSURE: 37000 -78.7734 -12.0879 38.4176 -36.5876 43.4361 46.3766 -62.2301 -72.7475 106.853
+PRESSAVG: 37000 28.7927 -6.18293 22.5307 -6.26089 17.899 14.4312 21.9108 14.3305 -38.8917
+GPRESSAVG: 37000 28.7425 -6.34399 22.6216 -6.54079 17.4687 14.463 21.6184 14.5388 -38.6191
+ENERGY:   37000       326.1591       928.7754      1001.7651        50.2005        -135958.6886     12132.4280         0.0000         0.4600     22825.3000         -98693.6005       297.9292   -121518.9005    -98631.9705       297.7058            -11.7576        23.8384    373953.4834         2.6000         2.5307
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 37000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 37000
+WRITING COORDINATES TO RESTART FILE AT STEP 37000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 37000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 37500
+WRITING COORDINATES TO RESTART FILE AT STEP 37500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 37500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 38000 -558.612 36.1575 19.651 35.6332 -65.5395 -48.8985 19.2861 -48.8145 -146.569
+GPRESSURE: 38000 -524.184 16.554 20.1036 102.993 -48.3981 13.8942 22.6288 -117.248 -86.0003
+PRESSAVG: 38000 -22.9079 -13.1526 1.13539 -13.6834 8.7724 -41.2968 0.279343 -41.3087 18.8869
+GPRESSAVG: 38000 -22.8944 -13.8494 0.746477 -13.8988 8.94653 -41.5158 0.28143 -40.6809 18.6615
+ENERGY:   38000       313.4066       928.1738       990.2976        65.4647        -135847.7050     12073.0243         0.0000         1.3538     22726.9822         -98749.0022       296.6459   -121475.9844    -98690.6638       298.3422           -256.9067      -219.5276    374962.8239         1.5838         1.5712
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 38000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 38000
+WRITING COORDINATES TO RESTART FILE AT STEP 38000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 38000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 179.283
+LDB: ============== END OF LOAD BALANCING =============== 179.283
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 179.283
+LDB: ============= START OF LOAD BALANCING ============== 179.513
+LDB: TIME 179.513 LOAD: AVG 0.177206 MAX 0.193195  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.633 MB
+LDB: TIME 179.513 LOAD: AVG 0.177206 MAX 0.193195  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.633 MB
+LDB: TIME 179.513 LOAD: AVG 0.177206 MAX 0.193195  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.633 MB
+LDB: ============== END OF LOAD BALANCING =============== 179.513
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 179.514
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 38500
+WRITING COORDINATES TO RESTART FILE AT STEP 38500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 38500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 39000 -259.274 16.314 -30.5025 15.4282 -241.765 -20.9521 -30.2763 -20.64 -196.29
+GPRESSURE: 39000 -223.62 -31.34 -50.3227 -8.7496 -229.741 -48.7831 11.6833 -57.3078 -151.768
+PRESSAVG: 39000 -15.4293 -42.3298 27.7925 -42.8218 39.6969 22.1995 27.6302 22.3146 -20.1734
+GPRESSAVG: 39000 -15.8145 -42.2737 27.8269 -42.3247 39.9939 22.501 27.6309 21.5662 -19.9923
+ENERGY:   39000       337.9156       991.3320       993.1443        47.5851        -136126.0234     12151.8137         0.0000         0.4398     22827.8661         -98775.9268       297.9627   -121603.7929    -98714.0578       297.5431           -232.4429      -201.7096    376069.9956         1.3647         1.3957
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 39000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 39000
+WRITING COORDINATES TO RESTART FILE AT STEP 39000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 39000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 39500
+WRITING COORDINATES TO RESTART FILE AT STEP 39500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 39500
+FINISHED WRITING RESTART VELOCITIES
+colvars: Synchronizing (emptying the buffer of) trajectory file "milestone_equilibration.colvars.traj".
+colvars: Saving collective variables state to "milestone_equilibration.restart.colvars.state".
+PRESSURE: 40000 180.393 -5.99229 -172.643 -7.33168 -118.577 117.591 -171.948 118.132 -457.095
+GPRESSURE: 40000 195.384 -6.56891 -190.266 91.8137 -79.0831 112.28 -105.643 115.63 -414.113
+PRESSAVG: 40000 17.6644 -17.3652 13.8756 -18.531 11.8154 -11.9937 14.4973 -11.5196 -28.7209
+GPRESSAVG: 40000 18.1323 -17.9316 14.0251 -18.951 11.4726 -11.9308 14.602 -11.1005 -28.7523
+TIMING: 40000  CPU: 183.249, 0.00455685/step  Wall: 184.311, 0.00457857/step, 0.0127183 hours remaining, 653.632812 MB of memory in use.
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG            PRESSURE      GPRESSURE         VOLUME       PRESSAVG      GPRESSAVG
+
+ENERGY:   40000       338.9251       963.6949       983.5232        57.6218        -135874.0814     12069.2295         0.0000         1.0354     22777.0003         -98683.0513       297.2988   -121460.0516    -98622.6762       298.2486           -131.7599       -99.2707    374417.4174         0.2530         0.2842
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 40000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 40000
+WRITING COORDINATES TO RESTART FILE AT STEP 40000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 40000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 188.442
+LDB: ============== END OF LOAD BALANCING =============== 188.443
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 188.443
+LDB: ============= START OF LOAD BALANCING ============== 188.669
+LDB: TIME 188.67 LOAD: AVG 0.175026 MAX 0.191509  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.633 MB
+LDB: TIME 188.67 LOAD: AVG 0.175026 MAX 0.191509  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.633 MB
+LDB: TIME 188.67 LOAD: AVG 0.175026 MAX 0.191509  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.633 MB
+LDB: ============== END OF LOAD BALANCING =============== 188.67
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 188.67
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 40500
+WRITING COORDINATES TO RESTART FILE AT STEP 40500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 40500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 41000 22.3716 -18.6451 14.039 -20.178 -135.721 -142.47 15.1888 -141.781 19.4483
+GPRESSURE: 41000 46.1876 65.0755 -10.7368 -9.67365 -81.0551 -128.214 32.0713 -96.5418 28.6811
+PRESSAVG: 41000 22.0062 14.5639 -38.0711 13.3062 -4.41874 -16.3456 -37.2313 -15.8003 4.31274
+GPRESSAVG: 41000 21.8966 14.8561 -38.1516 13.2975 -4.57999 -16.1004 -37.2731 -16.0933 4.26003
+ENERGY:   41000       340.9720       939.1032       991.3425        53.1581        -135930.7128     12148.0578         0.0000         2.9406     22742.4660         -98712.6726       296.8480   -121455.1386    -98652.1916       298.0040            -31.3004        -2.0621    373939.7296         7.3001         7.1922
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 41000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 41000
+WRITING COORDINATES TO RESTART FILE AT STEP 41000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 41000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 41500
+WRITING COORDINATES TO RESTART FILE AT STEP 41500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 41500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 42000 -162.884 39.0585 24.5432 38.5297 222.402 5.61476 25.4492 5.95251 -304.151
+GPRESSURE: 42000 -36.965 215.02 60.18 16.1126 165.782 -44.2944 35.7793 22.9411 -292.707
+PRESSAVG: 42000 1.72678 -1.30758 -0.00350832 -2.37531 -17.9118 -13.2408 0.987329 -12.7224 18.9134
+GPRESSAVG: 42000 1.59602 -1.08921 -0.0829503 -2.38407 -18.2502 -13.7743 0.89743 -12.6664 19.0918
+ENERGY:   42000       324.8098       934.5439      1014.8071        65.0245        -135965.6537     12145.2650         0.0000         1.3649     22663.5662         -98816.2724       295.8182   -121479.8386    -98766.1615       297.3192            -81.5441       -54.6300    375252.3267         0.9094         0.8125
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 42000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 42000
+WRITING COORDINATES TO RESTART FILE AT STEP 42000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 42000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 197.733
+LDB: ============== END OF LOAD BALANCING =============== 197.734
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 197.734
+LDB: ============= START OF LOAD BALANCING ============== 197.959
+LDB: TIME 197.96 LOAD: AVG 0.175711 MAX 0.194879  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.637 MB
+LDB: TIME 197.96 LOAD: AVG 0.175711 MAX 0.194879  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.637 MB
+LDB: TIME 197.96 LOAD: AVG 0.175711 MAX 0.194879  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.637 MB
+LDB: ============== END OF LOAD BALANCING =============== 197.96
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 197.96
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 42500
+WRITING COORDINATES TO RESTART FILE AT STEP 42500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 42500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 43000 32.8191 117.191 -137.557 116.633 115.754 106.138 -136.55 106.506 70.2059
+GPRESSURE: 43000 87.2825 94.968 -146.769 150.584 174.887 135.684 -77.3238 41.9876 56.6106
+PRESSAVG: 43000 15.3755 2.01773 -7.40067 1.57851 -3.99295 -29.4981 -6.6024 -29.2068 -19.8515
+GPRESSAVG: 43000 15.0283 2.00685 -7.58159 1.95266 -3.3829 -29.2834 -6.47623 -29.5748 -19.8351
+ENERGY:   43000       333.8320       927.6004      1003.7329        53.1260        -136282.8067     12271.5718         0.0000         0.8756     22966.8510         -98725.2169       299.7768   -121692.0679    -98662.8321       297.3329             72.9262       106.2602    374813.1280        -2.8230        -2.7299
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 43000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 43000
+WRITING COORDINATES TO RESTART FILE AT STEP 43000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 43000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 43500
+WRITING COORDINATES TO RESTART FILE AT STEP 43500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 43500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 44000 -25.7458 134.524 -71.0025 133.623 -392.662 212.677 -70.7754 212.995 39.8964
+GPRESSURE: 44000 11.6089 104.347 -39.5906 159.248 -381.141 154.869 -56.9596 250.249 89.543
+PRESSAVG: 44000 12.2676 -5.28763 -16.9845 -6.05167 -10.5461 9.5743 -16.4358 9.91338 -6.0348
+GPRESSAVG: 44000 12.5559 -5.24349 -16.9965 -6.10761 -10.7597 9.67162 -16.1481 9.78575 -6.09568
+ENERGY:   44000       342.7546       922.8026       994.5582        62.8240        -135872.0898     11949.9903         0.0000         1.2378     22826.8526         -98771.0697       297.9495   -121597.9223    -98712.3340       297.7252           -126.1706       -93.3296    373052.2503        -1.4378        -1.4331
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 44000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 44000
+WRITING COORDINATES TO RESTART FILE AT STEP 44000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 44000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 206.949
+LDB: ============== END OF LOAD BALANCING =============== 206.949
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 206.949
+LDB: ============= START OF LOAD BALANCING ============== 207.176
+LDB: TIME 207.176 LOAD: AVG 0.175651 MAX 0.191355  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.637 MB
+LDB: TIME 207.176 LOAD: AVG 0.175651 MAX 0.191355  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.637 MB
+LDB: TIME 207.176 LOAD: AVG 0.175651 MAX 0.191355  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.637 MB
+LDB: ============== END OF LOAD BALANCING =============== 207.177
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 207.177
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 44500
+WRITING COORDINATES TO RESTART FILE AT STEP 44500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 44500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 45000 -156.112 9.64891 -64.6013 8.93947 -69.3148 -16.3932 -65.5009 -16.3558 23.0503
+GPRESSURE: 45000 -113.946 42.4511 -145.406 62.0118 -14.1534 -44.0824 -65.4271 1.95933 20.6184
+PRESSAVG: 45000 -7.6059 12.8152 -0.0268537 11.9666 -26.5728 -1.7553 -0.493172 -1.59399 37.7425
+GPRESSAVG: 45000 -7.61574 12.4615 0.182212 12.0189 -26.5667 -1.95533 -0.292279 -1.30042 37.9986
+ENERGY:   45000       360.9966       931.0938       987.4502        53.1584        -136363.4700     12256.0469         0.0000         0.7815     22455.9973         -99317.9453       293.1088   -121773.9426    -99261.6767       296.3769            -67.4587       -35.8270    373458.7399         1.1879         1.2720
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 45000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 45000
+WRITING COORDINATES TO RESTART FILE AT STEP 45000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 45000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 45500
+WRITING COORDINATES TO RESTART FILE AT STEP 45500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 45500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 46000 89.1029 169.779 -160.62 169.671 -11.906 -43.3082 -160.669 -43.2839 -219.033
+GPRESSURE: 46000 149.152 17.9493 -126.372 276.397 -59.9111 -102.885 -105.283 -9.57059 -127.243
+PRESSAVG: 46000 21.1553 22.4733 -17.7618 22.1294 -38.8157 -18.1044 -18.4025 -18.1293 19.3974
+GPRESSAVG: 46000 21.1591 22.1089 -17.485 21.8215 -38.9026 -17.783 -18.9998 -18.4432 19.5351
+ENERGY:   46000       338.7524       952.0492      1006.3513        58.0054        -136223.6020     12125.3350         0.0000         1.8910     22780.0885         -98961.1294       297.3391   -121741.2179    -98905.3297       295.9071            -47.2789       -12.6676    373410.7328         0.5790         0.5972
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 46000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 46000
+WRITING COORDINATES TO RESTART FILE AT STEP 46000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 46000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 216.327
+LDB: ============== END OF LOAD BALANCING =============== 216.327
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 216.327
+LDB: ============= START OF LOAD BALANCING ============== 216.554
+LDB: TIME 216.554 LOAD: AVG 0.176499 MAX 0.192121  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.641 MB
+LDB: TIME 216.554 LOAD: AVG 0.176499 MAX 0.192121  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.641 MB
+LDB: TIME 216.555 LOAD: AVG 0.176499 MAX 0.192121  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.641 MB
+LDB: ============== END OF LOAD BALANCING =============== 216.555
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 216.555
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 46500
+WRITING COORDINATES TO RESTART FILE AT STEP 46500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 46500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 47000 -201.964 242.707 -27.7211 242.041 -6.10618 -159.612 -28.0389 -159.475 -48.1606
+GPRESSURE: 47000 -176.29 235.141 -31.4657 297.92 28.6503 -163.817 -22.7872 -101.722 7.75531
+PRESSAVG: 47000 41.3392 -11.0504 -17.0658 -11.4006 -30.3853 -26.2875 -17.2663 -26.2225 3.69436
+GPRESSAVG: 47000 41.6696 -10.0489 -16.941 -11.1262 -30.2177 -26.5498 -17.3387 -25.6921 3.40814
+ENERGY:   47000       336.8795       911.7435       999.0268        56.2329        -136064.4498     12011.0364         0.0000         0.1995     22880.9294         -98868.4019       298.6553   -121749.3312    -98813.2016       297.7256            -85.4102       -46.6281    372723.5698         4.8828         4.9534
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 47000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 47000
+WRITING COORDINATES TO RESTART FILE AT STEP 47000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 47000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 47500
+WRITING COORDINATES TO RESTART FILE AT STEP 47500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 47500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 48000 -102.648 47.2136 -8.88123 46.0902 29.556 -154.561 -9.23599 -154.295 168.396
+GPRESSURE: 48000 -24.9533 68.4412 -23.5102 26.5427 103.793 -119.678 -30.089 -168.539 110.08
+PRESSAVG: 48000 22.2522 17.1584 -7.06661 16.3371 11.5015 -15.2948 -7.61913 -15.1589 -20.047
+GPRESSAVG: 48000 21.8954 16.8584 -7.87455 16.692 11.4626 -15.1769 -6.84632 -15.4026 -19.8513
+ENERGY:   48000       330.4974       970.7149       986.1422        52.6943        -136152.1153     12179.9486         0.0000         0.6755     22971.6987         -98659.7437       299.8401   -121631.4424    -98596.7993       297.9364             31.7680        62.9735    373782.0249         4.5689         4.5023
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 48000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 48000
+WRITING COORDINATES TO RESTART FILE AT STEP 48000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 48000
+FINISHED WRITING RESTART VELOCITIES
+LDB: ============= START OF LOAD BALANCING ============== 225.68
+LDB: ============== END OF LOAD BALANCING =============== 225.68
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 225.68
+LDB: ============= START OF LOAD BALANCING ============== 225.909
+LDB: TIME 225.909 LOAD: AVG 0.176497 MAX 0.194655  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 None MEM: 653.641 MB
+LDB: TIME 225.91 LOAD: AVG 0.176497 MAX 0.194655  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.641 MB
+LDB: TIME 225.91 LOAD: AVG 0.176497 MAX 0.194655  PROXIES: TOTAL 48 MAXPE 12 MAXPATCH 1 RefineTorusLB MEM: 653.641 MB
+LDB: ============== END OF LOAD BALANCING =============== 225.91
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 225.91
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 48500
+WRITING COORDINATES TO RESTART FILE AT STEP 48500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 48500
+FINISHED WRITING RESTART VELOCITIES
+PRESSURE: 49000 197.487 81.2392 181.274 80.0561 -3.21589 -149.075 180.841 -148.807 -109.411
+GPRESSURE: 49000 156.847 139.028 43.7833 46.6142 54.9613 -98.3616 147.099 -296.414 -39.4049
+PRESSAVG: 49000 14.786 -13.5632 10.1186 -14.767 -19.2518 -6.17154 9.79266 -5.87563 5.88851
+GPRESSAVG: 49000 15.0148 -13.5513 10.4992 -15.3667 -19.1179 -6.28342 9.11923 -5.0647 5.62105
+ENERGY:   49000       336.2293       940.7932      1000.0784        53.6240        -136393.0187     12259.8991         0.0000         0.7573     22658.5833         -99143.0540       295.7531   -121801.6373    -99091.5911       296.6981             28.2868        57.4679    373846.8368         0.4742         0.5060
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 49000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 49000
+WRITING COORDINATES TO RESTART FILE AT STEP 49000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 49000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 49500
+WRITING COORDINATES TO RESTART FILE AT STEP 49500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 49500
+FINISHED WRITING RESTART VELOCITIES
+colvars: Synchronizing (emptying the buffer of) trajectory file "milestone_equilibration.colvars.traj".
+colvars: Saving collective variables state to "milestone_equilibration.restart.colvars.state".
+colvars: Saving collective variables state to "milestone_equilibration.colvars.state".
+PRESSURE: 50000 -182.374 -23.5064 99.7726 -24.0996 5.61061 -97.3325 99.0267 -97.3029 -304.282
+GPRESSURE: 50000 -124.777 -45.326 55.8958 -76.9522 -17.424 -40.0301 120.579 -93.1265 -252.508
+PRESSAVG: 50000 17.9629 -14.5935 5.68232 -15.6134 6.20968 3.21115 5.14761 3.41014 1.00029
+GPRESSAVG: 50000 17.8509 -14.8541 5.30331 -15.8312 6.02765 3.85856 5.3819 3.36776 1.12438
+TIMING: 50000  CPU: 229.541, 0.00462918/step  Wall: 230.941, 0.00466303/step, 0 hours remaining, 653.644531 MB of memory in use.
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG            PRESSURE      GPRESSURE         VOLUME       PRESSAVG      GPRESSAVG
+
+ENERGY:   50000       325.0660       960.1267       994.5871        61.1403        -136019.7017     12059.9657         0.0000         0.9190     22776.1143         -98841.7826       297.2872   -121617.8969    -98784.7420       296.9336           -160.3486      -131.5696    374635.0515         8.3909         8.3343
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 50000
+WRITING COORDINATES TO DCD FILE milestone_equilibration.dcd AT STEP 50000
+WRITING COORDINATES TO RESTART FILE AT STEP 50000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 50000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO OUTPUT FILE AT STEP 50000
+CLOSING EXTENDED SYSTEM TRAJECTORY FILE
+WRITING COORDINATES TO OUTPUT FILE AT STEP 50000
+CLOSING COORDINATE DCD FILE milestone_equilibration.dcd
+WRITING VELOCITIES TO OUTPUT FILE AT STEP 50000
+====================================================
+
+WallClock: 235.041229  CPUTime: 230.596664  Memory: 654.156250 MB
+[Partition 0][Node 0] End of program

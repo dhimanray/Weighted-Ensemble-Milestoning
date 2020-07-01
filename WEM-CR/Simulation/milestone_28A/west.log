@@ -1,0 +1,2858 @@
+-- WARNING  [py.warnings] -- /home/dray1/Miniconda2/envs/westpa-2017.10/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+Updating system with the options from the configuration file
+Maximum wallclock time: 3 days, 0:00:00
+
+Sat May 30 18:40:24 2020
+Iteration 11 (200 requested)
+Beginning iteration 11
+10 segments remain in iteration 11 (10 total)
+2 of 6 (33.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.434074
+per-bin maximum probability:                0.565926
+per-bin probability dynamic range (kT):     0.265248
+per-segment minimum non-zero probability:   0.0666667
+per-segment maximum non-zero probability:   0.155556
+per-segment probability dynamic range (kT): 0.847298
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:07:52.389173, cputime: 0:27:28.118111
+
+
+Sat May 30 18:48:16 2020
+Iteration 12 (200 requested)
+Beginning iteration 12
+10 segments remain in iteration 12 (10 total)
+2 of 6 (33.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.133333
+per-bin maximum probability:                0.866667
+per-bin probability dynamic range (kT):     1.8718
+per-segment minimum non-zero probability:   0.0222222
+per-segment maximum non-zero probability:   0.246667
+per-segment probability dynamic range (kT): 2.40695
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:06:54.325114, cputime: 0:23:59.270725
+
+
+Sat May 30 18:55:10 2020
+Iteration 13 (200 requested)
+Beginning iteration 13
+15 segments remain in iteration 13 (15 total)
+3 of 6 (50.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0444444
+per-bin maximum probability:                0.775556
+per-bin probability dynamic range (kT):     2.85934
+per-segment minimum non-zero probability:   0.00888889
+per-segment maximum non-zero probability:   0.246667
+per-segment probability dynamic range (kT): 3.32324
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:08:45.515053, cputime: 0:32:48.235828
+
+
+Sat May 30 19:03:56 2020
+Iteration 14 (200 requested)
+Beginning iteration 14
+25 segments remain in iteration 14 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.00888889
+per-bin maximum probability:                0.887778
+per-bin probability dynamic range (kT):     4.60392
+per-segment minimum non-zero probability:   0.00177778
+per-segment maximum non-zero probability:   0.246667
+per-segment probability dynamic range (kT): 4.93267
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:15:10.519325, cputime: 0:53:53.350858
+
+
+Sat May 30 19:19:06 2020
+Iteration 15 (200 requested)
+Beginning iteration 15
+30 segments remain in iteration 15 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00177778
+per-bin maximum probability:                0.91037
+per-bin probability dynamic range (kT):     6.23849
+per-segment minimum non-zero probability:   0.000355556
+per-segment maximum non-zero probability:   0.246667
+per-segment probability dynamic range (kT): 6.54211
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:18:46.780285, cputime: 1:11:54.152881
+
+
+Sat May 30 19:37:53 2020
+Iteration 16 (200 requested)
+Beginning iteration 16
+25 segments remain in iteration 16 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.00807407
+per-bin maximum probability:                0.679852
+per-bin probability dynamic range (kT):     4.43322
+per-segment minimum non-zero probability:   0.00118519
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 5.06733
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:51.674234, cputime: 0:54:11.298683
+
+
+Sat May 30 19:51:45 2020
+Iteration 17 (200 requested)
+Beginning iteration 17
+30 segments remain in iteration 17 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00282407
+per-bin maximum probability:                0.729185
+per-bin probability dynamic range (kT):     5.55375
+per-segment minimum non-zero probability:   0.000564815
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 5.80849
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:41.088289, cputime: 0:57:54.626580
+
+
+Sat May 30 20:06:26 2020
+Iteration 18 (200 requested)
+Beginning iteration 18
+30 segments remain in iteration 18 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0109963
+per-bin maximum probability:                0.729185
+per-bin probability dynamic range (kT):     4.19437
+per-segment minimum non-zero probability:   0.00197333
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 4.55751
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:16:25.698434, cputime: 1:03:53.072963
+
+
+Sat May 30 20:22:52 2020
+Iteration 19 (200 requested)
+Beginning iteration 19
+30 segments remain in iteration 19 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0136141
+per-bin maximum probability:                0.73755
+per-bin probability dynamic range (kT):     3.99223
+per-segment minimum non-zero probability:   0.00197333
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 4.55751
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:24.347725, cputime: 0:54:45.599319
+
+
+Sat May 30 20:37:16 2020
+Iteration 20 (200 requested)
+Beginning iteration 20
+30 segments remain in iteration 20 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00992253
+per-bin maximum probability:                0.752206
+per-bin probability dynamic range (kT):     4.3282
+per-segment minimum non-zero probability:   0.00165376
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 4.73418
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:13.227937, cputime: 0:56:06.141992
+
+
+Sat May 30 20:51:29 2020
+Iteration 21 (200 requested)
+Beginning iteration 21
+30 segments remain in iteration 21 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00259568
+per-bin maximum probability:                0.772528
+per-bin probability dynamic range (kT):     5.69582
+per-segment minimum non-zero probability:   0.000519136
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 5.89282
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:11.171584, cputime: 0:55:46.288547
+
+
+Sat May 30 21:05:40 2020
+Iteration 22 (200 requested)
+Beginning iteration 22
+30 segments remain in iteration 22 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00217289
+per-bin maximum probability:                0.666624
+per-bin probability dynamic range (kT):     5.72617
+per-segment minimum non-zero probability:   0.000413439
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 6.12048
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:11.708666, cputime: 0:57:29.351235
+
+
+Sat May 30 21:20:52 2020
+Iteration 23 (200 requested)
+Beginning iteration 23
+30 segments remain in iteration 23 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0172209
+per-bin maximum probability:                0.691893
+per-bin probability dynamic range (kT):     3.69331
+per-segment minimum non-zero probability:   0.00250644
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 4.31837
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:28.062453, cputime: 0:57:03.326062
+
+
+Sat May 30 21:35:20 2020
+Iteration 24 (200 requested)
+Beginning iteration 24
+30 segments remain in iteration 24 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00870595
+per-bin maximum probability:                0.736243
+per-bin probability dynamic range (kT):     4.43755
+per-segment minimum non-zero probability:   0.00145099
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 4.86498
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:00.232107, cputime: 0:59:41.569421
+
+
+Sat May 30 21:51:20 2020
+Iteration 25 (200 requested)
+Beginning iteration 25
+25 segments remain in iteration 25 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.00290198
+per-bin maximum probability:                0.748792
+per-bin probability dynamic range (kT):     5.55307
+per-segment minimum non-zero probability:   0.000580397
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 5.78127
+norm = 1, error in norm = -2.22045e-16 (-1*epsilon)
+Iteration wallclock: 0:13:06.803274, cputime: 0:48:47.648136
+
+
+Sat May 30 22:04:27 2020
+Iteration 26 (200 requested)
+Beginning iteration 26
+25 segments remain in iteration 26 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.00116079
+per-bin maximum probability:                0.768167
+per-bin probability dynamic range (kT):     6.4949
+per-segment minimum non-zero probability:   0.000193466
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 6.87989
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:22.933696, cputime: 0:52:18.618131
+
+
+Sat May 30 22:17:50 2020
+Iteration 27 (200 requested)
+Beginning iteration 27
+25 segments remain in iteration 27 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.000386931
+per-bin maximum probability:                0.770005
+per-bin probability dynamic range (kT):     7.5959
+per-segment minimum non-zero probability:   6.44885e-05
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 7.9785
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:20.185750, cputime: 0:51:05.074200
+
+
+Sat May 30 22:31:10 2020
+Iteration 28 (200 requested)
+Beginning iteration 28
+25 segments remain in iteration 28 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       6.44885e-05
+per-bin maximum probability:                0.775196
+per-bin probability dynamic range (kT):     9.39438
+per-segment minimum non-zero probability:   1.28977e-05
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 9.58794
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:51.189459, cputime: 0:48:36.745926
+
+
+Sat May 30 22:45:02 2020
+Iteration 29 (200 requested)
+Beginning iteration 29
+20 segments remain in iteration 29 (20 total)
+4 of 6 (66.666667%) active bins are populated
+per-bin minimum non-zero probability:       0.00039338
+per-bin maximum probability:                0.77637
+per-bin probability dynamic range (kT):     7.58761
+per-segment minimum non-zero probability:   7.09374e-05
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 7.88319
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:10:04.239617, cputime: 0:39:17.441750
+
+
+Sat May 30 22:55:06 2020
+Iteration 30 (200 requested)
+Beginning iteration 30
+30 segments remain in iteration 30 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       7.09374e-05
+per-bin maximum probability:                0.77637
+per-bin probability dynamic range (kT):     9.30059
+per-segment minimum non-zero probability:   1.41875e-05
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 9.49263
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:17:24.352143, cputime: 1:04:16.331690
+
+
+Sat May 30 23:12:30 2020
+Iteration 31 (200 requested)
+Beginning iteration 31
+30 segments remain in iteration 31 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       6.62082e-05
+per-bin maximum probability:                0.776408
+per-bin probability dynamic range (kT):     9.36963
+per-segment minimum non-zero probability:   1.18229e-05
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 9.67495
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:15:57.856886, cputime: 0:59:01.674511
+
+
+Sat May 30 23:28:28 2020
+Iteration 32 (200 requested)
+Beginning iteration 32
+30 segments remain in iteration 32 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.99513e-05
+per-bin maximum probability:                0.776408
+per-bin probability dynamic range (kT):     10.1629
+per-segment minimum non-zero probability:   4.72916e-06
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 10.5912
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:18.662126, cputime: 1:03:43.064966
+
+
+Sat May 30 23:44:47 2020
+Iteration 33 (200 requested)
+Beginning iteration 33
+25 segments remain in iteration 33 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.58952e-05
+per-bin maximum probability:                0.776437
+per-bin probability dynamic range (kT):     10.7965
+per-segment minimum non-zero probability:   2.62731e-06
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 11.179
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:20.655937, cputime: 0:51:00.077881
+
+
+Sat May 30 23:58:07 2020
+Iteration 34 (200 requested)
+Beginning iteration 34
+30 segments remain in iteration 34 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.95573e-06
+per-bin maximum probability:                0.776464
+per-bin probability dynamic range (kT):     12.4788
+per-segment minimum non-zero probability:   5.91145e-07
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 12.6707
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:01.643228, cputime: 1:00:20.597214
+
+
+Sun May 31 00:14:09 2020
+Iteration 35 (200 requested)
+Beginning iteration 35
+25 segments remain in iteration 35 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       4.92621e-06
+per-bin maximum probability:                0.776483
+per-bin probability dynamic range (kT):     11.968
+per-segment minimum non-zero probability:   7.88193e-07
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 12.383
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:12:10.870186, cputime: 0:47:59.597772
+
+
+Sun May 31 00:26:20 2020
+Iteration 36 (200 requested)
+Beginning iteration 36
+30 segments remain in iteration 36 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.37934e-06
+per-bin maximum probability:                0.776484
+per-bin probability dynamic range (kT):     13.2409
+per-segment minimum non-zero probability:   2.62731e-07
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 13.4816
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:43.426472, cputime: 0:55:46.002964
+
+
+Sun May 31 00:41:03 2020
+Iteration 37 (200 requested)
+Beginning iteration 37
+30 segments remain in iteration 37 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.75868e-07
+per-bin maximum probability:                0.776486
+per-bin probability dynamic range (kT):     14.8504
+per-segment minimum non-zero probability:   5.51735e-08
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 15.0423
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:08.075257, cputime: 0:57:30.732099
+
+
+Sun May 31 00:56:11 2020
+Iteration 38 (200 requested)
+Beginning iteration 38
+25 segments remain in iteration 38 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       2.85063e-07
+per-bin maximum probability:                0.776486
+per-bin probability dynamic range (kT):     14.8176
+per-segment minimum non-zero probability:   3.8315e-08
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 15.4069
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:44.550134, cputime: 0:52:53.239093
+
+
+Sun May 31 01:09:56 2020
+Iteration 39 (200 requested)
+Beginning iteration 39
+30 segments remain in iteration 39 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.8315e-08
+per-bin maximum probability:                0.776486
+per-bin probability dynamic range (kT):     16.8244
+per-segment minimum non-zero probability:   7.66299e-09
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 17.0163
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:55.102076, cputime: 1:02:49.425976
+
+
+Sun May 31 01:25:51 2020
+Iteration 40 (200 requested)
+Beginning iteration 40
+30 segments remain in iteration 40 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       7.95035e-08
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     16.0945
+per-segment minimum non-zero probability:   1.43681e-08
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 16.3877
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:23.778252, cputime: 0:58:38.726891
+
+
+Sun May 31 01:42:15 2020
+Iteration 41 (200 requested)
+Beginning iteration 41
+30 segments remain in iteration 41 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.45216e-08
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     17.2707
+per-segment minimum non-zero probability:   4.90431e-09
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 17.4626
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:24.448877, cputime: 1:00:47.122446
+
+
+Sun May 31 01:57:39 2020
+Iteration 42 (200 requested)
+Beginning iteration 42
+25 segments remain in iteration 42 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       5.26831e-08
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     16.506
+per-segment minimum non-zero probability:   7.98228e-09
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 16.9755
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:12:28.858744, cputime: 0:49:11.783076
+
+
+Sun May 31 02:10:08 2020
+Iteration 43 (200 requested)
+Beginning iteration 43
+30 segments remain in iteration 43 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.39468e-08
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     17.2945
+per-segment minimum non-zero probability:   3.99114e-09
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 17.6687
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:15:16.021900, cputime: 0:59:25.598118
+
+
+Sun May 31 02:25:24 2020
+Iteration 44 (200 requested)
+Beginning iteration 44
+30 segments remain in iteration 44 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.99114e-09
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     19.0862
+per-segment minimum non-zero probability:   7.98228e-10
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 19.2781
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:55.347418, cputime: 0:54:52.061314
+
+
+Sun May 31 02:39:20 2020
+Iteration 45 (200 requested)
+Beginning iteration 45
+30 segments remain in iteration 45 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       5.5876e-09
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     18.7497
+per-segment minimum non-zero probability:   7.98228e-10
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 19.2781
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:42.368396, cputime: 1:01:59.344083
+
+
+Sun May 31 02:55:02 2020
+Iteration 46 (200 requested)
+Beginning iteration 46
+30 segments remain in iteration 46 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.99557e-09
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     19.7794
+per-segment minimum non-zero probability:   3.99114e-10
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 19.9712
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:42.102351, cputime: 0:57:48.886592
+
+
+Sun May 31 03:09:44 2020
+Iteration 47 (200 requested)
+Beginning iteration 47
+30 segments remain in iteration 47 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       7.98228e-10
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     20.6957
+per-segment minimum non-zero probability:   1.33038e-10
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 21.0699
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:29.567440, cputime: 0:57:11.174721
+
+
+Sun May 31 03:24:14 2020
+Iteration 48 (200 requested)
+Beginning iteration 48
+30 segments remain in iteration 48 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       9.31266e-10
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     20.5415
+per-segment minimum non-zero probability:   1.59646e-10
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 20.8875
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:26.640961, cputime: 0:57:00.423390
+
+
+Sun May 31 03:38:40 2020
+Iteration 49 (200 requested)
+Beginning iteration 49
+30 segments remain in iteration 49 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.59646e-10
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     22.3051
+per-segment minimum non-zero probability:   3.19291e-11
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 22.497
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:58.970716, cputime: 0:55:07.229353
+
+
+Sun May 31 03:52:39 2020
+Iteration 50 (200 requested)
+Beginning iteration 50
+30 segments remain in iteration 50 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       8.31488e-11
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     22.9574
+per-segment minimum non-zero probability:   1.66298e-11
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 23.1493
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:34.322249, cputime: 0:56:18.041804
+
+
+Sun May 31 04:07:14 2020
+Iteration 51 (200 requested)
+Beginning iteration 51
+30 segments remain in iteration 51 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       4.85589e-11
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     23.4953
+per-segment minimum non-zero probability:   7.98228e-12
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 23.8833
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:06.088110, cputime: 0:55:36.562641
+
+
+Sun May 31 04:21:20 2020
+Iteration 52 (200 requested)
+Beginning iteration 52
+30 segments remain in iteration 52 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       8.78051e-11
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     22.9029
+per-segment minimum non-zero probability:   1.38581e-11
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 23.3316
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:20.688690, cputime: 0:56:25.667396
+
+
+Sun May 31 04:35:40 2020
+Iteration 53 (200 requested)
+Beginning iteration 53
+30 segments remain in iteration 53 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.62602e-11
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     24.5893
+per-segment minimum non-zero probability:   3.25204e-12
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 24.7812
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:30.177170, cputime: 0:57:12.541170
+
+
+Sun May 31 04:50:11 2020
+Iteration 54 (200 requested)
+Beginning iteration 54
+30 segments remain in iteration 54 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.62602e-11
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     24.5893
+per-segment minimum non-zero probability:   3.25204e-12
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 24.7812
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:04.031258, cputime: 0:55:29.338273
+
+
+Sun May 31 05:04:15 2020
+Iteration 55 (200 requested)
+Beginning iteration 55
+30 segments remain in iteration 55 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.25204e-12
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     26.1988
+per-segment minimum non-zero probability:   6.50408e-13
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 26.3907
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:24.676279, cputime: 0:56:51.877085
+
+
+Sun May 31 05:18:39 2020
+Iteration 56 (200 requested)
+Beginning iteration 56
+30 segments remain in iteration 56 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.66298e-12
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     26.8694
+per-segment minimum non-zero probability:   3.32595e-13
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 27.0613
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:30.694867, cputime: 0:57:12.829101
+
+
+Sun May 31 05:33:10 2020
+Iteration 57 (200 requested)
+Beginning iteration 57
+25 segments remain in iteration 57 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       2.30969e-12
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     26.5409
+per-segment minimum non-zero probability:   3.32595e-13
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 27.0613
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:12:18.269335, cputime: 0:48:28.925606
+
+
+Sun May 31 05:45:28 2020
+Iteration 58 (200 requested)
+Beginning iteration 58
+25 segments remain in iteration 58 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       7.94533e-13
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     27.608
+per-segment minimum non-zero probability:   1.10865e-13
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 28.1599
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:12:57.254051, cputime: 0:49:05.861577
+
+
+Sun May 31 05:58:25 2020
+Iteration 59 (200 requested)
+Beginning iteration 59
+30 segments remain in iteration 59 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.10865e-13
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     29.5775
+per-segment minimum non-zero probability:   2.2173e-14
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 29.7694
+norm = 1, error in norm = -2.22045e-16 (-1*epsilon)
+Iteration wallclock: 0:14:48.416189, cputime: 0:58:25.690223
+
+
+Sun May 31 06:13:14 2020
+Iteration 60 (200 requested)
+Beginning iteration 60
+30 segments remain in iteration 60 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.56821e-13
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     28.4086
+per-segment minimum non-zero probability:   6.69296e-14
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 28.6646
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:54.078326, cputime: 0:58:46.938000
+
+
+Sun May 31 06:28:08 2020
+Iteration 61 (200 requested)
+Beginning iteration 61
+30 segments remain in iteration 61 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.08401e-13
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     29.6
+per-segment minimum non-zero probability:   2.16803e-14
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 29.7918
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:53.258977, cputime: 0:58:39.008815
+
+
+Sun May 31 06:43:01 2020
+Iteration 62 (200 requested)
+Beginning iteration 62
+30 segments remain in iteration 62 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.16803e-14
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     31.2094
+per-segment minimum non-zero probability:   4.33605e-15
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 31.4013
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:16:26.595962, cputime: 1:02:45.420579
+
+
+Sun May 31 06:59:28 2020
+Iteration 63 (200 requested)
+Beginning iteration 63
+25 segments remain in iteration 63 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       7.22676e-15
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     32.308
+per-segment minimum non-zero probability:   1.44535e-15
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 32.4999
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:09.505196, cputime: 0:47:52.162396
+
+
+Sun May 31 07:12:37 2020
+Iteration 64 (200 requested)
+Beginning iteration 64
+30 segments remain in iteration 64 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       4.83289e-15
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     32.7104
+per-segment minimum non-zero probability:   8.46886e-16
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 33.0344
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:33.913639, cputime: 0:57:25.406792
+
+
+Sun May 31 07:27:11 2020
+Iteration 65 (200 requested)
+Beginning iteration 65
+30 segments remain in iteration 65 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.54066e-15
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     33.3534
+per-segment minimum non-zero probability:   4.23443e-16
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 33.7276
+norm = 1, error in norm = -2.22045e-16 (-1*epsilon)
+Iteration wallclock: 0:13:52.273154, cputime: 0:54:40.229277
+
+
+Sun May 31 07:41:04 2020
+Iteration 66 (200 requested)
+Beginning iteration 66
+30 segments remain in iteration 66 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.69377e-15
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     33.7588
+per-segment minimum non-zero probability:   3.38754e-16
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 33.9507
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:51.735538, cputime: 0:54:37.943673
+
+
+Sun May 31 07:54:55 2020
+Iteration 67 (200 requested)
+Beginning iteration 67
+30 segments remain in iteration 67 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.9038e-15
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     33.6419
+per-segment minimum non-zero probability:   2.93963e-16
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 34.0926
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:45.302355, cputime: 0:54:03.022414
+
+
+Sun May 31 08:08:41 2020
+Iteration 68 (200 requested)
+Beginning iteration 68
+30 segments remain in iteration 68 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       4.58447e-16
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     35.0657
+per-segment minimum non-zero probability:   9.16895e-17
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 35.2576
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:39.401329, cputime: 0:53:49.228389
+
+
+Sun May 31 08:22:20 2020
+Iteration 69 (200 requested)
+Beginning iteration 69
+30 segments remain in iteration 69 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.75068e-16
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     35.5765
+per-segment minimum non-zero probability:   4.58447e-17
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 35.9507
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:56.160267, cputime: 0:54:55.678991
+
+
+Sun May 31 08:36:16 2020
+Iteration 70 (200 requested)
+Beginning iteration 70
+25 segments remain in iteration 70 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.98661e-16
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     35.902
+per-segment minimum non-zero probability:   3.8204e-17
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 36.1331
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:11:18.718415, cputime: 0:44:28.959338
+
+
+Sun May 31 08:47:35 2020
+Iteration 71 (200 requested)
+Beginning iteration 71
+25 segments remain in iteration 71 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.317e-16
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     36.313
+per-segment minimum non-zero probability:   2.3374e-17
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 36.6244
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:11:33.063897, cputime: 0:45:28.091327
+
+
+Sun May 31 08:59:08 2020
+Iteration 72 (200 requested)
+Beginning iteration 72
+30 segments remain in iteration 72 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.3374e-17
+per-bin maximum probability:                0.776487
+per-bin probability dynamic range (kT):     38.0419
+per-segment minimum non-zero probability:   4.67481e-18
+per-segment maximum non-zero probability:   0.188148
+per-segment probability dynamic range (kT): 38.2338
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:00.493325, cputime: 0:55:13.470913
+
+
+Sun May 31 09:13:08 2020
+Iteration 73 (200 requested)
+Beginning iteration 73
+30 segments remain in iteration 73 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.93278e-17
+per-bin maximum probability:                0.588339
+per-bin probability dynamic range (kT):     37.9545
+per-segment minimum non-zero probability:   2.92176e-18
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 38.5207
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:33.018179, cputime: 0:52:23.002007
+
+
+Sun May 31 09:26:42 2020
+Iteration 74 (200 requested)
+Beginning iteration 74
+30 segments remain in iteration 74 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.92176e-18
+per-bin maximum probability:                0.701227
+per-bin probability dynamic range (kT):     40.0194
+per-segment minimum non-zero probability:   5.84351e-19
+per-segment maximum non-zero probability:   0.163333
+per-segment probability dynamic range (kT): 40.1718
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:57.365993, cputime: 0:55:01.399108
+
+
+Sun May 31 09:40:39 2020
+Iteration 75 (200 requested)
+Beginning iteration 75
+30 segments remain in iteration 75 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.94784e-18
+per-bin maximum probability:                0.638511
+per-bin probability dynamic range (kT):     40.3312
+per-segment minimum non-zero probability:   3.89567e-19
+per-segment maximum non-zero probability:   0.163333
+per-segment probability dynamic range (kT): 40.5773
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:52.931721, cputime: 0:54:04.411491
+
+
+Sun May 31 09:54:32 2020
+Iteration 76 (200 requested)
+Beginning iteration 76
+30 segments remain in iteration 76 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0125432
+per-bin maximum probability:                0.59252
+per-bin probability dynamic range (kT):     3.8552
+per-segment minimum non-zero probability:   0.00209053
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 4.3167
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:54.205487, cputime: 0:54:46.477843
+
+
+Sun May 31 10:08:26 2020
+Iteration 77 (200 requested)
+Beginning iteration 77
+30 segments remain in iteration 77 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00982551
+per-bin maximum probability:                0.616352
+per-bin probability dynamic range (kT):     4.13884
+per-segment minimum non-zero probability:   0.00139369
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 4.72217
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:14.424149, cputime: 0:56:09.346186
+
+
+Sun May 31 10:22:40 2020
+Iteration 78 (200 requested)
+Beginning iteration 78
+30 segments remain in iteration 78 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00529602
+per-bin maximum probability:                0.618233
+per-bin probability dynamic range (kT):     4.75991
+per-segment minimum non-zero probability:   0.000836214
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 5.23299
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:56.696934, cputime: 0:54:31.450828
+
+
+Sun May 31 10:36:37 2020
+Iteration 79 (200 requested)
+Beginning iteration 79
+25 segments remain in iteration 79 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.00343777
+per-bin maximum probability:                0.637907
+per-bin probability dynamic range (kT):     5.22337
+per-segment minimum non-zero probability:   0.00062716
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 5.52067
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:19.511357, cputime: 0:50:19.546987
+
+
+Sun May 31 10:49:57 2020
+Iteration 80 (200 requested)
+Beginning iteration 80
+30 segments remain in iteration 80 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00177695
+per-bin maximum probability:                0.536659
+per-bin probability dynamic range (kT):     5.71046
+per-segment minimum non-zero probability:   0.000287449
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 6.30083
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:51.857086, cputime: 1:02:17.603147
+
+
+Sun May 31 11:05:49 2020
+Iteration 81 (200 requested)
+Beginning iteration 81
+25 segments remain in iteration 81 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.0162612
+per-bin maximum probability:                0.55533
+per-bin probability dynamic range (kT):     3.53078
+per-segment minimum non-zero probability:   0.0027102
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 4.0571
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:30.434945, cputime: 0:54:55.388535
+
+
+Sun May 31 11:20:19 2020
+Iteration 82 (200 requested)
+Beginning iteration 82
+30 segments remain in iteration 82 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0041289
+per-bin maximum probability:                0.586938
+per-bin probability dynamic range (kT):     4.95691
+per-segment minimum non-zero probability:   0.000825779
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 5.24555
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:01.042782, cputime: 0:58:04.378493
+
+
+Sun May 31 11:35:20 2020
+Iteration 83 (200 requested)
+Beginning iteration 83
+30 segments remain in iteration 83 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0020174
+per-bin maximum probability:                0.615473
+per-bin probability dynamic range (kT):     5.72058
+per-segment minimum non-zero probability:   0.000336234
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 6.14407
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:15:37.947760, cputime: 0:59:42.985186
+
+
+Sun May 31 11:50:58 2020
+Iteration 84 (200 requested)
+Beginning iteration 84
+30 segments remain in iteration 84 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00176072
+per-bin maximum probability:                0.623363
+per-bin probability dynamic range (kT):     5.86941
+per-segment minimum non-zero probability:   0.000284897
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 6.30975
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:18.239782, cputime: 1:00:03.249369
+
+
+Sun May 31 12:06:16 2020
+Iteration 85 (200 requested)
+Beginning iteration 85
+30 segments remain in iteration 85 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00162212
+per-bin maximum probability:                0.625703
+per-bin probability dynamic range (kT):     5.95514
+per-segment minimum non-zero probability:   0.000270354
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 6.36214
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:36.207039, cputime: 0:57:05.013791
+
+
+Sun May 31 12:20:52 2020
+Iteration 86 (200 requested)
+Beginning iteration 86
+30 segments remain in iteration 86 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000270354
+per-bin maximum probability:                0.626448
+per-bin probability dynamic range (kT):     7.74809
+per-segment minimum non-zero probability:   5.40708e-05
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 7.97158
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:48.789152, cputime: 1:00:01.502710
+
+
+Sun May 31 12:36:41 2020
+Iteration 87 (200 requested)
+Beginning iteration 87
+30 segments remain in iteration 87 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000255811
+per-bin maximum probability:                0.626885
+per-bin probability dynamic range (kT):     7.80408
+per-segment minimum non-zero probability:   5.04351e-05
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 8.04119
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:15.732785, cputime: 0:59:33.545018
+
+
+Sun May 31 12:51:57 2020
+Iteration 88 (200 requested)
+Beginning iteration 88
+30 segments remain in iteration 88 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000270354
+per-bin maximum probability:                0.627294
+per-bin probability dynamic range (kT):     7.74944
+per-segment minimum non-zero probability:   5.40708e-05
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 7.97158
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:32.696353, cputime: 1:04:02.645081
+
+
+Sun May 31 13:08:30 2020
+Iteration 89 (200 requested)
+Beginning iteration 89
+30 segments remain in iteration 89 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000307068
+per-bin maximum probability:                0.627809
+per-bin probability dynamic range (kT):     7.62292
+per-segment minimum non-zero probability:   5.0709e-05
+per-segment maximum non-zero probability:   0.156667
+per-segment probability dynamic range (kT): 8.03577
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:45.948913, cputime: 1:00:55.300024
+
+
+Sun May 31 13:24:16 2020
+Iteration 90 (200 requested)
+Beginning iteration 90
+30 segments remain in iteration 90 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000158851
+per-bin maximum probability:                0.522418
+per-bin probability dynamic range (kT):     8.09826
+per-segment minimum non-zero probability:   2.70354e-05
+per-segment maximum non-zero probability:   0.155556
+per-segment probability dynamic range (kT): 8.65761
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:49.005227, cputime: 1:05:39.192145
+
+
+Sun May 31 13:41:05 2020
+Iteration 91 (200 requested)
+Beginning iteration 91
+30 segments remain in iteration 91 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       7.77444e-05
+per-bin maximum probability:                0.586183
+per-bin probability dynamic range (kT):     8.92796
+per-segment minimum non-zero probability:   1.26773e-05
+per-segment maximum non-zero probability:   0.155556
+per-segment probability dynamic range (kT): 9.41495
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:03.359457, cputime: 1:01:56.463906
+
+
+Sun May 31 13:57:08 2020
+Iteration 92 (200 requested)
+Beginning iteration 92
+30 segments remain in iteration 92 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00421995
+per-bin maximum probability:                0.607308
+per-bin probability dynamic range (kT):     4.96921
+per-segment minimum non-zero probability:   0.00084399
+per-segment maximum non-zero probability:   0.155556
+per-segment probability dynamic range (kT): 5.21662
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:22.243655, cputime: 0:58:42.179448
+
+
+Sun May 31 14:12:30 2020
+Iteration 93 (200 requested)
+Beginning iteration 93
+30 segments remain in iteration 93 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00084399
+per-bin maximum probability:                0.61521
+per-bin probability dynamic range (kT):     6.59158
+per-segment minimum non-zero probability:   0.000168798
+per-segment maximum non-zero probability:   0.155556
+per-segment probability dynamic range (kT): 6.82606
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:00.036675, cputime: 0:58:49.845467
+
+
+Sun May 31 14:27:30 2020
+Iteration 94 (200 requested)
+Beginning iteration 94
+30 segments remain in iteration 94 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000168798
+per-bin maximum probability:                0.618193
+per-bin probability dynamic range (kT):     8.20585
+per-segment minimum non-zero probability:   3.37596e-05
+per-segment maximum non-zero probability:   0.155556
+per-segment probability dynamic range (kT): 8.43549
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:22.013471, cputime: 0:59:05.246163
+
+
+Sun May 31 14:43:52 2020
+Iteration 95 (200 requested)
+Beginning iteration 95
+30 segments remain in iteration 95 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000435513
+per-bin maximum probability:                0.618645
+per-bin probability dynamic range (kT):     7.25876
+per-segment minimum non-zero probability:   8.71026e-05
+per-segment maximum non-zero probability:   0.155556
+per-segment probability dynamic range (kT): 7.48767
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:00.146509, cputime: 1:02:19.837033
+
+
+Sun May 31 14:59:52 2020
+Iteration 96 (200 requested)
+Beginning iteration 96
+30 segments remain in iteration 96 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       8.71026e-05
+per-bin maximum probability:                0.620091
+per-bin probability dynamic range (kT):     8.87053
+per-segment minimum non-zero probability:   1.74205e-05
+per-segment maximum non-zero probability:   0.155556
+per-segment probability dynamic range (kT): 9.09711
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:14.813238, cputime: 0:59:02.954443
+
+
+Sun May 31 15:15:07 2020
+Iteration 97 (200 requested)
+Beginning iteration 97
+30 segments remain in iteration 97 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.75107e-05
+per-bin maximum probability:                0.620361
+per-bin probability dynamic range (kT):     9.71343
+per-segment minimum non-zero probability:   7.50213e-06
+per-segment maximum non-zero probability:   0.155556
+per-segment probability dynamic range (kT): 9.93957
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:22.964632, cputime: 0:59:21.379613
+
+
+Sun May 31 15:30:30 2020
+Iteration 98 (200 requested)
+Beginning iteration 98
+30 segments remain in iteration 98 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       7.50213e-06
+per-bin maximum probability:                0.517443
+per-bin probability dynamic range (kT):     11.1415
+per-segment minimum non-zero probability:   1.50043e-06
+per-segment maximum non-zero probability:   0.142098
+per-segment probability dynamic range (kT): 11.4585
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:57.122989, cputime: 1:01:12.826763
+
+
+Sun May 31 15:46:27 2020
+Iteration 99 (200 requested)
+Beginning iteration 99
+25 segments remain in iteration 99 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.50043e-06
+per-bin maximum probability:                0.559006
+per-bin probability dynamic range (kT):     12.8282
+per-segment minimum non-zero probability:   3.00085e-07
+per-segment maximum non-zero probability:   0.142098
+per-segment probability dynamic range (kT): 13.068
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:44.799530, cputime: 0:51:52.549623
+
+
+Sun May 31 16:00:12 2020
+Iteration 100 (200 requested)
+Beginning iteration 100
+30 segments remain in iteration 100 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0206069
+per-bin maximum probability:                0.439666
+per-bin probability dynamic range (kT):     3.06039
+per-segment minimum non-zero probability:   0.00320849
+per-segment maximum non-zero probability:   0.116964
+per-segment probability dynamic range (kT): 3.59607
+norm = 1, error in norm = 2.22045e-16 (1*epsilon)
+Iteration wallclock: 0:17:08.515436, cputime: 1:04:57.578861
+
+
+Sun May 31 16:17:21 2020
+Iteration 101 (200 requested)
+Beginning iteration 101
+30 segments remain in iteration 101 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0279894
+per-bin maximum probability:                0.478989
+per-bin probability dynamic range (kT):     2.83985
+per-segment minimum non-zero probability:   0.00412161
+per-segment maximum non-zero probability:   0.116964
+per-segment probability dynamic range (kT): 3.34562
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:38.599798, cputime: 0:59:35.938284
+
+
+Sun May 31 16:32:59 2020
+Iteration 102 (200 requested)
+Beginning iteration 102
+30 segments remain in iteration 102 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00477362
+per-bin maximum probability:                0.523521
+per-bin probability dynamic range (kT):     4.69747
+per-segment minimum non-zero probability:   0.000954723
+per-segment maximum non-zero probability:   0.116964
+per-segment probability dynamic range (kT): 4.8082
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:12.463276, cputime: 0:58:33.849905
+
+
+Sun May 31 16:48:12 2020
+Iteration 103 (200 requested)
+Beginning iteration 103
+30 segments remain in iteration 103 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0126501
+per-bin maximum probability:                0.555304
+per-bin probability dynamic range (kT):     3.78185
+per-segment minimum non-zero probability:   0.000954723
+per-segment maximum non-zero probability:   0.116964
+per-segment probability dynamic range (kT): 4.8082
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:03.294934, cputime: 0:59:03.083362
+
+
+Sun May 31 17:04:15 2020
+Iteration 104 (200 requested)
+Beginning iteration 104
+30 segments remain in iteration 104 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00477362
+per-bin maximum probability:                0.55769
+per-bin probability dynamic range (kT):     4.7607
+per-segment minimum non-zero probability:   0.000954723
+per-segment maximum non-zero probability:   0.116964
+per-segment probability dynamic range (kT): 4.8082
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:15:18.326220, cputime: 0:58:34.518773
+
+
+Sun May 31 17:19:33 2020
+Iteration 105 (200 requested)
+Beginning iteration 105
+30 segments remain in iteration 105 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00389845
+per-bin maximum probability:                0.57034
+per-bin probability dynamic range (kT):     4.98565
+per-segment minimum non-zero probability:   0.000663002
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 5.1805
+norm = 1, error in norm = -2.22045e-16 (-1*epsilon)
+Iteration wallclock: 0:15:12.615820, cputime: 0:59:09.306277
+
+
+Sun May 31 17:34:46 2020
+Iteration 106 (200 requested)
+Beginning iteration 106
+30 segments remain in iteration 106 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00334153
+per-bin maximum probability:                0.575353
+per-bin probability dynamic range (kT):     5.14855
+per-segment minimum non-zero probability:   0.000596702
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 5.28586
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:21.726427, cputime: 0:58:43.536255
+
+
+Sun May 31 17:50:08 2020
+Iteration 107 (200 requested)
+Beginning iteration 107
+30 segments remain in iteration 107 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00192383
+per-bin maximum probability:                0.57945
+per-bin probability dynamic range (kT):     5.70776
+per-segment minimum non-zero probability:   0.000316404
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 5.92026
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:54.723269, cputime: 1:04:15.138323
+
+
+Sun May 31 18:07:02 2020
+Iteration 108 (200 requested)
+Beginning iteration 108
+30 segments remain in iteration 108 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000324871
+per-bin maximum probability:                0.582491
+per-bin probability dynamic range (kT):     7.49164
+per-segment minimum non-zero probability:   6.49742e-05
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 7.50329
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:17:18.009669, cputime: 1:06:48.393408
+
+
+Sun May 31 18:24:20 2020
+Iteration 109 (200 requested)
+Beginning iteration 109
+30 segments remain in iteration 109 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000194923
+per-bin maximum probability:                0.583832
+per-bin probability dynamic range (kT):     8.00477
+per-segment minimum non-zero probability:   3.24871e-05
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 8.19644
+norm = 1, error in norm = 2.22045e-16 (1*epsilon)
+Iteration wallclock: 0:17:43.827030, cputime: 1:02:42.403915
+
+
+Sun May 31 18:42:04 2020
+Iteration 110 (200 requested)
+Beginning iteration 110
+25 segments remain in iteration 110 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.000191536
+per-bin maximum probability:                0.46967
+per-bin probability dynamic range (kT):     7.80471
+per-segment minimum non-zero probability:   3.16404e-05
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 8.22284
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:12.671697, cputime: 0:50:55.155647
+
+
+Sun May 31 18:55:17 2020
+Iteration 111 (200 requested)
+Beginning iteration 111
+30 segments remain in iteration 111 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.24871e-05
+per-bin maximum probability:                0.562831
+per-bin probability dynamic range (kT):     9.75989
+per-segment minimum non-zero probability:   6.49742e-06
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 9.80587
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:24.164501, cputime: 0:59:17.154829
+
+
+Sun May 31 19:10:41 2020
+Iteration 112 (200 requested)
+Beginning iteration 112
+25 segments remain in iteration 112 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       8.27731e-05
+per-bin maximum probability:                0.562857
+per-bin probability dynamic range (kT):     8.82468
+per-segment minimum non-zero probability:   1.52551e-05
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 8.95236
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:04.742067, cputime: 0:50:55.432332
+
+
+Sun May 31 19:23:46 2020
+Iteration 113 (200 requested)
+Beginning iteration 113
+25 segments remain in iteration 113 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       4.57654e-05
+per-bin maximum probability:                0.562857
+per-bin probability dynamic range (kT):     9.41725
+per-segment minimum non-zero probability:   7.62757e-06
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 9.64551
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:11:57.317912, cputime: 0:46:53.427597
+
+
+Sun May 31 19:35:43 2020
+Iteration 114 (200 requested)
+Beginning iteration 114
+30 segments remain in iteration 114 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       7.62757e-06
+per-bin maximum probability:                0.563473
+per-bin probability dynamic range (kT):     11.2101
+per-segment minimum non-zero probability:   1.52551e-06
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 11.2549
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:30.913046, cputime: 0:58:43.865757
+
+
+Sun May 31 19:51:14 2020
+Iteration 115 (200 requested)
+Beginning iteration 115
+30 segments remain in iteration 115 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.52551e-06
+per-bin maximum probability:                0.563473
+per-bin probability dynamic range (kT):     12.8195
+per-segment minimum non-zero probability:   3.05103e-07
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 12.8644
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:51.802505, cputime: 0:58:10.299511
+
+
+Sun May 31 20:06:06 2020
+Iteration 116 (200 requested)
+Beginning iteration 116
+30 segments remain in iteration 116 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       5.00431e-05
+per-bin maximum probability:                0.563505
+per-bin probability dynamic range (kT):     9.32905
+per-segment minimum non-zero probability:   9.82557e-06
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 9.39229
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:16.926303, cputime: 0:57:11.792561
+
+
+Sun May 31 20:21:23 2020
+Iteration 117 (200 requested)
+Beginning iteration 117
+30 segments remain in iteration 117 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       7.14689e-05
+per-bin maximum probability:                0.563575
+per-bin probability dynamic range (kT):     8.97279
+per-segment minimum non-zero probability:   1.02739e-05
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 9.34767
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:52.107273, cputime: 0:58:35.828623
+
+
+Sun May 31 20:36:15 2020
+Iteration 118 (200 requested)
+Beginning iteration 118
+25 segments remain in iteration 118 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.000133561
+per-bin maximum probability:                0.563575
+per-bin probability dynamic range (kT):     8.3475
+per-segment minimum non-zero probability:   2.05478e-05
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 8.65453
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:12:14.901617, cputime: 0:47:34.539582
+
+
+Sun May 31 20:48:30 2020
+Iteration 119 (200 requested)
+Beginning iteration 119
+30 segments remain in iteration 119 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.08217e-05
+per-bin maximum probability:                0.468292
+per-bin probability dynamic range (kT):     9.62863
+per-segment minimum non-zero probability:   6.16433e-06
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 9.8585
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:05.244519, cputime: 1:03:26.058751
+
+
+Sun May 31 21:04:35 2020
+Iteration 120 (200 requested)
+Beginning iteration 120
+25 segments remain in iteration 120 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.30136e-05
+per-bin maximum probability:                0.544718
+per-bin probability dynamic range (kT):     10.642
+per-segment minimum non-zero probability:   2.05478e-06
+per-segment maximum non-zero probability:   0.117863
+per-segment probability dynamic range (kT): 10.9571
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:52.128505, cputime: 0:56:58.862881
+
+
+Sun May 31 21:20:27 2020
+Iteration 121 (200 requested)
+Beginning iteration 121
+30 segments remain in iteration 121 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00381525
+per-bin maximum probability:                0.468251
+per-bin probability dynamic range (kT):     4.81
+per-segment minimum non-zero probability:   0.000762592
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 5.03756
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:17:18.511627, cputime: 1:04:46.252196
+
+
+Sun May 31 21:37:46 2020
+Iteration 122 (200 requested)
+Beginning iteration 122
+25 segments remain in iteration 122 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.0152935
+per-bin maximum probability:                0.470541
+per-bin probability dynamic range (kT):     3.42646
+per-segment minimum non-zero probability:   0.0030587
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 3.64854
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:12:59.219599, cputime: 0:48:48.461122
+
+
+Sun May 31 21:50:45 2020
+Iteration 123 (200 requested)
+Beginning iteration 123
+30 segments remain in iteration 123 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0091761
+per-bin maximum probability:                0.470541
+per-bin probability dynamic range (kT):     3.93728
+per-segment minimum non-zero probability:   0.00152935
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 4.34168
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:16:22.631933, cputime: 1:03:27.303412
+
+
+Sun May 31 22:07:08 2020
+Iteration 124 (200 requested)
+Beginning iteration 124
+30 segments remain in iteration 124 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.00688207
+per-bin maximum probability:                0.482007
+per-bin probability dynamic range (kT):     4.24904
+per-segment minimum non-zero probability:   0.00101957
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 4.74715
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:16:21.415053, cputime: 0:58:59.842347
+
+
+Sun May 31 22:23:29 2020
+Iteration 125 (200 requested)
+Beginning iteration 125
+25 segments remain in iteration 125 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       0.00203913
+per-bin maximum probability:                0.491565
+per-bin probability dynamic range (kT):     5.48507
+per-segment minimum non-zero probability:   0.000407826
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 5.66344
+norm = 1, error in norm = -2.22045e-16 (-1*epsilon)
+Iteration wallclock: 0:14:34.926127, cputime: 0:51:26.026793
+
+
+Sun May 31 22:38:04 2020
+Iteration 126 (200 requested)
+Beginning iteration 126
+30 segments remain in iteration 126 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000637229
+per-bin maximum probability:                0.493477
+per-bin probability dynamic range (kT):     6.6521
+per-segment minimum non-zero probability:   0.000127446
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 6.82659
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:54.079484, cputime: 0:59:58.485391
+
+
+Sun May 31 22:53:58 2020
+Iteration 127 (200 requested)
+Beginning iteration 127
+30 segments remain in iteration 127 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000382337
+per-bin maximum probability:                0.494225
+per-bin probability dynamic range (kT):     7.16444
+per-segment minimum non-zero probability:   6.37229e-05
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 7.51974
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:53.824733, cputime: 0:56:57.090780
+
+
+Sun May 31 23:08:52 2020
+Iteration 128 (200 requested)
+Beginning iteration 128
+30 segments remain in iteration 128 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000254892
+per-bin maximum probability:                0.494288
+per-bin probability dynamic range (kT):     7.57004
+per-segment minimum non-zero probability:   4.24819e-05
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 7.9252
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:29.164524, cputime: 0:56:35.270957
+
+
+Sun May 31 23:23:21 2020
+Iteration 129 (200 requested)
+Beginning iteration 129
+30 segments remain in iteration 129 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.000148687
+per-bin maximum probability:                0.494671
+per-bin probability dynamic range (kT):     8.10981
+per-segment minimum non-zero probability:   2.1241e-05
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 8.61835
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:42.384646, cputime: 0:57:33.308749
+
+
+Sun May 31 23:38:04 2020
+Iteration 130 (200 requested)
+Beginning iteration 130
+30 segments remain in iteration 130 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.83213e-05
+per-bin maximum probability:                0.494735
+per-bin probability dynamic range (kT):     9.76816
+per-segment minimum non-zero probability:   5.66426e-06
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 9.9401
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:34.446879, cputime: 1:00:00.020255
+
+
+Sun May 31 23:53:38 2020
+Iteration 131 (200 requested)
+Beginning iteration 131
+30 segments remain in iteration 131 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.18614e-05
+per-bin maximum probability:                0.494832
+per-bin probability dynamic range (kT):     9.65058
+per-segment minimum non-zero probability:   5.66426e-06
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 9.9401
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:15:25.350899, cputime: 0:59:42.763614
+
+
+Mon Jun  1 00:09:03 2020
+Iteration 132 (200 requested)
+Beginning iteration 132
+30 segments remain in iteration 132 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.61096e-05
+per-bin maximum probability:                0.49486
+per-bin probability dynamic range (kT):     9.52547
+per-segment minimum non-zero probability:   6.37229e-06
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 9.82232
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:15:07.436276, cputime: 0:59:19.390977
+
+
+Mon Jun  1 00:24:11 2020
+Iteration 133 (200 requested)
+Beginning iteration 133
+30 segments remain in iteration 133 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.27446e-05
+per-bin maximum probability:                0.4949
+per-bin probability dynamic range (kT):     10.567
+per-segment minimum non-zero probability:   2.1241e-06
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 10.9209
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:08.577758, cputime: 0:59:37.166018
+
+
+Mon Jun  1 00:39:20 2020
+Iteration 134 (200 requested)
+Beginning iteration 134
+30 segments remain in iteration 134 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       5.80193e-06
+per-bin maximum probability:                0.494903
+per-bin probability dynamic range (kT):     11.3539
+per-segment minimum non-zero probability:   8.8504e-07
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 11.7964
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:15:07.730065, cputime: 0:58:34.064457
+
+
+Mon Jun  1 00:54:27 2020
+Iteration 135 (200 requested)
+Beginning iteration 135
+30 segments remain in iteration 135 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.09787e-06
+per-bin maximum probability:                0.494904
+per-bin probability dynamic range (kT):     12.3712
+per-segment minimum non-zero probability:   3.49645e-07
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 12.7251
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:56.415403, cputime: 0:58:49.592487
+
+
+Mon Jun  1 01:09:24 2020
+Iteration 136 (200 requested)
+Beginning iteration 136
+25 segments remain in iteration 136 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.41169e-06
+per-bin maximum probability:                0.494906
+per-bin probability dynamic range (kT):     12.7673
+per-segment minimum non-zero probability:   2.65512e-07
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 13.0004
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:04.693846, cputime: 0:51:28.317310
+
+
+Mon Jun  1 01:22:28 2020
+Iteration 137 (200 requested)
+Beginning iteration 137
+25 segments remain in iteration 137 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       3.14681e-06
+per-bin maximum probability:                0.494914
+per-bin probability dynamic range (kT):     11.9658
+per-segment minimum non-zero probability:   6.29362e-07
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 12.1373
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:12:40.956257, cputime: 0:49:43.776912
+
+
+Mon Jun  1 01:35:09 2020
+Iteration 138 (200 requested)
+Beginning iteration 138
+30 segments remain in iteration 138 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       8.39149e-07
+per-bin maximum probability:                0.494918
+per-bin probability dynamic range (kT):     13.2875
+per-segment minimum non-zero probability:   1.6783e-07
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 13.4591
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:45.805686, cputime: 0:55:53.534511
+
+
+Mon Jun  1 01:49:55 2020
+Iteration 139 (200 requested)
+Beginning iteration 139
+30 segments remain in iteration 139 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       4.19575e-07
+per-bin maximum probability:                0.494919
+per-bin probability dynamic range (kT):     13.9807
+per-segment minimum non-zero probability:   8.39149e-08
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 14.1522
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:04.001967, cputime: 0:55:03.192623
+
+
+Mon Jun  1 02:03:59 2020
+Iteration 140 (200 requested)
+Beginning iteration 140
+30 segments remain in iteration 140 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.93702e-07
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     14.3373
+per-segment minimum non-zero probability:   4.66194e-08
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 14.74
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:52.813213, cputime: 0:54:27.929576
+
+
+Mon Jun  1 02:17:52 2020
+Iteration 141 (200 requested)
+Beginning iteration 141
+30 segments remain in iteration 141 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       8.39149e-08
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     15.5901
+per-segment minimum non-zero probability:   1.6783e-08
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 15.7617
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:30.695037, cputime: 0:53:04.885224
+
+
+Mon Jun  1 02:31:23 2020
+Iteration 142 (200 requested)
+Beginning iteration 142
+30 segments remain in iteration 142 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       7.04536e-08
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     15.765
+per-segment minimum non-zero probability:   1.40907e-08
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 15.9365
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:34.704633, cputime: 0:57:11.639130
+
+
+Mon Jun  1 02:45:57 2020
+Iteration 143 (200 requested)
+Beginning iteration 143
+25 segments remain in iteration 143 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       3.52268e-08
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     16.4581
+per-segment minimum non-zero probability:   5.87113e-09
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 16.812
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:11:27.488721, cputime: 0:44:55.259764
+
+
+Mon Jun  1 02:57:25 2020
+Iteration 144 (200 requested)
+Beginning iteration 144
+30 segments remain in iteration 144 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       5.87113e-09
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     18.2499
+per-segment minimum non-zero probability:   1.17423e-09
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 18.4214
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:54.192792, cputime: 0:54:41.381694
+
+
+Mon Jun  1 03:11:19 2020
+Iteration 145 (200 requested)
+Beginning iteration 145
+25 segments remain in iteration 145 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       2.23103e-08
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     16.9149
+per-segment minimum non-zero probability:   3.91409e-09
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 17.2175
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:11:24.269524, cputime: 0:44:46.533286
+
+
+Mon Jun  1 03:22:43 2020
+Iteration 146 (200 requested)
+Beginning iteration 146
+20 segments remain in iteration 146 (20 total)
+4 of 6 (66.666667%) active bins are populated
+per-bin minimum non-zero probability:       1.29165e-08
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     17.4614
+per-segment minimum non-zero probability:   1.95704e-09
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 17.9106
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:09:05.794344, cputime: 0:35:37.269072
+
+
+Mon Jun  1 03:31:49 2020
+Iteration 147 (200 requested)
+Beginning iteration 147
+25 segments remain in iteration 147 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.95704e-09
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     19.3485
+per-segment minimum non-zero probability:   3.91409e-10
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 19.52
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:11:31.742359, cputime: 0:45:06.822685
+
+
+Mon Jun  1 03:43:21 2020
+Iteration 148 (200 requested)
+Beginning iteration 148
+25 segments remain in iteration 148 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.17423e-09
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     19.8593
+per-segment minimum non-zero probability:   1.95704e-10
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 20.2132
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:11:37.140388, cputime: 0:45:33.683241
+
+
+Mon Jun  1 03:54:58 2020
+Iteration 149 (200 requested)
+Beginning iteration 149
+30 segments remain in iteration 149 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.95704e-10
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     21.6511
+per-segment minimum non-zero probability:   3.91409e-11
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 21.8226
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:53.027464, cputime: 0:54:31.178638
+
+
+Mon Jun  1 04:08:51 2020
+Iteration 150 (200 requested)
+Beginning iteration 150
+30 segments remain in iteration 150 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.91409e-11
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     23.2605
+per-segment minimum non-zero probability:   7.82817e-12
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 23.4321
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:38.582797, cputime: 0:53:38.189520
+
+
+Mon Jun  1 04:22:30 2020
+Iteration 151 (200 requested)
+Beginning iteration 151
+30 segments remain in iteration 151 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.04376e-10
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     22.2797
+per-segment minimum non-zero probability:   1.63087e-11
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 22.6981
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:30.940326, cputime: 0:52:58.276993
+
+
+Mon Jun  1 04:36:01 2020
+Iteration 152 (200 requested)
+Beginning iteration 152
+30 segments remain in iteration 152 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       6.84965e-11
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     22.7009
+per-segment minimum non-zero probability:   1.08725e-11
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 23.1036
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:51.466286, cputime: 0:57:10.624625
+
+
+Mon Jun  1 04:50:52 2020
+Iteration 153 (200 requested)
+Beginning iteration 153
+30 segments remain in iteration 153 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.23946e-10
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     22.1078
+per-segment minimum non-zero probability:   2.08751e-11
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 22.4512
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:52.631987, cputime: 0:54:32.053781
+
+
+Mon Jun  1 05:04:45 2020
+Iteration 154 (200 requested)
+Beginning iteration 154
+30 segments remain in iteration 154 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       6.4365e-11
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     22.7631
+per-segment minimum non-zero probability:   1.08725e-11
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 23.1036
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:42.918104, cputime: 0:53:52.048668
+
+
+Mon Jun  1 05:18:28 2020
+Iteration 155 (200 requested)
+Beginning iteration 155
+30 segments remain in iteration 155 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.95758e-11
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     23.2494
+per-segment minimum non-zero probability:   6.52348e-12
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 23.6144
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:31.352047, cputime: 0:53:04.441665
+
+
+Mon Jun  1 05:31:59 2020
+Iteration 156 (200 requested)
+Beginning iteration 156
+30 segments remain in iteration 156 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       6.95838e-12
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     24.9877
+per-segment minimum non-zero probability:   1.39168e-12
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 25.1593
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:43.703297, cputime: 0:53:55.882351
+
+
+Mon Jun  1 05:45:43 2020
+Iteration 157 (200 requested)
+Beginning iteration 157
+30 segments remain in iteration 157 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.78335e-12
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     25.904
+per-segment minimum non-zero probability:   4.63892e-13
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 26.2579
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:52.666695, cputime: 0:54:25.413290
+
+
+Mon Jun  1 05:59:35 2020
+Iteration 158 (200 requested)
+Beginning iteration 158
+30 segments remain in iteration 158 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       4.63892e-13
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     27.6958
+per-segment minimum non-zero probability:   9.27783e-14
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 27.8673
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:52.044048, cputime: 0:54:26.179628
+
+
+Mon Jun  1 06:13:27 2020
+Iteration 159 (200 requested)
+Beginning iteration 159
+30 segments remain in iteration 159 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       5.5667e-13
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     27.5134
+per-segment minimum non-zero probability:   9.27783e-14
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 27.8673
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:41.547104, cputime: 0:53:46.974680
+
+
+Mon Jun  1 06:27:09 2020
+Iteration 160 (200 requested)
+Beginning iteration 160
+30 segments remain in iteration 160 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.78335e-13
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     28.2066
+per-segment minimum non-zero probability:   4.63892e-14
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 28.5605
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:38.127903, cputime: 0:53:30.289771
+
+
+Mon Jun  1 06:40:47 2020
+Iteration 161 (200 requested)
+Beginning iteration 161
+30 segments remain in iteration 161 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.91355e-13
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     28.5813
+per-segment minimum non-zero probability:   3.09261e-14
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 28.9659
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:20.944939, cputime: 0:52:24.665680
+
+
+Mon Jun  1 06:54:08 2020
+Iteration 162 (200 requested)
+Beginning iteration 162
+30 segments remain in iteration 162 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.23704e-13
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     29.0175
+per-segment minimum non-zero probability:   2.31946e-14
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 29.2536
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:58.439509, cputime: 0:54:42.845615
+
+
+Mon Jun  1 07:08:06 2020
+Iteration 163 (200 requested)
+Beginning iteration 163
+30 segments remain in iteration 163 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       7.53824e-14
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     29.5128
+per-segment minimum non-zero probability:   1.15973e-14
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 29.9468
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:03.541727, cputime: 0:55:13.276138
+
+
+Mon Jun  1 07:22:10 2020
+Iteration 164 (200 requested)
+Beginning iteration 164
+30 segments remain in iteration 164 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       5.02549e-14
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     29.9183
+per-segment minimum non-zero probability:   9.66441e-15
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 30.1291
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:27.923070, cputime: 0:52:52.442006
+
+
+Mon Jun  1 07:35:38 2020
+Iteration 165 (200 requested)
+Beginning iteration 165
+25 segments remain in iteration 165 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       7.73153e-14
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     29.4875
+per-segment minimum non-zero probability:   1.15973e-14
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 29.9468
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:11:42.449657, cputime: 0:45:58.412359
+
+
+Mon Jun  1 07:47:20 2020
+Iteration 166 (200 requested)
+Beginning iteration 166
+25 segments remain in iteration 166 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.15973e-14
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     31.3846
+per-segment minimum non-zero probability:   2.31946e-15
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 31.5562
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:10:59.881934, cputime: 0:43:09.549761
+
+
+Mon Jun  1 07:58:20 2020
+Iteration 167 (200 requested)
+Beginning iteration 167
+30 segments remain in iteration 167 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       4.63892e-15
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     32.3009
+per-segment minimum non-zero probability:   7.73153e-16
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 32.6548
+norm = 1, error in norm = -2.22045e-16 (-1*epsilon)
+Iteration wallclock: 0:13:41.079885, cputime: 0:53:38.696080
+
+
+Mon Jun  1 08:12:01 2020
+Iteration 168 (200 requested)
+Beginning iteration 168
+30 segments remain in iteration 168 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.31946e-15
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     32.9941
+per-segment minimum non-zero probability:   3.86576e-16
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 33.348
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:41.364430, cputime: 0:53:45.460117
+
+
+Mon Jun  1 08:25:43 2020
+Iteration 169 (200 requested)
+Beginning iteration 169
+30 segments remain in iteration 169 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.01879e-15
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     33.1329
+per-segment minimum non-zero probability:   3.26442e-16
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 33.517
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:40.205770, cputime: 0:53:42.320308
+
+
+Mon Jun  1 08:39:23 2020
+Iteration 170 (200 requested)
+Beginning iteration 170
+30 segments remain in iteration 170 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.76823e-15
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     33.2654
+per-segment minimum non-zero probability:   3.0604e-16
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 33.5816
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:41.275167, cputime: 0:53:32.868598
+
+
+Mon Jun  1 08:53:04 2020
+Iteration 171 (200 requested)
+Beginning iteration 171
+25 segments remain in iteration 171 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.83624e-15
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     33.2277
+per-segment minimum non-zero probability:   3.0604e-16
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 33.5816
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:11:25.942981, cputime: 0:44:50.964556
+
+
+Mon Jun  1 09:04:30 2020
+Iteration 172 (200 requested)
+Beginning iteration 172
+30 segments remain in iteration 172 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.26442e-16
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     34.9549
+per-segment minimum non-zero probability:   6.52885e-17
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 35.1265
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:43.837836, cputime: 0:53:55.633912
+
+
+Mon Jun  1 09:18:14 2020
+Iteration 173 (200 requested)
+Beginning iteration 173
+30 segments remain in iteration 173 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.69315e-16
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     35.1473
+per-segment minimum non-zero probability:   5.10066e-17
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 35.3733
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:47.857068, cputime: 0:54:10.197869
+
+
+Mon Jun  1 09:32:02 2020
+Iteration 174 (200 requested)
+Beginning iteration 174
+30 segments remain in iteration 174 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.12215e-16
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     36.0228
+per-segment minimum non-zero probability:   1.70022e-17
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 36.472
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:00.900360, cputime: 0:54:59.745802
+
+
+Mon Jun  1 09:46:03 2020
+Iteration 175 (200 requested)
+Beginning iteration 175
+30 segments remain in iteration 175 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       5.44071e-17
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     36.7467
+per-segment minimum non-zero probability:   1.08814e-17
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 36.9182
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:52.074722, cputime: 0:54:22.737248
+
+
+Mon Jun  1 09:59:55 2020
+Iteration 176 (200 requested)
+Beginning iteration 176
+30 segments remain in iteration 176 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       4.71528e-17
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     36.8898
+per-segment minimum non-zero probability:   9.06784e-18
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 37.1006
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:52.422908, cputime: 0:54:15.071192
+
+
+Mon Jun  1 10:13:47 2020
+Iteration 177 (200 requested)
+Beginning iteration 177
+25 segments remain in iteration 177 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.02013e-17
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     38.4207
+per-segment minimum non-zero probability:   2.04026e-18
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 38.5922
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:12:07.670604, cputime: 0:47:39.746670
+
+
+Mon Jun  1 10:25:55 2020
+Iteration 178 (200 requested)
+Beginning iteration 178
+30 segments remain in iteration 178 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       7.48097e-18
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     38.7308
+per-segment minimum non-zero probability:   1.36018e-18
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 38.9977
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:37.927504, cputime: 0:53:22.509034
+
+
+Mon Jun  1 10:39:33 2020
+Iteration 179 (200 requested)
+Beginning iteration 179
+30 segments remain in iteration 179 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.17374e-18
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     39.5883
+per-segment minimum non-zero probability:   4.53392e-19
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 40.0963
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:28.003298, cputime: 0:56:58.040639
+
+
+Mon Jun  1 10:54:01 2020
+Iteration 180 (200 requested)
+Beginning iteration 180
+25 segments remain in iteration 180 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       4.68505e-18
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     39.1988
+per-segment minimum non-zero probability:   6.04523e-19
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 39.8086
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:11:53.658838, cputime: 0:46:36.647410
+
+
+Mon Jun  1 11:05:55 2020
+Iteration 181 (200 requested)
+Beginning iteration 181
+30 segments remain in iteration 181 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.26696e-18
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     39.9247
+per-segment minimum non-zero probability:   3.77827e-19
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 40.2786
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:12.017268, cputime: 0:55:12.196944
+
+
+Mon Jun  1 11:20:07 2020
+Iteration 182 (200 requested)
+Beginning iteration 182
+30 segments remain in iteration 182 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       9.06784e-19
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     40.841
+per-segment minimum non-zero probability:   1.51131e-19
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 41.1949
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:15:50.645088, cputime: 1:01:25.313799
+
+
+Mon Jun  1 11:35:58 2020
+Iteration 183 (200 requested)
+Beginning iteration 183
+30 segments remain in iteration 183 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.26696e-19
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     42.2273
+per-segment minimum non-zero probability:   4.53392e-20
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 42.3989
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:14:00.490090, cputime: 0:54:59.472130
+
+
+Mon Jun  1 11:49:58 2020
+Iteration 184 (200 requested)
+Beginning iteration 184
+30 segments remain in iteration 184 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       8.31219e-19
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     40.928
+per-segment minimum non-zero probability:   1.25942e-19
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 41.3772
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:14:50.432100, cputime: 0:58:17.774188
+
+
+Mon Jun  1 12:04:49 2020
+Iteration 185 (200 requested)
+Beginning iteration 185
+30 segments remain in iteration 185 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       4.23166e-19
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     41.6032
+per-segment minimum non-zero probability:   6.549e-20
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 42.0312
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:18:37.781680, cputime: 1:08:48.627029
+
+
+Mon Jun  1 12:23:26 2020
+Iteration 186 (200 requested)
+Beginning iteration 186
+30 segments remain in iteration 186 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       3.02261e-19
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     41.9396
+per-segment minimum non-zero probability:   6.04523e-20
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 42.1112
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:15:44.538665, cputime: 1:01:56.202313
+
+
+Mon Jun  1 12:39:11 2020
+Iteration 187 (200 requested)
+Beginning iteration 187
+30 segments remain in iteration 187 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.9647e-19
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     42.3704
+per-segment minimum non-zero probability:   3.02261e-20
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 42.8043
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:46.325331, cputime: 0:53:59.579847
+
+
+Mon Jun  1 12:52:57 2020
+Iteration 188 (200 requested)
+Beginning iteration 188
+30 segments remain in iteration 188 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       6.38107e-20
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     43.495
+per-segment minimum non-zero probability:   1.00754e-20
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 43.903
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:43.480623, cputime: 0:53:55.772761
+
+
+Mon Jun  1 13:06:41 2020
+Iteration 189 (200 requested)
+Beginning iteration 189
+30 segments remain in iteration 189 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.51885e-20
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     44.4245
+per-segment minimum non-zero probability:   5.03769e-21
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 44.5961
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:50.922839, cputime: 0:54:22.678411
+
+
+Mon Jun  1 13:20:32 2020
+Iteration 190 (200 requested)
+Beginning iteration 190
+30 segments remain in iteration 190 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       5.03769e-21
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     46.034
+per-segment minimum non-zero probability:   1.00754e-21
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 46.2055
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:39.837257, cputime: 0:53:45.637117
+
+
+Mon Jun  1 13:34:11 2020
+Iteration 191 (200 requested)
+Beginning iteration 191
+30 segments remain in iteration 191 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.10829e-20
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     45.2455
+per-segment minimum non-zero probability:   2.21658e-21
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 45.4171
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:34.324171, cputime: 0:53:15.596463
+
+
+Mon Jun  1 13:47:46 2020
+Iteration 192 (200 requested)
+Beginning iteration 192
+30 segments remain in iteration 192 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       4.47795e-21
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     46.1518
+per-segment minimum non-zero probability:   7.46325e-22
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 46.5057
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:54.506500, cputime: 0:54:39.874552
+
+
+Mon Jun  1 14:01:40 2020
+Iteration 193 (200 requested)
+Beginning iteration 193
+30 segments remain in iteration 193 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       5.26159e-21
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     45.9905
+per-segment minimum non-zero probability:   1.05232e-21
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 46.1621
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:35.388287, cputime: 0:53:21.119141
+
+
+Mon Jun  1 14:15:16 2020
+Iteration 194 (200 requested)
+Beginning iteration 194
+25 segments remain in iteration 194 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       3.68498e-21
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     46.3467
+per-segment minimum non-zero probability:   5.59743e-22
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 46.7933
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:11:06.136500, cputime: 0:43:36.531519
+
+
+Mon Jun  1 14:26:22 2020
+Iteration 195 (200 requested)
+Beginning iteration 195
+30 segments remain in iteration 195 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       2.90756e-21
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     46.5836
+per-segment minimum non-zero probability:   5.4631e-22
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 46.8176
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:33.210402, cputime: 0:53:19.621845
+
+
+Mon Jun  1 14:39:55 2020
+Iteration 196 (200 requested)
+Beginning iteration 196
+30 segments remain in iteration 196 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       6.29711e-22
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     48.1134
+per-segment minimum non-zero probability:   1.25942e-22
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 48.285
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:33.350797, cputime: 0:53:18.783630
+
+
+Mon Jun  1 14:53:28 2020
+Iteration 197 (200 requested)
+Beginning iteration 197
+30 segments remain in iteration 197 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       5.59743e-22
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     48.2312
+per-segment minimum non-zero probability:   1.04952e-22
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 48.4673
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:13:33.795749, cputime: 0:53:16.461691
+
+
+Mon Jun  1 15:07:02 2020
+Iteration 198 (200 requested)
+Beginning iteration 198
+30 segments remain in iteration 198 (30 total)
+6 of 6 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1.11949e-22
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     49.8406
+per-segment minimum non-zero probability:   2.23897e-23
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 50.0122
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:13:33.291277, cputime: 0:53:15.743554
+
+
+Mon Jun  1 15:20:35 2020
+Iteration 199 (200 requested)
+Beginning iteration 199
+25 segments remain in iteration 199 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       1.90313e-22
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     49.31
+per-segment minimum non-zero probability:   2.23897e-23
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 50.0122
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:11:18.655946, cputime: 0:44:21.985070
+
+
+Mon Jun  1 15:31:54 2020
+Iteration 200 (200 requested)
+Beginning iteration 200
+25 segments remain in iteration 200 (25 total)
+5 of 6 (83.333333%) active bins are populated
+per-bin minimum non-zero probability:       4.19808e-23
+per-bin maximum probability:                0.49492
+per-bin probability dynamic range (kT):     50.8215
+per-segment minimum non-zero probability:   8.39615e-24
+per-segment maximum non-zero probability:   0.11751
+per-segment probability dynamic range (kT): 50.993
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
+Iteration wallclock: 0:11:17.133839, cputime: 0:44:15.605195
+
+
+Mon Jun  1 15:43:11 2020
+WEST run complete.
