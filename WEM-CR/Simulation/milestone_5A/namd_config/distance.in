@@ -1,0 +1,49 @@
+colvarsTrajFrequency      100
+colvarsRestartFrequency  1000
+
+#ALAWAYS KEEP THE REACTION COORDINATE AS THE FIRST COLVAR
+#protein-ligand distnace
+colvar {
+  name r
+
+  distance {
+      group1 {
+           atomNumbersRange 1-1663 # Protein reference atoms
+             }
+      group2 {
+           atomNumbersRange 1664-1677 # Ligand reference atoms
+             }
+            }
+         }
+
+
+#protein center of mass fixing
+colvar {
+  name proteinCOM
+
+  distance {
+    group1 {
+      atomNumbersRange 1-1663 # Protein reference atoms
+    }
+    group2 {
+      dummyAtom (0.0, 0.0, 0.0) # set to initial position of group1 center
+    }
+  }
+}
+
+
+harmonic {
+  colvars r
+
+  centers 5.0
+  forceConstant 100.0
+}
+
+harmonic {
+  colvars proteinCOM
+
+  centers 0.0
+  forceConstant 10.0
+}
+
+
