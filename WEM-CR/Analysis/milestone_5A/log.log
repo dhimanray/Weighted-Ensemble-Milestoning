@@ -1,0 +1,72 @@
+
+Welcome to w_ipa (WESTPA Interactive Python Analysis) v. 1.0B!
+Run w.introduction for a more thorough introduction, or w.help to see a list of options.
+Running analysis & loading files.
+
+Complete!
+Setting iteration to iter 30.
+Setting iteration to iter 11.
+total simulation time =  20.0 ps
+0.641481481481
+Setting iteration to iter 12.
+total simulation time =  40.0 ps
+1.0
+Setting iteration to iter 13.
+total simulation time =  50.0 ps
+1.0
+Setting iteration to iter 14.
+total simulation time =  60.0 ps
+1.0
+Setting iteration to iter 15.
+total simulation time =  70.0 ps
+1.0
+Setting iteration to iter 16.
+total simulation time =  80.0 ps
+1.0
+Setting iteration to iter 17.
+total simulation time =  90.0 ps
+1.0
+Setting iteration to iter 18.
+total simulation time =  100.0 ps
+1.0
+Setting iteration to iter 19.
+total simulation time =  110.0 ps
+1.0
+Setting iteration to iter 20.
+total simulation time =  120.0 ps
+1.0
+Setting iteration to iter 21.
+total simulation time =  130.0 ps
+1.0
+Setting iteration to iter 22.
+total simulation time =  140.0 ps
+1.0
+Setting iteration to iter 23.
+total simulation time =  150.0 ps
+1.0
+Setting iteration to iter 24.
+total simulation time =  160.0 ps
+1.0
+Setting iteration to iter 25.
+total simulation time =  170.0 ps
+1.0
+Setting iteration to iter 26.
+total simulation time =  180.0 ps
+1.0
+Setting iteration to iter 27.
+total simulation time =  190.0 ps
+1.0
+Setting iteration to iter 28.
+total simulation time =  200.0 ps
+1.0
+Setting iteration to iter 29.
+total simulation time =  210.0 ps
+1.0
+Setting iteration to iter 30.
+total simulation time =  220.0 ps
+1.0
+MFPT =  200.0
+lifetime =  7.08296296296
+1.0
+200.0
+[0.64148148148148143, 0.35851851851851851, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
