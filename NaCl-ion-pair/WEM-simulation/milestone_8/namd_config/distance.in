@@ -1,0 +1,18 @@
+colvarsTrajFrequency      10
+colvarsRestartFrequency  100
+
+
+#Na-Cl distnace
+colvar {
+  name r
+
+  distance {
+    group1 {
+      atomNumbers 1 # Na+
+    }
+    group2 {
+      atomNumbers 2 # Cl-
+    }
+  }
+}
+
