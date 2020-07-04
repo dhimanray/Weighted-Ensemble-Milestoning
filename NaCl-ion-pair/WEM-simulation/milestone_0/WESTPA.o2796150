@@ -1,0 +1,20 @@
+Updating system with the options from the configuration file
+Creating HDF5 file '/dfs3/pub/dray1/WEM-Testing/NaCl/WEM/set_0.1ps/milestone_0/west.h5'
+0 target state(s) present
+Calculating progress coordinate values for basis states.
+1 basis state(s) present
+Preparing initial states
+
+        Total bins:            6
+        Initial replicas:      5 in 1 bins, total weight = 1
+        Total target replicas: 30
+        
+Simulation prepared.
+1 of 6 (16.666667%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.2
+per-segment maximum non-zero probability:   0.2
+per-segment probability dynamic range (kT): 0
+norm = 1, error in norm = 0 (0*epsilon)
