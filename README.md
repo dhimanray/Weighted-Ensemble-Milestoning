@@ -52,3 +52,4 @@ When submitting jobs in a cluster using PBS script do not do ```./run.sh```. Ins
 
 ## Preprint
 Following is the preprint related to this project: ArXiv: https://arxiv.org/abs/1912.10650
+The published paper in J. Chem. Phys. can be accessed from the following link: https://aip.scitation.org/doi/full/10.1063/5.0008028
