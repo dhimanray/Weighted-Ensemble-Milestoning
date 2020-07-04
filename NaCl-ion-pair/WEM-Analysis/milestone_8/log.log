@@ -1,0 +1,1812 @@
+
+Welcome to w_ipa (WESTPA Interactive Python Analysis) v. 1.0B!
+Run w.introduction for a more thorough introduction, or w.help to see a list of options.
+Running analysis & loading files.
+
+Complete!
+Setting iteration to iter 600.
+Setting iteration to iter 1.
+total simulation time =  0.5 ps
+0.0
+Setting iteration to iter 2.
+total simulation time =  1.5 ps
+0.0
+Setting iteration to iter 3.
+total simulation time =  2.5 ps
+0.0
+Setting iteration to iter 4.
+total simulation time =  3.0 ps
+0.0
+Setting iteration to iter 5.
+total simulation time =  4.0 ps
+0.0
+Setting iteration to iter 6.
+total simulation time =  5.0 ps
+0.0
+Setting iteration to iter 7.
+total simulation time =  6.0 ps
+0.0
+Setting iteration to iter 8.
+total simulation time =  7.5 ps
+0.0
+Setting iteration to iter 9.
+total simulation time =  9.5 ps
+0.0
+Setting iteration to iter 10.
+total simulation time =  11.5 ps
+0.0
+Setting iteration to iter 11.
+total simulation time =  13.0 ps
+0.0
+Setting iteration to iter 12.
+total simulation time =  14.5 ps
+0.0
+Setting iteration to iter 13.
+total simulation time =  16.0 ps
+0.0
+Setting iteration to iter 14.
+total simulation time =  17.5 ps
+0.0
+Setting iteration to iter 15.
+total simulation time =  19.0 ps
+0.0
+Setting iteration to iter 16.
+total simulation time =  21.0 ps
+0.0
+Setting iteration to iter 17.
+total simulation time =  22.5 ps
+0.0
+Setting iteration to iter 18.
+total simulation time =  24.5 ps
+0.0
+Setting iteration to iter 19.
+total simulation time =  27.0 ps
+0.0
+Setting iteration to iter 20.
+total simulation time =  29.5 ps
+0.0
+Setting iteration to iter 21.
+total simulation time =  32.0 ps
+0.0
+Setting iteration to iter 22.
+total simulation time =  34.5 ps
+0.00814814814815
+Setting iteration to iter 23.
+total simulation time =  37.0 ps
+0.00814814814815
+Setting iteration to iter 24.
+total simulation time =  39.5 ps
+0.0175802469136
+Setting iteration to iter 25.
+total simulation time =  42.5 ps
+0.0364444444444
+Setting iteration to iter 26.
+total simulation time =  45.5 ps
+0.0364444444444
+Setting iteration to iter 27.
+total simulation time =  48.5 ps
+0.0364444444444
+Setting iteration to iter 28.
+total simulation time =  51.5 ps
+0.0364444444444
+Setting iteration to iter 29.
+total simulation time =  54.5 ps
+0.0364444444444
+Setting iteration to iter 30.
+total simulation time =  57.5 ps
+0.0364444444444
+Setting iteration to iter 31.
+total simulation time =  60.5 ps
+0.0567901234568
+Setting iteration to iter 32.
+total simulation time =  63.5 ps
+0.0567901234568
+Setting iteration to iter 33.
+total simulation time =  66.5 ps
+0.0567901234568
+Setting iteration to iter 34.
+total simulation time =  69.5 ps
+0.0567901234568
+Setting iteration to iter 35.
+total simulation time =  72.5 ps
+0.0567901234568
+Setting iteration to iter 36.
+total simulation time =  75.5 ps
+0.0567901234568
+Setting iteration to iter 37.
+total simulation time =  78.5 ps
+0.0567901234568
+Setting iteration to iter 38.
+total simulation time =  81.5 ps
+0.0567901234568
+Setting iteration to iter 39.
+total simulation time =  84.5 ps
+0.0567901234568
+Setting iteration to iter 40.
+total simulation time =  87.5 ps
+0.0932510288066
+Setting iteration to iter 41.
+total simulation time =  90.5 ps
+0.0932510288066
+Setting iteration to iter 42.
+total simulation time =  93.5 ps
+0.0932510288066
+Setting iteration to iter 43.
+total simulation time =  96.5 ps
+0.0932510288066
+Setting iteration to iter 44.
+total simulation time =  99.5 ps
+0.0932510288066
+Setting iteration to iter 45.
+total simulation time =  102.5 ps
+0.113067215364
+Setting iteration to iter 46.
+total simulation time =  105.5 ps
+0.132216735254
+Setting iteration to iter 47.
+total simulation time =  108.5 ps
+0.132216735254
+Setting iteration to iter 48.
+total simulation time =  111.5 ps
+0.132216735254
+Setting iteration to iter 49.
+total simulation time =  114.5 ps
+0.132216735254
+Setting iteration to iter 50.
+total simulation time =  117.5 ps
+0.163628239598
+Setting iteration to iter 51.
+total simulation time =  120.5 ps
+0.19786962963
+Setting iteration to iter 52.
+total simulation time =  123.5 ps
+0.19786962963
+Setting iteration to iter 53.
+total simulation time =  126.5 ps
+0.19786962963
+Setting iteration to iter 54.
+total simulation time =  129.5 ps
+0.19786962963
+Setting iteration to iter 55.
+total simulation time =  132.5 ps
+0.212561673525
+Setting iteration to iter 56.
+total simulation time =  135.5 ps
+0.241945761317
+Setting iteration to iter 57.
+total simulation time =  138.5 ps
+0.241945761317
+Setting iteration to iter 58.
+total simulation time =  141.5 ps
+0.241945761317
+Setting iteration to iter 59.
+total simulation time =  144.5 ps
+0.241945761317
+Setting iteration to iter 60.
+total simulation time =  147.5 ps
+0.241945761317
+Setting iteration to iter 61.
+total simulation time =  150.5 ps
+0.241945761317
+Setting iteration to iter 62.
+total simulation time =  153.5 ps
+0.241945761317
+Setting iteration to iter 63.
+total simulation time =  156.5 ps
+0.241945761317
+Setting iteration to iter 64.
+total simulation time =  159.5 ps
+0.241945761317
+Setting iteration to iter 65.
+total simulation time =  162.5 ps
+0.241945761317
+Setting iteration to iter 66.
+total simulation time =  165.5 ps
+0.241945761317
+Setting iteration to iter 67.
+total simulation time =  168.5 ps
+0.241945761317
+Setting iteration to iter 68.
+total simulation time =  171.5 ps
+0.241945761317
+Setting iteration to iter 69.
+total simulation time =  174.5 ps
+0.241945761317
+Setting iteration to iter 70.
+total simulation time =  177.5 ps
+0.241945761317
+Setting iteration to iter 71.
+total simulation time =  180.5 ps
+0.241945761317
+Setting iteration to iter 72.
+total simulation time =  183.5 ps
+0.241945761317
+Setting iteration to iter 73.
+total simulation time =  186.5 ps
+0.241945761317
+Setting iteration to iter 74.
+total simulation time =  189.5 ps
+0.241945761317
+Setting iteration to iter 75.
+total simulation time =  192.5 ps
+0.241945761317
+Setting iteration to iter 76.
+total simulation time =  195.5 ps
+0.241945761317
+Setting iteration to iter 77.
+total simulation time =  198.5 ps
+0.241945761317
+Setting iteration to iter 78.
+total simulation time =  201.5 ps
+0.293819844536
+Setting iteration to iter 79.
+total simulation time =  204.5 ps
+0.293819844536
+Setting iteration to iter 80.
+total simulation time =  207.5 ps
+0.293819844536
+Setting iteration to iter 81.
+total simulation time =  210.5 ps
+0.342230251712
+Setting iteration to iter 82.
+total simulation time =  213.5 ps
+0.342230251712
+Setting iteration to iter 83.
+total simulation time =  216.5 ps
+0.342230251712
+Setting iteration to iter 84.
+total simulation time =  219.5 ps
+0.342230251712
+Setting iteration to iter 85.
+total simulation time =  222.5 ps
+0.342230251712
+Setting iteration to iter 86.
+total simulation time =  225.5 ps
+0.342230251712
+Setting iteration to iter 87.
+total simulation time =  228.5 ps
+0.342230251712
+Setting iteration to iter 88.
+total simulation time =  231.5 ps
+0.342230251712
+Setting iteration to iter 89.
+total simulation time =  234.5 ps
+0.342230251712
+Setting iteration to iter 90.
+total simulation time =  237.5 ps
+0.342230251712
+Setting iteration to iter 91.
+total simulation time =  240.5 ps
+0.342230251712
+Setting iteration to iter 92.
+total simulation time =  243.5 ps
+0.342230251712
+Setting iteration to iter 93.
+total simulation time =  246.5 ps
+0.342230251712
+Setting iteration to iter 94.
+total simulation time =  249.5 ps
+0.342230251712
+Setting iteration to iter 95.
+total simulation time =  252.5 ps
+0.342230251712
+Setting iteration to iter 96.
+total simulation time =  255.5 ps
+0.342230251712
+Setting iteration to iter 97.
+total simulation time =  258.5 ps
+0.342230251712
+Setting iteration to iter 98.
+total simulation time =  261.5 ps
+0.342230251712
+Setting iteration to iter 99.
+total simulation time =  264.5 ps
+0.342230251712
+Setting iteration to iter 100.
+total simulation time =  267.5 ps
+0.342230251712
+Setting iteration to iter 101.
+total simulation time =  270.5 ps
+0.342230251712
+Setting iteration to iter 102.
+total simulation time =  273.5 ps
+0.342230251712
+Setting iteration to iter 103.
+total simulation time =  276.5 ps
+0.342230251712
+Setting iteration to iter 104.
+total simulation time =  279.5 ps
+0.342230251712
+Setting iteration to iter 105.
+total simulation time =  282.5 ps
+0.342230251712
+Setting iteration to iter 106.
+total simulation time =  285.5 ps
+0.342230251712
+Setting iteration to iter 107.
+total simulation time =  288.5 ps
+0.342230251712
+Setting iteration to iter 108.
+total simulation time =  291.5 ps
+0.342230251712
+Setting iteration to iter 109.
+total simulation time =  294.5 ps
+0.342230251712
+Setting iteration to iter 110.
+total simulation time =  297.5 ps
+0.342230251712
+Setting iteration to iter 111.
+total simulation time =  300.5 ps
+0.342230251712
+Setting iteration to iter 112.
+total simulation time =  303.5 ps
+0.342230251712
+Setting iteration to iter 113.
+total simulation time =  306.5 ps
+0.342230251712
+Setting iteration to iter 114.
+total simulation time =  309.5 ps
+0.342230251712
+Setting iteration to iter 115.
+total simulation time =  312.5 ps
+0.342230251712
+Setting iteration to iter 116.
+total simulation time =  315.5 ps
+0.342230251712
+Setting iteration to iter 117.
+total simulation time =  318.0 ps
+0.342230251712
+Setting iteration to iter 118.
+total simulation time =  320.5 ps
+0.342230251712
+Setting iteration to iter 119.
+total simulation time =  323.0 ps
+0.342230251712
+Setting iteration to iter 120.
+total simulation time =  326.0 ps
+0.342230251712
+Setting iteration to iter 121.
+total simulation time =  329.0 ps
+0.342230251712
+Setting iteration to iter 122.
+total simulation time =  332.0 ps
+0.342230251712
+Setting iteration to iter 123.
+total simulation time =  335.0 ps
+0.342230251712
+Setting iteration to iter 124.
+total simulation time =  338.0 ps
+0.342230251712
+Setting iteration to iter 125.
+total simulation time =  341.0 ps
+0.342230251712
+Setting iteration to iter 126.
+total simulation time =  344.0 ps
+0.342230251712
+Setting iteration to iter 127.
+total simulation time =  347.0 ps
+0.342230251712
+Setting iteration to iter 128.
+total simulation time =  350.0 ps
+0.342230251712
+Setting iteration to iter 129.
+total simulation time =  353.0 ps
+0.342230251712
+Setting iteration to iter 130.
+total simulation time =  356.0 ps
+0.342230251712
+Setting iteration to iter 131.
+total simulation time =  359.0 ps
+0.342230251712
+Setting iteration to iter 132.
+total simulation time =  362.0 ps
+0.342230251712
+Setting iteration to iter 133.
+total simulation time =  365.0 ps
+0.342230251712
+Setting iteration to iter 134.
+total simulation time =  368.0 ps
+0.342230251712
+Setting iteration to iter 135.
+total simulation time =  371.0 ps
+0.342230251712
+Setting iteration to iter 136.
+total simulation time =  374.0 ps
+0.342230251712
+Setting iteration to iter 137.
+total simulation time =  377.0 ps
+0.342230251712
+Setting iteration to iter 138.
+total simulation time =  380.0 ps
+0.342230251712
+Setting iteration to iter 139.
+total simulation time =  383.0 ps
+0.342230251712
+Setting iteration to iter 140.
+total simulation time =  386.0 ps
+0.342230251712
+Setting iteration to iter 141.
+total simulation time =  389.0 ps
+0.342230251712
+Setting iteration to iter 142.
+total simulation time =  392.0 ps
+0.342230251712
+Setting iteration to iter 143.
+total simulation time =  395.0 ps
+0.342230251712
+Setting iteration to iter 144.
+total simulation time =  398.0 ps
+0.342230251712
+Setting iteration to iter 145.
+total simulation time =  401.0 ps
+0.342230251712
+Setting iteration to iter 146.
+total simulation time =  404.0 ps
+0.342230251712
+Setting iteration to iter 147.
+total simulation time =  407.0 ps
+0.342230251712
+Setting iteration to iter 148.
+total simulation time =  410.0 ps
+0.342230251712
+Setting iteration to iter 149.
+total simulation time =  413.0 ps
+0.342230251712
+Setting iteration to iter 150.
+total simulation time =  416.0 ps
+0.342230251712
+Setting iteration to iter 151.
+total simulation time =  419.0 ps
+0.342230251712
+Setting iteration to iter 152.
+total simulation time =  422.0 ps
+0.342230251712
+Setting iteration to iter 153.
+total simulation time =  425.0 ps
+0.342230251712
+Setting iteration to iter 154.
+total simulation time =  428.0 ps
+0.342230251712
+Setting iteration to iter 155.
+total simulation time =  431.0 ps
+0.342230251712
+Setting iteration to iter 156.
+total simulation time =  434.0 ps
+0.342230251712
+Setting iteration to iter 157.
+total simulation time =  437.0 ps
+0.342230251712
+Setting iteration to iter 158.
+total simulation time =  440.0 ps
+0.342230251712
+Setting iteration to iter 159.
+total simulation time =  443.0 ps
+0.342230251712
+Setting iteration to iter 160.
+total simulation time =  446.0 ps
+0.342230251712
+Setting iteration to iter 161.
+total simulation time =  449.0 ps
+0.342230251712
+Setting iteration to iter 162.
+total simulation time =  452.0 ps
+0.342230251712
+Setting iteration to iter 163.
+total simulation time =  455.0 ps
+0.342230251712
+Setting iteration to iter 164.
+total simulation time =  458.0 ps
+0.342230251712
+Setting iteration to iter 165.
+total simulation time =  461.0 ps
+0.342230251712
+Setting iteration to iter 166.
+total simulation time =  464.0 ps
+0.342230251712
+Setting iteration to iter 167.
+total simulation time =  467.0 ps
+0.342230251712
+Setting iteration to iter 168.
+total simulation time =  470.0 ps
+0.342230251712
+Setting iteration to iter 169.
+total simulation time =  473.0 ps
+0.342230251712
+Setting iteration to iter 170.
+total simulation time =  476.0 ps
+0.342230251712
+Setting iteration to iter 171.
+total simulation time =  479.0 ps
+0.342230251712
+Setting iteration to iter 172.
+total simulation time =  482.0 ps
+0.342230251712
+Setting iteration to iter 173.
+total simulation time =  485.0 ps
+0.342230251712
+Setting iteration to iter 174.
+total simulation time =  488.0 ps
+0.342230251712
+Setting iteration to iter 175.
+total simulation time =  491.0 ps
+0.342230251712
+Setting iteration to iter 176.
+total simulation time =  494.0 ps
+0.342230251712
+Setting iteration to iter 177.
+total simulation time =  497.0 ps
+0.342230251712
+Setting iteration to iter 178.
+total simulation time =  500.0 ps
+0.342230251712
+Setting iteration to iter 179.
+total simulation time =  503.0 ps
+0.342230251712
+Setting iteration to iter 180.
+total simulation time =  506.0 ps
+0.342230251712
+Setting iteration to iter 181.
+total simulation time =  509.0 ps
+0.342230251712
+Setting iteration to iter 182.
+total simulation time =  512.0 ps
+0.342230251712
+Setting iteration to iter 183.
+total simulation time =  515.0 ps
+0.342230251712
+Setting iteration to iter 184.
+total simulation time =  518.0 ps
+0.342230251712
+Setting iteration to iter 185.
+total simulation time =  521.0 ps
+0.342230251712
+Setting iteration to iter 186.
+total simulation time =  524.0 ps
+0.342230251712
+Setting iteration to iter 187.
+total simulation time =  527.0 ps
+0.342230251712
+Setting iteration to iter 188.
+total simulation time =  530.0 ps
+0.342230251712
+Setting iteration to iter 189.
+total simulation time =  533.0 ps
+0.342230251712
+Setting iteration to iter 190.
+total simulation time =  536.0 ps
+0.342230251712
+Setting iteration to iter 191.
+total simulation time =  539.0 ps
+0.342230251712
+Setting iteration to iter 192.
+total simulation time =  542.0 ps
+0.342230251712
+Setting iteration to iter 193.
+total simulation time =  545.0 ps
+0.342230251712
+Setting iteration to iter 194.
+total simulation time =  548.0 ps
+0.342230251712
+Setting iteration to iter 195.
+total simulation time =  551.0 ps
+0.342230251712
+Setting iteration to iter 196.
+total simulation time =  554.0 ps
+0.342230251712
+Setting iteration to iter 197.
+total simulation time =  557.0 ps
+0.342230251712
+Setting iteration to iter 198.
+total simulation time =  560.0 ps
+0.342230251712
+Setting iteration to iter 199.
+total simulation time =  563.0 ps
+0.342230251712
+Setting iteration to iter 200.
+total simulation time =  566.0 ps
+0.342230251712
+Setting iteration to iter 201.
+total simulation time =  569.0 ps
+0.342230251712
+Setting iteration to iter 202.
+total simulation time =  572.0 ps
+0.342230251712
+Setting iteration to iter 203.
+total simulation time =  575.0 ps
+0.342230251712
+Setting iteration to iter 204.
+total simulation time =  578.0 ps
+0.342230251712
+Setting iteration to iter 205.
+total simulation time =  581.0 ps
+0.342230251712
+Setting iteration to iter 206.
+total simulation time =  584.0 ps
+0.342230251712
+Setting iteration to iter 207.
+total simulation time =  587.0 ps
+0.342230251712
+Setting iteration to iter 208.
+total simulation time =  590.0 ps
+0.342230251712
+Setting iteration to iter 209.
+total simulation time =  593.0 ps
+0.342230251712
+Setting iteration to iter 210.
+total simulation time =  596.0 ps
+0.342230251712
+Setting iteration to iter 211.
+total simulation time =  599.0 ps
+0.342230251712
+Setting iteration to iter 212.
+total simulation time =  602.0 ps
+0.342230251712
+Setting iteration to iter 213.
+total simulation time =  605.0 ps
+0.342230251712
+Setting iteration to iter 214.
+total simulation time =  608.0 ps
+0.342230251712
+Setting iteration to iter 215.
+total simulation time =  611.0 ps
+0.342230251712
+Setting iteration to iter 216.
+total simulation time =  614.0 ps
+0.342230251712
+Setting iteration to iter 217.
+total simulation time =  617.0 ps
+0.342230251712
+Setting iteration to iter 218.
+total simulation time =  620.0 ps
+0.342230251712
+Setting iteration to iter 219.
+total simulation time =  623.0 ps
+0.342230251712
+Setting iteration to iter 220.
+total simulation time =  626.0 ps
+0.342230251712
+Setting iteration to iter 221.
+total simulation time =  629.0 ps
+0.342230251712
+Setting iteration to iter 222.
+total simulation time =  632.0 ps
+0.342230251712
+Setting iteration to iter 223.
+total simulation time =  634.5 ps
+0.342230251712
+Setting iteration to iter 224.
+total simulation time =  637.5 ps
+0.342230251712
+Setting iteration to iter 225.
+total simulation time =  640.5 ps
+0.342230251712
+Setting iteration to iter 226.
+total simulation time =  643.5 ps
+0.342230251712
+Setting iteration to iter 227.
+total simulation time =  646.5 ps
+0.342230251712
+Setting iteration to iter 228.
+total simulation time =  649.5 ps
+0.342230251712
+Setting iteration to iter 229.
+total simulation time =  652.5 ps
+0.342230251712
+Setting iteration to iter 230.
+total simulation time =  655.5 ps
+0.342230251712
+Setting iteration to iter 231.
+total simulation time =  658.5 ps
+0.342230251712
+Setting iteration to iter 232.
+total simulation time =  661.5 ps
+0.342230251712
+Setting iteration to iter 233.
+total simulation time =  664.5 ps
+0.342230251712
+Setting iteration to iter 234.
+total simulation time =  667.5 ps
+0.342230251712
+Setting iteration to iter 235.
+total simulation time =  670.5 ps
+0.342230251712
+Setting iteration to iter 236.
+total simulation time =  673.5 ps
+0.342230251712
+Setting iteration to iter 237.
+total simulation time =  676.5 ps
+0.342230251712
+Setting iteration to iter 238.
+total simulation time =  679.5 ps
+0.342230251712
+Setting iteration to iter 239.
+total simulation time =  682.5 ps
+0.342230251712
+Setting iteration to iter 240.
+total simulation time =  685.5 ps
+0.342230251712
+Setting iteration to iter 241.
+total simulation time =  688.5 ps
+0.342230251712
+Setting iteration to iter 242.
+total simulation time =  691.5 ps
+0.342230251712
+Setting iteration to iter 243.
+total simulation time =  694.5 ps
+0.342230251712
+Setting iteration to iter 244.
+total simulation time =  697.5 ps
+0.342230251712
+Setting iteration to iter 245.
+total simulation time =  700.5 ps
+0.342230251712
+Setting iteration to iter 246.
+total simulation time =  703.5 ps
+0.342230251712
+Setting iteration to iter 247.
+total simulation time =  706.5 ps
+0.342230251712
+Setting iteration to iter 248.
+total simulation time =  709.5 ps
+0.342230251712
+Setting iteration to iter 249.
+total simulation time =  712.5 ps
+0.342230251712
+Setting iteration to iter 250.
+total simulation time =  715.5 ps
+0.342230251712
+Setting iteration to iter 251.
+total simulation time =  718.5 ps
+0.342230251712
+Setting iteration to iter 252.
+total simulation time =  721.5 ps
+0.342230251712
+Setting iteration to iter 253.
+total simulation time =  724.5 ps
+0.342230251712
+Setting iteration to iter 254.
+total simulation time =  727.5 ps
+0.342230251712
+Setting iteration to iter 255.
+total simulation time =  730.0 ps
+0.342230251712
+Setting iteration to iter 256.
+total simulation time =  733.0 ps
+0.342230251712
+Setting iteration to iter 257.
+total simulation time =  736.0 ps
+0.342230251712
+Setting iteration to iter 258.
+total simulation time =  738.5 ps
+0.342230251712
+Setting iteration to iter 259.
+total simulation time =  741.5 ps
+0.342230251712
+Setting iteration to iter 260.
+total simulation time =  744.0 ps
+0.342230251712
+Setting iteration to iter 261.
+total simulation time =  746.5 ps
+0.342230251712
+Setting iteration to iter 262.
+total simulation time =  749.0 ps
+0.342230251712
+Setting iteration to iter 263.
+total simulation time =  751.5 ps
+0.342230251712
+Setting iteration to iter 264.
+total simulation time =  754.0 ps
+0.342230251712
+Setting iteration to iter 265.
+total simulation time =  756.5 ps
+0.342230251712
+Setting iteration to iter 266.
+total simulation time =  759.5 ps
+0.342230251712
+Setting iteration to iter 267.
+total simulation time =  762.5 ps
+0.342230251712
+Setting iteration to iter 268.
+total simulation time =  765.5 ps
+0.342230251712
+Setting iteration to iter 269.
+total simulation time =  768.5 ps
+0.342230251712
+Setting iteration to iter 270.
+total simulation time =  771.5 ps
+0.342230251712
+Setting iteration to iter 271.
+total simulation time =  774.5 ps
+0.342230251712
+Setting iteration to iter 272.
+total simulation time =  777.5 ps
+0.342230251712
+Setting iteration to iter 273.
+total simulation time =  780.5 ps
+0.342230251712
+Setting iteration to iter 274.
+total simulation time =  783.5 ps
+0.342230251712
+Setting iteration to iter 275.
+total simulation time =  786.5 ps
+0.342230251712
+Setting iteration to iter 276.
+total simulation time =  789.5 ps
+0.342230251712
+Setting iteration to iter 277.
+total simulation time =  792.5 ps
+0.342230251712
+Setting iteration to iter 278.
+total simulation time =  795.5 ps
+0.342230251712
+Setting iteration to iter 279.
+total simulation time =  798.5 ps
+0.342230251712
+Setting iteration to iter 280.
+total simulation time =  801.5 ps
+0.342230251712
+Setting iteration to iter 281.
+total simulation time =  804.5 ps
+0.342230251712
+Setting iteration to iter 282.
+total simulation time =  807.5 ps
+0.342230251712
+Setting iteration to iter 283.
+total simulation time =  810.5 ps
+0.342230251712
+Setting iteration to iter 284.
+total simulation time =  813.5 ps
+0.342230251712
+Setting iteration to iter 285.
+total simulation time =  816.5 ps
+0.342230251712
+Setting iteration to iter 286.
+total simulation time =  819.5 ps
+0.342230251712
+Setting iteration to iter 287.
+total simulation time =  822.0 ps
+0.342230251712
+Setting iteration to iter 288.
+total simulation time =  824.5 ps
+0.342230251712
+Setting iteration to iter 289.
+total simulation time =  827.5 ps
+0.342230251712
+Setting iteration to iter 290.
+total simulation time =  830.5 ps
+0.342230251712
+Setting iteration to iter 291.
+total simulation time =  833.0 ps
+0.342230251712
+Setting iteration to iter 292.
+total simulation time =  836.0 ps
+0.342230251712
+Setting iteration to iter 293.
+total simulation time =  839.0 ps
+0.342230251712
+Setting iteration to iter 294.
+total simulation time =  842.0 ps
+0.342230251712
+Setting iteration to iter 295.
+total simulation time =  845.0 ps
+0.342230251712
+Setting iteration to iter 296.
+total simulation time =  848.0 ps
+0.342230251712
+Setting iteration to iter 297.
+total simulation time =  851.0 ps
+0.342230251712
+Setting iteration to iter 298.
+total simulation time =  854.0 ps
+0.342230251712
+Setting iteration to iter 299.
+total simulation time =  857.0 ps
+0.342230251712
+Setting iteration to iter 300.
+total simulation time =  860.0 ps
+0.342230251712
+Setting iteration to iter 301.
+total simulation time =  863.0 ps
+0.342230251712
+Setting iteration to iter 302.
+total simulation time =  866.0 ps
+0.342230251712
+Setting iteration to iter 303.
+total simulation time =  868.5 ps
+0.342230251712
+Setting iteration to iter 304.
+total simulation time =  871.5 ps
+0.342230251712
+Setting iteration to iter 305.
+total simulation time =  874.5 ps
+0.342230251712
+Setting iteration to iter 306.
+total simulation time =  877.5 ps
+0.342230251712
+Setting iteration to iter 307.
+total simulation time =  880.5 ps
+0.342230251712
+Setting iteration to iter 308.
+total simulation time =  883.5 ps
+0.342230251712
+Setting iteration to iter 309.
+total simulation time =  886.5 ps
+0.342230251712
+Setting iteration to iter 310.
+total simulation time =  889.5 ps
+0.342230251712
+Setting iteration to iter 311.
+total simulation time =  892.5 ps
+0.342230251712
+Setting iteration to iter 312.
+total simulation time =  895.5 ps
+0.342230251712
+Setting iteration to iter 313.
+total simulation time =  898.5 ps
+0.342230251712
+Setting iteration to iter 314.
+total simulation time =  901.5 ps
+0.342230251712
+Setting iteration to iter 315.
+total simulation time =  904.5 ps
+0.342230251712
+Setting iteration to iter 316.
+total simulation time =  907.5 ps
+0.342230251712
+Setting iteration to iter 317.
+total simulation time =  910.0 ps
+0.342230251712
+Setting iteration to iter 318.
+total simulation time =  912.5 ps
+0.342230251712
+Setting iteration to iter 319.
+total simulation time =  915.5 ps
+0.342230251712
+Setting iteration to iter 320.
+total simulation time =  918.5 ps
+0.342230251712
+Setting iteration to iter 321.
+total simulation time =  921.5 ps
+0.342230251712
+Setting iteration to iter 322.
+total simulation time =  924.5 ps
+0.342230251712
+Setting iteration to iter 323.
+total simulation time =  927.5 ps
+0.342230251712
+Setting iteration to iter 324.
+total simulation time =  930.5 ps
+0.342230251712
+Setting iteration to iter 325.
+total simulation time =  933.5 ps
+0.342230251712
+Setting iteration to iter 326.
+total simulation time =  936.5 ps
+0.342230251712
+Setting iteration to iter 327.
+total simulation time =  939.5 ps
+0.342230251712
+Setting iteration to iter 328.
+total simulation time =  942.5 ps
+0.342230251712
+Setting iteration to iter 329.
+total simulation time =  945.5 ps
+0.342230251712
+Setting iteration to iter 330.
+total simulation time =  948.0 ps
+0.342230251712
+Setting iteration to iter 331.
+total simulation time =  950.5 ps
+0.342230251712
+Setting iteration to iter 332.
+total simulation time =  953.5 ps
+0.342230251712
+Setting iteration to iter 333.
+total simulation time =  956.5 ps
+0.342230251712
+Setting iteration to iter 334.
+total simulation time =  959.5 ps
+0.342230251712
+Setting iteration to iter 335.
+total simulation time =  962.5 ps
+0.342230251712
+Setting iteration to iter 336.
+total simulation time =  965.5 ps
+0.342230251712
+Setting iteration to iter 337.
+total simulation time =  968.5 ps
+0.342230251712
+Setting iteration to iter 338.
+total simulation time =  971.5 ps
+0.342230251712
+Setting iteration to iter 339.
+total simulation time =  974.5 ps
+0.342230251712
+Setting iteration to iter 340.
+total simulation time =  977.5 ps
+0.342230251712
+Setting iteration to iter 341.
+total simulation time =  980.5 ps
+0.342230251712
+Setting iteration to iter 342.
+total simulation time =  983.5 ps
+0.342230251712
+Setting iteration to iter 343.
+total simulation time =  986.5 ps
+0.342230251712
+Setting iteration to iter 344.
+total simulation time =  989.5 ps
+0.342230251712
+Setting iteration to iter 345.
+total simulation time =  992.5 ps
+0.342230251712
+Setting iteration to iter 346.
+total simulation time =  995.5 ps
+0.342230251712
+Setting iteration to iter 347.
+total simulation time =  998.5 ps
+0.342230251712
+Setting iteration to iter 348.
+total simulation time =  1001.5 ps
+0.342230251712
+Setting iteration to iter 349.
+total simulation time =  1004.5 ps
+0.409224147032
+Setting iteration to iter 350.
+total simulation time =  1007.5 ps
+0.409224147032
+Setting iteration to iter 351.
+total simulation time =  1010.5 ps
+0.409224147032
+Setting iteration to iter 352.
+total simulation time =  1013.5 ps
+0.409224147032
+Setting iteration to iter 353.
+total simulation time =  1016.5 ps
+0.409224147032
+Setting iteration to iter 354.
+total simulation time =  1019.5 ps
+0.409224147032
+Setting iteration to iter 355.
+total simulation time =  1022.5 ps
+0.409224147032
+Setting iteration to iter 356.
+total simulation time =  1025.5 ps
+0.409224147032
+Setting iteration to iter 357.
+total simulation time =  1028.5 ps
+0.409224147032
+Setting iteration to iter 358.
+total simulation time =  1031.5 ps
+0.409224147032
+Setting iteration to iter 359.
+total simulation time =  1034.5 ps
+0.409224147032
+Setting iteration to iter 360.
+total simulation time =  1037.5 ps
+0.438823199176
+Setting iteration to iter 361.
+total simulation time =  1040.5 ps
+0.438823199176
+Setting iteration to iter 362.
+total simulation time =  1043.5 ps
+0.438823199176
+Setting iteration to iter 363.
+total simulation time =  1046.5 ps
+0.438823199176
+Setting iteration to iter 364.
+total simulation time =  1049.5 ps
+0.438823199176
+Setting iteration to iter 365.
+total simulation time =  1052.5 ps
+0.510349925165
+Setting iteration to iter 366.
+total simulation time =  1055.5 ps
+0.510349925165
+Setting iteration to iter 367.
+total simulation time =  1058.5 ps
+0.510349925165
+Setting iteration to iter 368.
+total simulation time =  1061.5 ps
+0.510349925165
+Setting iteration to iter 369.
+total simulation time =  1064.5 ps
+0.510349925165
+Setting iteration to iter 370.
+total simulation time =  1067.5 ps
+0.510349925165
+Setting iteration to iter 371.
+total simulation time =  1070.5 ps
+0.510349925165
+Setting iteration to iter 372.
+total simulation time =  1073.5 ps
+0.510349925165
+Setting iteration to iter 373.
+total simulation time =  1076.5 ps
+0.510349925165
+Setting iteration to iter 374.
+total simulation time =  1079.5 ps
+0.510349925165
+Setting iteration to iter 375.
+total simulation time =  1082.5 ps
+0.510349925165
+Setting iteration to iter 376.
+total simulation time =  1085.5 ps
+0.510349925165
+Setting iteration to iter 377.
+total simulation time =  1088.5 ps
+0.510349925165
+Setting iteration to iter 378.
+total simulation time =  1091.5 ps
+0.510349925165
+Setting iteration to iter 379.
+total simulation time =  1094.5 ps
+0.510349925165
+Setting iteration to iter 380.
+total simulation time =  1097.5 ps
+0.510349925165
+Setting iteration to iter 381.
+total simulation time =  1100.5 ps
+0.510349925165
+Setting iteration to iter 382.
+total simulation time =  1103.5 ps
+0.510349925165
+Setting iteration to iter 383.
+total simulation time =  1106.5 ps
+0.510349925165
+Setting iteration to iter 384.
+total simulation time =  1109.5 ps
+0.510349925165
+Setting iteration to iter 385.
+total simulation time =  1112.5 ps
+0.510349925165
+Setting iteration to iter 386.
+total simulation time =  1115.5 ps
+0.510349925165
+Setting iteration to iter 387.
+total simulation time =  1118.5 ps
+0.510349925165
+Setting iteration to iter 388.
+total simulation time =  1121.5 ps
+0.510349925165
+Setting iteration to iter 389.
+total simulation time =  1124.5 ps
+0.510349925165
+Setting iteration to iter 390.
+total simulation time =  1127.5 ps
+0.510349925165
+Setting iteration to iter 391.
+total simulation time =  1130.5 ps
+0.510349925165
+Setting iteration to iter 392.
+total simulation time =  1133.5 ps
+0.510349925165
+Setting iteration to iter 393.
+total simulation time =  1136.5 ps
+0.510349925165
+Setting iteration to iter 394.
+total simulation time =  1139.5 ps
+0.510349925165
+Setting iteration to iter 395.
+total simulation time =  1142.5 ps
+0.510349925165
+Setting iteration to iter 396.
+total simulation time =  1145.5 ps
+0.510349925165
+Setting iteration to iter 397.
+total simulation time =  1148.5 ps
+0.510349925165
+Setting iteration to iter 398.
+total simulation time =  1151.5 ps
+0.510349925165
+Setting iteration to iter 399.
+total simulation time =  1154.5 ps
+0.510349925165
+Setting iteration to iter 400.
+total simulation time =  1157.5 ps
+0.510349925165
+Setting iteration to iter 401.
+total simulation time =  1160.5 ps
+0.510349925165
+Setting iteration to iter 402.
+total simulation time =  1163.5 ps
+0.510349925165
+Setting iteration to iter 403.
+total simulation time =  1166.5 ps
+0.510349925165
+Setting iteration to iter 404.
+total simulation time =  1169.5 ps
+0.510349925165
+Setting iteration to iter 405.
+total simulation time =  1172.5 ps
+0.510349925165
+Setting iteration to iter 406.
+total simulation time =  1175.5 ps
+0.510349925165
+Setting iteration to iter 407.
+total simulation time =  1178.5 ps
+0.510349925165
+Setting iteration to iter 408.
+total simulation time =  1181.5 ps
+0.510349925165
+Setting iteration to iter 409.
+total simulation time =  1184.5 ps
+0.510349925165
+Setting iteration to iter 410.
+total simulation time =  1187.5 ps
+0.510349925165
+Setting iteration to iter 411.
+total simulation time =  1190.5 ps
+0.510349925165
+Setting iteration to iter 412.
+total simulation time =  1193.5 ps
+0.510349925165
+Setting iteration to iter 413.
+total simulation time =  1196.5 ps
+0.510349925165
+Setting iteration to iter 414.
+total simulation time =  1199.5 ps
+0.510349925165
+Setting iteration to iter 415.
+total simulation time =  1202.5 ps
+0.510349925165
+Setting iteration to iter 416.
+total simulation time =  1205.5 ps
+0.510349925165
+Setting iteration to iter 417.
+total simulation time =  1208.5 ps
+0.510349925165
+Setting iteration to iter 418.
+total simulation time =  1211.5 ps
+0.510349925165
+Setting iteration to iter 419.
+total simulation time =  1214.5 ps
+0.510349925165
+Setting iteration to iter 420.
+total simulation time =  1217.5 ps
+0.510349925165
+Setting iteration to iter 421.
+total simulation time =  1220.5 ps
+0.510349925165
+Setting iteration to iter 422.
+total simulation time =  1223.5 ps
+0.510349925165
+Setting iteration to iter 423.
+total simulation time =  1226.5 ps
+0.510349925165
+Setting iteration to iter 424.
+total simulation time =  1229.5 ps
+0.510349925165
+Setting iteration to iter 425.
+total simulation time =  1232.5 ps
+0.510349925165
+Setting iteration to iter 426.
+total simulation time =  1235.5 ps
+0.510349925165
+Setting iteration to iter 427.
+total simulation time =  1238.5 ps
+0.510349925165
+Setting iteration to iter 428.
+total simulation time =  1241.5 ps
+0.510349925165
+Setting iteration to iter 429.
+total simulation time =  1244.5 ps
+0.510349925165
+Setting iteration to iter 430.
+total simulation time =  1247.5 ps
+0.510349925165
+Setting iteration to iter 431.
+total simulation time =  1250.5 ps
+0.510349925165
+Setting iteration to iter 432.
+total simulation time =  1253.5 ps
+0.510349925165
+Setting iteration to iter 433.
+total simulation time =  1256.5 ps
+0.510349925165
+Setting iteration to iter 434.
+total simulation time =  1259.5 ps
+0.510349925165
+Setting iteration to iter 435.
+total simulation time =  1262.5 ps
+0.510349925165
+Setting iteration to iter 436.
+total simulation time =  1265.5 ps
+0.510349925165
+Setting iteration to iter 437.
+total simulation time =  1268.5 ps
+0.510349925165
+Setting iteration to iter 438.
+total simulation time =  1271.5 ps
+0.510349925165
+Setting iteration to iter 439.
+total simulation time =  1274.5 ps
+0.510349925165
+Setting iteration to iter 440.
+total simulation time =  1277.5 ps
+0.510349925165
+Setting iteration to iter 441.
+total simulation time =  1280.5 ps
+0.510349925165
+Setting iteration to iter 442.
+total simulation time =  1283.5 ps
+0.510349925165
+Setting iteration to iter 443.
+total simulation time =  1286.5 ps
+0.510349925165
+Setting iteration to iter 444.
+total simulation time =  1289.5 ps
+0.510349925165
+Setting iteration to iter 445.
+total simulation time =  1292.5 ps
+0.510349925165
+Setting iteration to iter 446.
+total simulation time =  1295.5 ps
+0.510349925165
+Setting iteration to iter 447.
+total simulation time =  1298.5 ps
+0.510349925165
+Setting iteration to iter 448.
+total simulation time =  1301.5 ps
+0.510349925165
+Setting iteration to iter 449.
+total simulation time =  1304.0 ps
+0.510349925165
+Setting iteration to iter 450.
+total simulation time =  1307.0 ps
+0.510349925165
+Setting iteration to iter 451.
+total simulation time =  1310.0 ps
+0.510349925165
+Setting iteration to iter 452.
+total simulation time =  1313.0 ps
+0.510349925165
+Setting iteration to iter 453.
+total simulation time =  1316.0 ps
+0.510349925165
+Setting iteration to iter 454.
+total simulation time =  1319.0 ps
+0.510349925165
+Setting iteration to iter 455.
+total simulation time =  1322.0 ps
+0.510349925165
+Setting iteration to iter 456.
+total simulation time =  1325.0 ps
+0.510349925165
+Setting iteration to iter 457.
+total simulation time =  1328.0 ps
+0.510349925165
+Setting iteration to iter 458.
+total simulation time =  1331.0 ps
+0.510349925165
+Setting iteration to iter 459.
+total simulation time =  1334.0 ps
+0.510349925165
+Setting iteration to iter 460.
+total simulation time =  1337.0 ps
+0.510349925165
+Setting iteration to iter 461.
+total simulation time =  1340.0 ps
+0.510349925165
+Setting iteration to iter 462.
+total simulation time =  1343.0 ps
+0.510349925165
+Setting iteration to iter 463.
+total simulation time =  1346.0 ps
+0.510349925165
+Setting iteration to iter 464.
+total simulation time =  1349.0 ps
+0.510349925165
+Setting iteration to iter 465.
+total simulation time =  1352.0 ps
+0.510349925165
+Setting iteration to iter 466.
+total simulation time =  1355.0 ps
+0.510349925165
+Setting iteration to iter 467.
+total simulation time =  1358.0 ps
+0.510349925165
+Setting iteration to iter 468.
+total simulation time =  1361.0 ps
+0.510349925165
+Setting iteration to iter 469.
+total simulation time =  1364.0 ps
+0.510349925165
+Setting iteration to iter 470.
+total simulation time =  1367.0 ps
+0.510349925165
+Setting iteration to iter 471.
+total simulation time =  1370.0 ps
+0.510349925165
+Setting iteration to iter 472.
+total simulation time =  1373.0 ps
+0.510349925165
+Setting iteration to iter 473.
+total simulation time =  1376.0 ps
+0.510349925165
+Setting iteration to iter 474.
+total simulation time =  1379.0 ps
+0.510349925165
+Setting iteration to iter 475.
+total simulation time =  1382.0 ps
+0.510349925165
+Setting iteration to iter 476.
+total simulation time =  1385.0 ps
+0.510349925165
+Setting iteration to iter 477.
+total simulation time =  1388.0 ps
+0.510349925165
+Setting iteration to iter 478.
+total simulation time =  1391.0 ps
+0.510349925165
+Setting iteration to iter 479.
+total simulation time =  1394.0 ps
+0.510349925165
+Setting iteration to iter 480.
+total simulation time =  1397.0 ps
+0.510349925165
+Setting iteration to iter 481.
+total simulation time =  1400.0 ps
+0.510349925165
+Setting iteration to iter 482.
+total simulation time =  1403.0 ps
+0.510349925165
+Setting iteration to iter 483.
+total simulation time =  1406.0 ps
+0.510349925165
+Setting iteration to iter 484.
+total simulation time =  1409.0 ps
+0.510349925165
+Setting iteration to iter 485.
+total simulation time =  1412.0 ps
+0.510349925165
+Setting iteration to iter 486.
+total simulation time =  1415.0 ps
+0.510349925165
+Setting iteration to iter 487.
+total simulation time =  1418.0 ps
+0.510349925165
+Setting iteration to iter 488.
+total simulation time =  1421.0 ps
+0.510349925165
+Setting iteration to iter 489.
+total simulation time =  1424.0 ps
+0.510349925165
+Setting iteration to iter 490.
+total simulation time =  1427.0 ps
+0.510349925165
+Setting iteration to iter 491.
+total simulation time =  1430.0 ps
+0.510349925165
+Setting iteration to iter 492.
+total simulation time =  1433.0 ps
+0.510349925165
+Setting iteration to iter 493.
+total simulation time =  1436.0 ps
+0.510349925165
+Setting iteration to iter 494.
+total simulation time =  1439.0 ps
+0.510349925165
+Setting iteration to iter 495.
+total simulation time =  1442.0 ps
+0.510349925165
+Setting iteration to iter 496.
+total simulation time =  1445.0 ps
+0.510349925165
+Setting iteration to iter 497.
+total simulation time =  1448.0 ps
+0.510349925165
+Setting iteration to iter 498.
+total simulation time =  1450.5 ps
+0.510349925165
+Setting iteration to iter 499.
+total simulation time =  1453.5 ps
+0.510349925165
+Setting iteration to iter 500.
+total simulation time =  1456.5 ps
+0.510349925165
+Setting iteration to iter 501.
+total simulation time =  1459.0 ps
+0.510349925165
+Setting iteration to iter 502.
+total simulation time =  1461.5 ps
+0.510349925165
+Setting iteration to iter 503.
+total simulation time =  1464.0 ps
+0.510349925165
+Setting iteration to iter 504.
+total simulation time =  1467.0 ps
+0.510349925165
+Setting iteration to iter 505.
+total simulation time =  1470.0 ps
+0.510349925165
+Setting iteration to iter 506.
+total simulation time =  1472.5 ps
+0.510349925165
+Setting iteration to iter 507.
+total simulation time =  1475.0 ps
+0.510349925165
+Setting iteration to iter 508.
+total simulation time =  1477.5 ps
+0.510349925165
+Setting iteration to iter 509.
+total simulation time =  1480.5 ps
+0.510349925165
+Setting iteration to iter 510.
+total simulation time =  1483.5 ps
+0.510349925165
+Setting iteration to iter 511.
+total simulation time =  1486.5 ps
+0.510349925165
+Setting iteration to iter 512.
+total simulation time =  1489.5 ps
+0.510349925165
+Setting iteration to iter 513.
+total simulation time =  1492.5 ps
+0.510349925165
+Setting iteration to iter 514.
+total simulation time =  1495.5 ps
+0.510349925165
+Setting iteration to iter 515.
+total simulation time =  1498.5 ps
+0.510349925165
+Setting iteration to iter 516.
+total simulation time =  1501.5 ps
+0.510349925165
+Setting iteration to iter 517.
+total simulation time =  1504.5 ps
+0.510349925165
+Setting iteration to iter 518.
+total simulation time =  1507.5 ps
+0.510349925165
+Setting iteration to iter 519.
+total simulation time =  1510.5 ps
+0.510349925165
+Setting iteration to iter 520.
+total simulation time =  1513.5 ps
+0.510349925165
+Setting iteration to iter 521.
+total simulation time =  1516.5 ps
+0.510349925165
+Setting iteration to iter 522.
+total simulation time =  1519.5 ps
+0.510349925165
+Setting iteration to iter 523.
+total simulation time =  1522.5 ps
+0.510349925165
+Setting iteration to iter 524.
+total simulation time =  1525.5 ps
+0.510349925165
+Setting iteration to iter 525.
+total simulation time =  1528.5 ps
+0.510349925165
+Setting iteration to iter 526.
+total simulation time =  1531.5 ps
+0.510349925165
+Setting iteration to iter 527.
+total simulation time =  1534.5 ps
+0.510349925165
+Setting iteration to iter 528.
+total simulation time =  1537.5 ps
+0.510349925165
+Setting iteration to iter 529.
+total simulation time =  1540.5 ps
+0.510349925165
+Setting iteration to iter 530.
+total simulation time =  1543.5 ps
+0.510349925165
+Setting iteration to iter 531.
+total simulation time =  1546.0 ps
+0.510349925165
+Setting iteration to iter 532.
+total simulation time =  1549.0 ps
+0.510349925165
+Setting iteration to iter 533.
+total simulation time =  1552.0 ps
+0.510349925165
+Setting iteration to iter 534.
+total simulation time =  1555.0 ps
+0.510349925165
+Setting iteration to iter 535.
+total simulation time =  1558.0 ps
+0.510349925165
+Setting iteration to iter 536.
+total simulation time =  1560.5 ps
+0.510349925165
+Setting iteration to iter 537.
+total simulation time =  1563.5 ps
+0.510349925165
+Setting iteration to iter 538.
+total simulation time =  1566.5 ps
+0.510349925165
+Setting iteration to iter 539.
+total simulation time =  1569.5 ps
+0.510349925165
+Setting iteration to iter 540.
+total simulation time =  1572.5 ps
+0.510349925165
+Setting iteration to iter 541.
+total simulation time =  1575.5 ps
+0.510349925165
+Setting iteration to iter 542.
+total simulation time =  1578.5 ps
+0.510349925165
+Setting iteration to iter 543.
+total simulation time =  1581.5 ps
+0.510349925165
+Setting iteration to iter 544.
+total simulation time =  1584.5 ps
+0.510349925165
+Setting iteration to iter 545.
+total simulation time =  1587.5 ps
+0.510349925165
+Setting iteration to iter 546.
+total simulation time =  1590.5 ps
+0.510349925165
+Setting iteration to iter 547.
+total simulation time =  1593.5 ps
+0.510349925165
+Setting iteration to iter 548.
+total simulation time =  1596.5 ps
+0.510349925165
+Setting iteration to iter 549.
+total simulation time =  1599.5 ps
+0.510349925165
+Setting iteration to iter 550.
+total simulation time =  1602.5 ps
+0.510349925165
+Setting iteration to iter 551.
+total simulation time =  1605.5 ps
+0.510349925165
+Setting iteration to iter 552.
+total simulation time =  1608.5 ps
+0.510349925165
+Setting iteration to iter 553.
+total simulation time =  1611.5 ps
+0.510349925165
+Setting iteration to iter 554.
+total simulation time =  1614.5 ps
+0.510349925165
+Setting iteration to iter 555.
+total simulation time =  1617.5 ps
+0.510349925165
+Setting iteration to iter 556.
+total simulation time =  1620.5 ps
+0.510349925165
+Setting iteration to iter 557.
+total simulation time =  1623.5 ps
+0.510349925165
+Setting iteration to iter 558.
+total simulation time =  1626.5 ps
+0.510349925165
+Setting iteration to iter 559.
+total simulation time =  1629.5 ps
+0.510349925165
+Setting iteration to iter 560.
+total simulation time =  1632.5 ps
+0.510349925165
+Setting iteration to iter 561.
+total simulation time =  1635.5 ps
+0.510349925165
+Setting iteration to iter 562.
+total simulation time =  1638.5 ps
+0.510349925165
+Setting iteration to iter 563.
+total simulation time =  1641.5 ps
+0.510349925165
+Setting iteration to iter 564.
+total simulation time =  1644.5 ps
+0.510349925165
+Setting iteration to iter 565.
+total simulation time =  1647.5 ps
+0.510349925165
+Setting iteration to iter 566.
+total simulation time =  1650.5 ps
+0.510349925165
+Setting iteration to iter 567.
+total simulation time =  1653.5 ps
+0.510349925165
+Setting iteration to iter 568.
+total simulation time =  1656.5 ps
+0.510349925165
+Setting iteration to iter 569.
+total simulation time =  1659.5 ps
+0.510349925165
+Setting iteration to iter 570.
+total simulation time =  1662.5 ps
+0.510349925165
+Setting iteration to iter 571.
+total simulation time =  1665.5 ps
+0.510349925165
+Setting iteration to iter 572.
+total simulation time =  1668.5 ps
+0.510349925165
+Setting iteration to iter 573.
+total simulation time =  1671.5 ps
+0.510349925165
+Setting iteration to iter 574.
+total simulation time =  1674.5 ps
+0.510349925165
+Setting iteration to iter 575.
+total simulation time =  1677.5 ps
+0.510349925165
+Setting iteration to iter 576.
+total simulation time =  1680.5 ps
+0.510349925165
+Setting iteration to iter 577.
+total simulation time =  1683.5 ps
+0.510349925165
+Setting iteration to iter 578.
+total simulation time =  1686.5 ps
+0.510349925165
+Setting iteration to iter 579.
+total simulation time =  1689.5 ps
+0.510349925165
+Setting iteration to iter 580.
+total simulation time =  1692.5 ps
+0.510349925165
+Setting iteration to iter 581.
+total simulation time =  1695.5 ps
+0.510349925165
+Setting iteration to iter 582.
+total simulation time =  1698.5 ps
+0.510349925165
+Setting iteration to iter 583.
+total simulation time =  1701.5 ps
+0.510349925165
+Setting iteration to iter 584.
+total simulation time =  1704.5 ps
+0.510349925165
+Setting iteration to iter 585.
+total simulation time =  1707.5 ps
+0.510349925165
+Setting iteration to iter 586.
+total simulation time =  1710.5 ps
+0.510349925165
+Setting iteration to iter 587.
+total simulation time =  1713.5 ps
+0.510349925165
+Setting iteration to iter 588.
+total simulation time =  1716.5 ps
+0.510349925165
+Setting iteration to iter 589.
+total simulation time =  1719.5 ps
+0.510349925165
+Setting iteration to iter 590.
+total simulation time =  1722.5 ps
+0.510349925165
+Setting iteration to iter 591.
+total simulation time =  1725.5 ps
+0.510349925165
+Setting iteration to iter 592.
+total simulation time =  1728.5 ps
+0.510349925165
+Setting iteration to iter 593.
+total simulation time =  1731.5 ps
+0.510349925165
+Setting iteration to iter 594.
+total simulation time =  1734.0 ps
+0.510349925165
+Setting iteration to iter 595.
+total simulation time =  1736.5 ps
+0.510349925165
+Setting iteration to iter 596.
+total simulation time =  1739.0 ps
+0.510349925165
+Setting iteration to iter 597.
+total simulation time =  1741.5 ps
+0.510349925165
+Setting iteration to iter 598.
+total simulation time =  1744.5 ps
+0.510349925165
+Setting iteration to iter 599.
+total simulation time =  1747.0 ps
+0.510349925165
+Setting iteration to iter 600.
+total simulation time =  1749.5 ps
+0.510349925165
+MFPT =  11756.6393256
+lifetime =  1534.17958926
+0.510349925165
+6000.0
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0081481481481481474, 0.0, 0.0094320987654320995, 0.018864197530864199, 0.0, 0.0, 0.0, 0.0, 0.0, 0.020345679012345678, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.036460905349794244, 0.0, 0.0, 0.0, 0.0, 0.019816186556927302, 0.019149519890260633, 0.0, 0.0, 0.0, 0.031411504343850025, 0.034241390032007317, 0.0, 0.0, 0.0, 0.014692043895747599, 0.029384087791495199, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.051874083219021497, 0.0, 0.0, 0.048410407175961213, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.066993895320140939, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.02959905214395658, 0.0, 0.0, 0.0, 0.0, 0.071526725989192602, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]

@@ -1,0 +1,18 @@
+
+Welcome to w_ipa (WESTPA Interactive Python Analysis) v. 1.0B!
+Run w.introduction for a more thorough introduction, or w.help to see a list of options.
+Running analysis & loading files.
+
+Complete!
+Setting iteration to iter 100.
+Setting iteration to iter 1.
+total simulation time =  0.5 ps
+1.0
+Setting iteration to iter 2.
+total simulation time =  1.0 ps
+1.0
+MFPT =  20.0
+lifetime =  2.2
+1.0
+20.0
+[1.0, 0.0]
