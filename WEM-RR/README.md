@@ -58,7 +58,15 @@ These scripts are available in Analysis directory.
 
 ```committor-16A.py```: Calculate committor function at each milestone considering milestone at r = 16 Angstrom as product state
 
+```runall.sh```: Convert all .ipynb analysis files into .py files and perform analysis in terminal (parallelized for 8 cores)
 
+## Scripts for averaging and plotting
+
+Scripts are available in the averaging and plotting directory.
+
+```build.sh```: Generates the directory structure. Run before ```combine.py```
+
+```combine.py```: Combine the statistics of three trials and generates an average transition kernel and lifetime vector. This program generates ```milestone-data.dat``` files in the directory of each milestone.
 
 
 
