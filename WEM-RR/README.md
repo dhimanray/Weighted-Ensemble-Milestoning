@@ -29,13 +29,15 @@ Note: The ```west.cfg``` file in the working directory will be modified but the 
 
 ## Details for simulating a generic system
 
-1) Perform short equilibration in the ```prep/eq``` directory.
+1) Perform short equilibration in the ```prep/eq``` directory. Output name should be ```milestone_equilibration```.
 
 2) Store all input files for simulation in ```namd_config``` directory. Make sure the name of the restart file is ```parent```and the output name is ```seg```.
 
 3) Specify the bin distribution, number of trajectories per bin, number of iterations, iteration length etc. in the ```west.cfg``` and ```west.new.cfg``` appropriately.
 
-4)
+4) Modify ```westpa_scripts/calculatedistance.py``` to put in values of the two neighbouring milestones.
+
+5) The job is run by submitting the ```job.sh``` file using ```qsub``` command.
 
 
 
