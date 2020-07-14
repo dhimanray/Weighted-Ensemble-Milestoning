@@ -27,11 +27,11 @@ These few lines replace the ```west.cfg``` and ```distance.in``` file with the n
 
 Note: The ```west.cfg``` file in the working directory will be modified but the ```distance.in``` in the namd config directory will not be. Only the copy of the ```distance.in``` in the ```bstates\bound``` directory will be modified. At the end of the simulation no file named ```west.new.cfg``` will remain because that will become ```west.cfg```. This is done because westpa reads its input from the file named ```west.cfg```. If we want to change the settings in the middle of the simulation we need to replace the files. The rest of the ```job.sh``` script is self explanatory.
 
-## Details for simulating a generic system
+## Steps for simulating a generic system
 
 1) Perform short equilibration in the ```prep/eq``` directory. Output name should be ```milestone_equilibration```.
 
-2) Store all input files for simulation in ```namd_config``` directory. Make sure the name of the restart file is ```parent```and the output name is ```seg```.
+2) Store all input files for simulation in ```namd_config``` directory. Make sure the name of the input restart file (.coor, .vel and .xsc) is ```parent```and the output name is ```seg```.
 
 3) Specify the bin distribution, number of trajectories per bin, number of iterations, iteration length etc. in the ```west.cfg``` and ```west.new.cfg``` appropriately.
 
@@ -44,9 +44,20 @@ Note: The ```west.cfg``` file in the working directory will be modified but the 
 
 These scripts are available in Analysis directory.
 
-```mfpt-all.py```: calculte mean first passage time to all other milestones starting from a given starting milestone
+```mfpt-all.py```: calculte mean first passage time (MFPT) to all other milestones starting from a given starting milestone
 
 ```mfpt-reverse-all.py```: Calculate mean first passage time from all other milestone to a given starting milestone
+
+```mfpt-milestoning.py```: Calculate mean first passage time between two chosen milestone (also shows convergence as a function of number of matrices as a function of non-reversible element exchange Monte Carlo)
+
+```mfpt-reverse-milestoning.py```: Same as above but the MFPT is calculated for the reverse process.
+
+```free-energy-milestoning.py```: Calculate free energy profile as a function of reaction coordinate at each milestone
+
+```committor.py```: Calculate committor function at each milestone considering last milestone as product state
+
+```committor-16A.py```: Calculate committor function at each milestone considering milestone at r = 16 Angstrom as product state
+
 
 
 
