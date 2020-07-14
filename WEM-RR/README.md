@@ -4,4 +4,11 @@ The first implementation of WEM schem sufferes from the problem of having a sing
 
 ## Important scripts
 
-'''west.cfg''': This script is the configuration file for the initial restrained iterations. Number of iteration is small (10).
+```west.cfg```: This script is the configuration file for the initial restrained iterations. Number of iteration is small (10).
+```west.new.cfg```: This script is the configuration file for the original WEM simulation which will be used to calculate physical observables.
+
+```namd_config/colvars.in```: NAMD format colvars file with harmonic potential to restrain the trajectory on the milestone.
+```namd_config/colvars.new.in```: NAMD format colvars file with no bias on the reaction coordinate. 
+
+It is important to note the following lines in the job submission script: ```job.sh```.
+
