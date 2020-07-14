@@ -2,7 +2,13 @@
 
 Weighted Ensemble Milestoning is python package based on WESTPA Toolkit. It is intended to perform Weighted Ensemle (WE) simulation in conjunction with Milestoning. I am building this as a part of my PhD research with Prof. Ioan Andricioaei at UC Irvine. The codes are written in Python 2.7 for compatibility with WESTPA which in written in Python 2.7. It will be upgraded to Python 3 when a stable version of WESTPA in Python 3 becomes available.
 
-The code has been tested for a 1D Potential (Directory: 1d-double-well), (10+1)D Coupled potential (Directory: 11d-double-well) and Alanine dipeptide the following 'proof of concept' manuscript: https://aip.scitation.org/doi/full/10.1063/5.0008028 . The discussion in the README file is specific to this project. We have recently tested this method for the association and dissociation dynamics of Na+/Cl- ion pair and BUT ligand binding with FKBP protein. The simulation files are available in the respective directories. Our modified scheme, weighted ensemble milestoning with restraint release (WEM-RR) can also be accessed from the respective directory. Please check the README files in the respective directory specific details of calculation.
+The code has been tested for a 1D Potential (Directory: 1d-double-well), (10+1)D Coupled potential (Directory: 11d-double-well) and Alanine dipeptide the following 'proof of concept' manuscript: https://aip.scitation.org/doi/full/10.1063/5.0008028 . The discussion in the README file is specific to this project.
+
+**----------------------------------------------------------------------------------**
+**Kinetics and Free Energy of Ligand Dissociation using Weighted Ensemble Milestoning 
+
+We have recently tested this method for the association and dissociation dynamics of Na+/Cl- ion pair and BUT ligand binding with FKBP protein. The simulation files are available in the respective directories. Our modified scheme, weighted ensemble milestoning with restraint release (WEM-RR) can also be accessed from the respective directory. Please check the README files in the respective directory specific details of calculation.
+**-----------------------------------------------------------------------------------**
 
 Calculations have been perfeormed for simple langevin or MD, regular WE and WE combined with milestoning for all cases. In case of 1d regular milestoning calculations were also performed.
 
