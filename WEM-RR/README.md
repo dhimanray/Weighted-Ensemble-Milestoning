@@ -5,6 +5,7 @@ The first implementation of WEM schem sufferes from the problem of having a sing
 ## Important scripts
 
 ```west.cfg```: This script is the configuration file for the initial restrained iterations. Number of iteration is small (10).
+
 ```west.new.cfg```: This script is the configuration file for the original WEM simulation which will be used to calculate physical observables.
 
 ```namd_config/distance.in```: NAMD format colvars file with harmonic potential to restrain the trajectory on the milestone.
@@ -23,7 +24,18 @@ mv west.new.cfg west.cfg
 mv west.log west.old.log
 ```
 These few lines replace the ```west.cfg``` and ```distance.in``` file with the new ones after the restrained simulation is done. 
+
 Note: The ```west.cfg``` file in the working directory will be modified but the ```distance.in``` in the namd config directory will not be. Only the copy of the ```distance.in``` in the ```bstates\bound``` directory will be modified. At the end of the simulation no file named ```west.new.cfg``` will remain because that will become ```west.cfg```. This is done because westpa reads its input from the file named ```west.cfg```. If we want to change the settings in the middle of the simulation we need to replace the files. The rest of the ```job.sh``` script is self explanatory.
+
+## Details for simulating a generic system
+
+1) Perform short equilibration in the ```prep/eq``` directory.
+
+2) Store all input files for simulation in ```namd_config``` directory. Make sure the name of the restart file is ```parent```and the output name is ```seg```.
+
+3) Specify the bin distribution, number of trajectories per bin, number of iterations, iteration length etc. in the ```west.cfg``` and ```west.new.cfg``` appropriately.
+
+4)
 
 
 
