@@ -17,10 +17,6 @@ These scripts are available in Analysis directory.
 
 ```mfpt-all.py```: calculte mean first passage time (MFPT) to all other milestones starting from a given starting milestone
 
-```mfpt-reverse-all.py```: Calculate mean first passage time from all other milestone to a given starting milestone
-
-```mfpt-milestoning.py```: Calculate mean first passage time between two chosen milestone (also shows convergence as a function of number of matrices generated using non-reversible element exchange Monte Carlo)
-
 ```mfpt-reverse-milestoning.py```: Same as above but the MFPT is calculated for the reverse process.
 
 ```free-energy-milestoning.py```: Calculate free energy profile as a function of reaction coordinate at each milestone
