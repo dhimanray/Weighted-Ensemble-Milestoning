@@ -64,10 +64,10 @@ These scripts are available in Analysis directory.
 
 Scripts are available in the averaging and plotting directory.
 
-```build.sh```: Generates the directory structure. Run before ```combine.py```
+```dir.sh```: Generates the directory structure. Run before ```combine.py```
 
 ```combine.py```: Combine the statistics of three trials and generates an average transition kernel and lifetime vector. This program generates ```milestone-data.dat``` files in the directory of each milestone.
 
-
+File names for plotting codes are self-explanatory.
 
 
