@@ -8,7 +8,7 @@ The code has been tested for a 1D Potential (Directory: 1d-double-well), (10+1)D
 
 **Kinetics and Free Energy of Ligand Dissociation using Weighted Ensemble Milestoning**
 
-We have recently tested this method for the association and dissociation dynamics of Na+/Cl- ion pair and BUT ligand binding with FKBP protein. The simulation files are available in the respective directories. Our modified scheme, weighted ensemble milestoning with restraint release (WEM-RR) can also be accessed from the respective directory. Please check the README files in the respective directory specific details of calculation.
+We have recently tested this method for the association and dissociation dynamics of Na+/Cl- ion pair and BUT ligand binding with FKBP protein. The simulation files are available in the respective directories. Our modified scheme, weighted ensemble milestoning with restraint release (WEM-RR) can also be accessed from the respective directory. Please check the README files in the respective directory specific details of calculation. All the rest of this README file is about our first paper: "Weighted Ensemble Milestoning (WEM): A combined approach for rare event simulations". J. Chem. Phys. (2020)
 
 **-----------------------------------------------------------------------------------**
 
