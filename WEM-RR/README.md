@@ -7,8 +7,26 @@ The first implementation of WEM schem sufferes from the problem of having a sing
 ```west.cfg```: This script is the configuration file for the initial restrained iterations. Number of iteration is small (10).
 ```west.new.cfg```: This script is the configuration file for the original WEM simulation which will be used to calculate physical observables.
 
-```namd_config/colvars.in```: NAMD format colvars file with harmonic potential to restrain the trajectory on the milestone.
-```namd_config/colvars.new.in```: NAMD format colvars file with no bias on the reaction coordinate. 
+```namd_config/distance.in```: NAMD format colvars file with harmonic potential to restrain the trajectory on the milestone.
+```namd_config/distance.new.in```: NAMD format colvars file with no bias on the reaction coordinate. 
 
 It is important to note the following lines in the job submission script: ```job.sh```.
+```
+#--------------------- Change colvars and westpa input file -----------#
+
+mv bstates/bound/distance.in bstates/bound/distance.old.in
+mv bstates/bound/distance.new.in bstates/bound/distance.in
+
+mv west.cfg west.old.cfg
+mv west.new.cfg west.cfg
+
+mv west.log west.old.log
+```
+These few lines replace the ```west.cfg``` and ```distance.in``` file with the new ones after the restrained simulation is done. 
+Note: The ```west.cfg``` file in the working directory will be modified but the ```distance.in``` in the namd config directory will not be. Only the copy of the ```distance.in``` in the ```bstates\bound``` directory will be modified. At the end of the simulation no file named ```west.new.cfg``` will remain because that will become ```west.cfg```. This is done because westpa reads its input from the file named ```west.cfg```. If we want to change the settings in the middle of the simulation we need to replace the files. The rest of the ```job.sh``` script is self explanatory.
+
+
+
+
+
 
